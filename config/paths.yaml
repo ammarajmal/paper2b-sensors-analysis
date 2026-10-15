@@ -1,0 +1,19 @@
+# Single source of truth for every input/output location. Override the root with $BVP_OUT.
+# Inputs are READ-ONLY. Raw data never gets copied into the repo.
+phd_root: /mnt/phd_data/phd_master
+bags:
+  wtt_main: ${phd_root}/03_datasets/ds004_windtunnel_cameras_2025/raw/wtt-main
+  wtt_5sec: ${phd_root}/03_datasets/ds004_windtunnel_cameras_2025/raw/wtt-5sec
+  static:   ${phd_root}/03_datasets/ds005_static_camera_tests/raw/static
+laser:
+  y2025_raw: ${phd_root}/00_inbox/incoming_2026-10-14_from_mnt_data/USB/prev_data/laser_displacement
+  y2024_raw: ${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution
+frozen:
+  per_frame_detections: /mnt/space/adev/projects/phd-research-advisory/40_PRIMARY_DERIVED_INPUTS/per_frame_detections.csv
+  prior_timing_extraction: /mnt/space/adev/projects/paper2-acquisition-methods-research/outputs/g2/timing_per_camera.csv
+reference_code:   # read-only, for cross-checks and porting; never imported at run time
+  omrpr_fin: ${phd_root}/98_legacy_imports/source_mnt_phd_fin_phd/omrpr_fin
+  omrpr_analysis: ${phd_root}/02_research_projects/p04_offline_pose_reconstruction/omrpr_analysis
+  svr: ${phd_root}/02_research_projects/p02_ros_multicamera_shm/structural_vision_research
+  shm_project: ${phd_root}/04_code_software/github/shm-displacement-project
+outputs: /mnt/space/adev/projects/active/bridgedeck-vision-pipeline/outputs   # big files, not in git
