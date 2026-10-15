@@ -10,7 +10,7 @@ laser:   # hash-compared 2026-10-16; see docs/DECISIONS.md
   y2024_vendor_camera: ${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution/Video Measurement/RAW_Data/3D_video_system/2D_WTT   # 43 files, identical in 3 copies
   y2025_raw: ${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution/Video Measurement/laser_displacement   # 41 files, byte-identical to the USB prev_data copy
 frozen:
-  per_frame_detections: /mnt/space/adev/projects/phd-research-advisory/40_PRIMARY_DERIVED_INPUTS/per_frame_detections.csv
+  per_frame_detections: ${phd_root}/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/evidence/fresh_quality_scores_corrected_2026-08-12/per_frame_detections.csv   # sha256 e7be189e7e43c9f2... (matches ledger)
   prior_timing_extraction: /mnt/space/adev/projects/paper2-acquisition-methods-research/outputs/g2/timing_per_camera.csv
 reference_code:   # read-only, for cross-checks and porting; never imported at run time
   omrpr_fin: ${phd_root}/98_legacy_imports/source_mnt_phd_fin_phd/omrpr_fin
