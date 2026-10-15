@@ -10,3 +10,12 @@ Weak (measured):
 - Tree 3 (the `omrpr` results folders) has 351 of 395 entries as the template.
 - `WHAT_EXISTS_FOR.md`: 12 of 49 listed file paths do not exist (e.g. tree 6 `scripts/analyze_frequencies.py`, tree 11 `reports/timing_jitter_analysis.md`, tree 9 `src/charuco_calibration/src/calibrate.py`). It also says the ~9 Hz line was "identified as an electrical/mechanical facility artifact", which no file supports and which its own OVERVIEW.md contradicts (several entries call it unresolved). Its Hamming-tolerance statement (<= 1) conflicts with the Sensors-line reports (maxhamming 0).
 Use: the JSONL and `also_at` as an inventory and duplicate map; OVERVIEW.md rows only where the quoted source line is shown; do NOT use WHAT_EXISTS_FOR.md or the TREE summaries as facts without opening the cited file.
+
+## Second pass (refine/, checked 2026-10-16)
+`WHAT_EXISTS_FOR_v2.md` and `VALUE_CONFLICTS.md`.
+- Paths: 69 distinct cited paths, all exist (first-pass file had 12 of 49 missing). Quotes: none over 15 words; no facility name in prose.
+- Quotes: 99 of 140 (about 70%) match their cited file almost word for word; the rest are reformatted or paraphrased text in quote marks (table pipes, spacing, "..." joins). Numbers inside quotes: 256 of 266 (96%) occur in the cited file. Rounded or derived values (0.8824 -> 0.882, 1122/1829 -> 61.35%) account for several misses.
+- Not found in the cited file: Spearman 0.6912 attributed to `01_Project_Constitution.md`; the statements "D2 (20 RPM), D4 (40 RPM)" and "D02 was mapped to 40 RPM instead of 20 RPM" attributed to `01_Project_Constitution.md` and `claim_boundary.md`. Open the file before using these.
+- The DISAGREES flag is applied to nearly every row (all 12 quantities), so it carries no information. Use the value lists, not the flags.
+- New and useful: several camera-intrinsics families exist (WTT bag values fx 20,327.9; a static-test file with fx 36,498.25; ChArUco-based 56,874 and 37,916; a placeholder fx 2108; plumb-bob 789.4). The static bags may not share the WTT intrinsics: check before pooling them.
+Verdict: usable as a lead list for locating files; every value still needs the cited file open.
