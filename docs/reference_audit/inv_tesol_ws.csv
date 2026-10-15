@@ -1,0 +1,82 @@
+tree,rel,loc,sha,mtime,doc,funcs,imports,args,consts,outs,path_literals
+tesol_ws,gui/gui1.py,1350,d6327f1082,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters numpy pandas roslaunch rospkg rospy,,,savefig,_comparison_positions.png | _displacement_positions.png | _world_positions.png
+tesol_ws,gui/backup/camera_fiducial_logger.py,169,50c409904b,2025-07-31,,CameraFiducialLogger,fiducial_msgs message_filters rosgraph rospy,,,,
+tesol_ws,gui/backup/data_logger.py,158,55ff272464,2025-07-31,,CameraFiducialLogger,fiducial_msgs message_filters rosgraph rospy,,,,
+tesol_ws,gui/backup/demoTesting.py,124,aaea5c25ee,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters numpy pandas roslaunch rospkg rospy,,,,
+tesol_ws,gui/backup/gazebo_gui.py,61,3f00266cf2,2025-07-31,,ShakingTableGUI,customtkinter rospy std_msgs,,,,
+tesol_ws,gui/backup/gui.py,1349,a80c21b1c6,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters numpy pandas roslaunch rospkg rospy,,,savefig,_comparison_positions.png | _displacement_positions.png | _world_positions.png
+tesol_ws,gui/backup/gui1 copy.py,1349,a80c21b1c6,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters numpy pandas roslaunch rospkg rospy,,,savefig,_comparison_positions.png | _displacement_positions.png | _world_positions.png
+tesol_ws,gui/backup/gui2.py,1353,a591dff1ca,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters numpy pandas roslaunch rospkg rospy,,,savefig,_comparison_positions.png | _displacement_positions.png | _world_positions.png
+tesol_ws,gui/backup/gui3.py,1608,ed2a0cbf3a,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters numpy pandas rosgraph roslaunch rospkg rospy,,,savefig to_csv,_comparison_positions.png | _displacement_positions.png | _time.png | _world_positions.png
+tesol_ws,gui/backup/gui_backup.py,1179,7dfdb384a4,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters pandas roslaunch rospkg rospy,,,savefig,_comparison_positions.png | _displacement_positions.png | _world_positions.png
+tesol_ws,gui/backup/gui_recent_backup.py,1254,493aca2926,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters numpy pandas roslaunch rospkg rospy,,,savefig,_comparison_positions.png | _displacement_positions.png | _world_positions.png
+tesol_ws,gui/backup/new_gui.py,113,a67b5d3974,2025-07-31,,NodeGUI,customtkinter fiducial_msgs matplotlib message_filters numpy pandas rosgraph roslaunch rospkg rospy scipy,,,to_csv,
+tesol_ws,gui/backup/new_logger.py,172,ff14f5abfd,2025-07-31,,CameraFiducialLogger,fiducial_msgs message_filters rosgraph rospy,,,,
+tesol_ws,gui/data/record_comp.py,131,b2914d2f61,2025-07-01,,signal_handler DataCollector,fiducial_msgs matplotlib rospy,,,,
+tesol_ws,src/python_camera_driver/scripts/mvsdk.py,2436,f20d13b41a,2025-05-26,,_Init CameraException MvStructure tSdkCameraDevInfo tSdkResolutionRange tSdkImageResolution tSdkColorTemperatureDes tSdkFrameSpeed tSdkExpose tSdkTrigger tSdkPackLength tSdkPresetLut tSdkAeAlgorithm tSdkBayerDecodeAlgorithm tSdkFrameStatistic tSdkMediaType tGammaRange tContrastRange tRgbGainRange tSaturationRange tSharpnessRange tSdkIspCapacity tSdkCameraCapbility tSdkFrameHead tSdkGrabberStat,,,CALLBACK_FUNC_TYPE=None; CAMERA_STATUS_SUCCESS=0; CAMERA_AIA_PACKET_RESEND=256; CAMERA_AIA_NOT_IMPLEMENTED=32769; CAMERA_AIA_INVALID_PARAMETER=32770; CAMERA_AIA_INVALID_ADDRESS=32771; CAMERA_AIA_WRITE_PROTECT=32772; CAMERA_AIA_BAD_ALIGNMENT=32773; CAMERA_AIA_ACCESS_DENIED=32774; CAMERA_AIA_BUSY=32775; CAMERA_AIA_DEPRECATED=32776; CAMERA_AIA_PACKET_UNAVAILABLE=32780,,
+tesol_ws,src/python_camera_driver/scripts/simple_camera_node.py,110,bc241cbb70,2025-07-26,,main,cv2 cv_bridge mvsdk numpy rospy sensor_msgs,,,,
+tesol_ws,src/fiducials/aruco_detect/setup.py,12,4dd13a46e6,2025-07-01,,,catkin_pkg distutils,,,,
+tesol_ws,src/fiducials/aruco_detect/scripts/create_markers.py,64,b0b6fd9baf,2025-07-01,Generate a PDF file containaing one or more fiducial markers for printing,checkCmd,joblib marker_generation,startId endId pdfFile dictionary --paper-size,,,/tmp/marker%d.pdf
+tesol_ws,src/fiducials/aruco_detect/scripts/marker_generation/__init__.py,2,c83a895246,2025-07-01,,,,,,,
+tesol_ws,src/fiducials/aruco_detect/scripts/marker_generation/marker_gen.py,93,c684a126d2,2025-07-01,"Internal functions for generating a fiducial marker PDF.  This has to be in a separate module from the main entry point in order to work with joblib, which we use to generate markers in parallel.",genSvg genMarker,cairosvg cv2,,,imwrite,/tmp/marker%d.pdf | /tmp/marker%d.png | /tmp/marker@(id).png
+tesol_ws,src/fiducials/fiducial_slam/scripts/fit_plane.py,113,57a57e45c3,2025-07-01,Fit a plane to the fiducials in the map as a quantitative test of the map quality.  Assumes they are all on a ceiling,closest_angle,matplotlib mpl_toolkits numpy standard_fit,--map_file --adjust,,,/.ros/slam/map.txt
+tesol_ws,src/fiducials/fiducial_slam/scripts/init_map.py,33,4f146e443b,2025-07-01,(syntax error),,,,,,/.ros/slam/map.txt
+tesol_ws,src/fiducials/fiducial_slam/scripts/move_origin.py,27,50c343f73f,2025-07-01,(syntax error),,,,,,
+tesol_ws,src/fiducials/fiducial_slam/scripts/standard_fit.py,115,f77837035b,2025-07-01,"Linear algebra standard fitting module  (C) 2013 hashnote.net, Alisue",standard_fit projection distance function,numpy,,,,
+tesol_ws,src/fiducials/fiducial_slam/test/map_test.py,93,8f1f5a6bbd,2025-07-01,(syntax error),,,,,,
+tesol_ws,src/fiducials/aruco_gazebo/scripts/aruco.py,264,c2cb60b132,2025-07-01,,transformVector quaternionInverse quaternionMultiply FiducialState ArucoPublisher,cv2 fiducial_msgs gazebo_msgs geometry_msgs numpy rospy sensor_msgs tf tf2_geometry_msgs tf2_ros vision_msgs,,,,
+tesol_ws,src/sony_cam/testing/cam_.py,49,8dabf96076,2025-07-01,,main,cv2 cv_bridge rospy sensor_msgs,,,,
+tesol_ws,src/sony_cam/testing/resolution.py,23,7e0ed98369,2025-07-31,file to subscribe the camera /sony_cam3/image_raw and publish the resolution of the image,callback resolution,cv_bridge rospy sensor_msgs,,,,
+tesol_ws,src/sony_cam/node/fake_camera_node.py,127,6a9a86ca5b,2025-07-01,,read_png_image FakeCameraNode,camera_info_manager cv2 cv_bridge numpy rospkg rospy sensor_msgs yaml,,,,image.png
+tesol_ws,src/charuco_calibration/charuco_calibration/launch/old/copy_calib.sh,10,5065d84bbb,2025-07-01,"Arguments: $1 is the source file, $2 is the destination file",,,,,,
+tesol_ws,src/gazebo_apriltag/generate.py,51,fb4b35bb96,2025-07-01,,Generator main,cv2,,,imwrite,
+tesol_ws,src/tesol_detect/scripts/april_marker copy.py,273,c1370a94ef,2025-07-03,,AprilTagDetector,cv2 cv_bridge fiducial_msgs numpy pupil_apriltags rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/april_marker.py,273,c1370a94ef,2025-07-04,,AprilTagDetector,cv2 cv_bridge fiducial_msgs numpy pupil_apriltags rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/time_sync_logger.py,190,e8dfa6d499,2025-07-01,,CameraFiducialLogger,fiducial_msgs message_filters rosgraph rospy,,,,
+tesol_ws,src/tesol_detect/scripts/backup/acam2.py,186,a8b8c4ea21,2025-07-01,,MyDetector,apriltag cv2 cv_bridge fiducial_msgs filterpy numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/april.py,161,ffc73abb14,2025-07-01,,AprilTagDetector,apriltag cv2 cv_bridge fiducial_msgs numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/aprilcam.py,147,22474b2eee,2025-07-01,,AprilTagDetector,apriltag cv2 cv_bridge fiducial_msgs numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/aruco_det.py,123,2b496e94d5,2025-07-01,,MyDetector,cv2 cv_bridge fiducial_msgs numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/aruco_detector.py,136,4641a9ab5a,2025-07-01,,ArucoDetector,cv2 cv_bridge fiducial_msgs geometry_msgs numpy rospy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/cam1.py,153,303b850028,2025-07-01,,MyDetector,cv2 cv_bridge fiducial_msgs filterpy numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/cam2.py,169,9e2053efd3,2025-07-01,,MyDetector,cv2 cv_bridge fiducial_msgs filterpy numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/cam3.py,169,36234c3feb,2025-07-01,,MyDetector,cv2 cv_bridge fiducial_msgs filterpy numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/detect_.py,150,89b5e9c7c2,2025-07-01,,arucoDetect,cv2 cv_bridge fiducial_msgs numpy rospy sensor_msgs tf,,,,
+tesol_ws,src/tesol_detect/scripts/backup/eacl.py,72,043aa863e9,2025-07-01,,rotation_matrix_to_quaternion_scipy rotation_matrix_to_quaternion_custom,numpy scipy,,,,
+tesol_ws,src/tesol_detect/scripts/backup/finDetect.py,143,98a778d032,2025-07-01,,myDetector,cv2 cv_bridge fiducial_msgs geometry_msgs numpy rospy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/tesol_aruco.py,170,9552c7c506,2025-07-01,,MyDetector,cv2 cv_bridge fiducial_msgs numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/tesol_aruco_cam.py,126,e31b20bc46,2025-07-01,,MyDetector,cv2 cv_bridge fiducial_msgs numpy rospy scipy sensor_msgs,,,,
+tesol_ws,src/tesol_detect/scripts/backup/testing.py,17,b5e04c8db3,2025-07-01,,,numpy,,,,
+tesol_ws,src/tesol_detect/scripts/backup/try_opse.py,102,29e8f9966b,2025-07-01,,publish_marker_pose image_callback camera_info_callback,cv2 cv_bridge geometry_msgs numpy rospy sensor_msgs,,,,
+tesol_ws,src/offline_apriltag/scripts/offline_detector.py,1,e3b0c44298,2025-07-31,,,,,,,
+tesol_ws,src/camera_info_manager_py/conf.py,251,22a923487f,2025-07-01,,,,,,,
+tesol_ws,src/camera_info_manager_py/setup.py,13,66863fb214,2025-07-01,,,catkin_pkg distutils,,,,
+tesol_ws,src/camera_info_manager_py/tests/generate_camera_info.py,27,25033d4062,2025-07-01,,,camera_info_manager rospy sensor_msgs yaml,,,dump,camera_info_manager_py.yaml | camera_info_manager_py_yaml_dump.yaml
+tesol_ws,src/camera_info_manager_py/tests/service_test.py,14,b2d7ffab21,2025-07-01,,,camera_info_manager,,,,
+tesol_ws,src/camera_info_manager_py/tests/test_camera_info_manager.py,570,c451c2e732,2025-07-01,"Python unittest script for camera_info_manager module.  Requires a rostest environment, allowing test cases to make set_camera_info service calls, where needed.",delete_tmp_camera_info_directory delete_file expected_calibration init_camera_info_manager set_calibration TestCameraInfoManager run_tests,camera_info_manager rospkg rosunit,,PKG='camera_info_manager_py',,/.ros/camera_info/test_camera.yaml | /tests/_calibration.yaml | /tests/empty.yaml | _calibration.yaml
+tesol_ws,src/camera_info_manager_py/tests/test_load_cpp_camera_info.py,36,cabc6b1fb9,2025-07-01,,TestLoadCppCameraInfo,camera_info_manager rostest sensor_msgs,,,,camera_info/camera.yaml
+tesol_ws,src/camera_info_manager_py/src/camera_info_manager/__init__.py,3,4b49ae3600,2025-07-01,,,,,,,
+tesol_ws,src/camera_info_manager_py/src/camera_info_manager/camera_info_manager.py,658,85a4556f9b,2025-07-01,"Python camera_info_manager interface, providing `CameraInfo` support for drivers written in Python. This is very similar to the `C++ camera_info_manager`_ package, but not identical.  .. _`C++ camera_info_manager`: http://ros.org/wiki/camera_info_manager .. _`",CameraInfoError CameraInfoMissingError CameraInfoManager genCameraName getPackageFileName loadCalibrationFile parseURL resolveURL saveCalibration saveCalibrationFile,rospkg rospy sensor_msgs yaml,,,,
+tesol_ws,src/camera_info_manager_py/src/camera_info_manager/zoom_camera_info_manager.py,309,db1e74fda1,2025-07-01,`CameraInfo` support for drivers of zoom cameras written in Python. A similar C++ API does not exist yet.,ZoomCameraInfoManager ApproximateZoomCameraInfoManager InterpolatingZoomCameraInfoManager,camera_info_manager rospy sensor_msgs,,,,
+tesol_ws,data/MVSDK/install.sh,37,0bdd47eedc,2025-07-08,,,,,,,
+tesol_ws,data/MVSDK/tools/QGeConfigTools/play.sh,5,d40ba1a732,2025-07-08,,,,,,,
+tesol_ws,data/MVSDK/demo/python_demo/cam_check.py,136,b0269a44eb,2025-07-17,,main,cv2 mvsdk numpy,,,,
+tesol_ws,data/MVSDK/demo/python_demo/cv_cameras.py,118,866df932ea,2025-07-17,,App main,cv2 mvsdk numpy,,,,
+tesol_ws,data/MVSDK/demo/python_demo/cv_grab.py,96,47f2798b60,2025-07-08,,main_loop main,cv2 mvsdk numpy,,,,
+tesol_ws,data/MVSDK/demo/python_demo/cv_grab2.py,128,2547ff3e42,2025-07-08,,Camera main_loop main,cv2 mvsdk numpy,,,,
+tesol_ws,data/MVSDK/demo/python_demo/cv_grab_callback.py,111,0a6ae08493,2025-07-08,,App main,cv2 mvsdk numpy,,,,
+tesol_ws,data/MVSDK/demo/python_demo/grab.py,112,24f8ec9f2e,2025-07-08,,main PrintCapbility,mvsdk,,,,
+tesol_ws,data/MVSDK/demo/python_demo/mvsdk.py,2436,f20d13b41a,2025-07-08,,_Init CameraException MvStructure tSdkCameraDevInfo tSdkResolutionRange tSdkImageResolution tSdkColorTemperatureDes tSdkFrameSpeed tSdkExpose tSdkTrigger tSdkPackLength tSdkPresetLut tSdkAeAlgorithm tSdkBayerDecodeAlgorithm tSdkFrameStatistic tSdkMediaType tGammaRange tContrastRange tRgbGainRange tSaturationRange tSharpnessRange tSdkIspCapacity tSdkCameraCapbility tSdkFrameHead tSdkGrabberStat,,,CALLBACK_FUNC_TYPE=None; CAMERA_STATUS_SUCCESS=0; CAMERA_AIA_PACKET_RESEND=256; CAMERA_AIA_NOT_IMPLEMENTED=32769; CAMERA_AIA_INVALID_PARAMETER=32770; CAMERA_AIA_INVALID_ADDRESS=32771; CAMERA_AIA_WRITE_PROTECT=32772; CAMERA_AIA_BAD_ALIGNMENT=32773; CAMERA_AIA_ACCESS_DENIED=32774; CAMERA_AIA_BUSY=32775; CAMERA_AIA_DEPRECATED=32776; CAMERA_AIA_PACKET_UNAVAILABLE=32780,,
+tesol_ws,data/cam_try/FPStoExposureTime.py,6,65428ec377,2025-07-23,,,,,,,
+tesol_ws,data/cam_try/checking.py,14,91484f8af5,2025-07-31,,,mvsdk,,,,
+tesol_ws,data/cam_try/checkingConnectedCameras.py,14,91484f8af5,2025-07-23,,,mvsdk,,,,
+tesol_ws,data/cam_try/cv_grab.py,101,3d872e17e7,2025-05-26,,main_loop main,cv2 mvsdk numpy,,,,
+tesol_ws,data/cam_try/cv_grab2.py,128,2547ff3e42,2025-05-26,,Camera main_loop main,cv2 mvsdk numpy,,,,
+tesol_ws,data/cam_try/cv_grab_callback.py,111,0a6ae08493,2025-05-26,,App main,cv2 mvsdk numpy,,,,
+tesol_ws,data/cam_try/demo_with_class.py,113,2ceee4c49d,2025-05-26,,App main,cv2 mvsdk numpy,,,,
+tesol_ws,data/cam_try/demo_without_class.py,94,decb0f34f6,2025-05-26,,main_loop main,cv2 mvsdk numpy,,,,
+tesol_ws,data/cam_try/grab.py,112,24f8ec9f2e,2025-05-26,,main PrintCapbility,mvsdk,,,,
+tesol_ws,data/cam_try/mvsdk.py,2436,f20d13b41a,2025-05-26,,_Init CameraException MvStructure tSdkCameraDevInfo tSdkResolutionRange tSdkImageResolution tSdkColorTemperatureDes tSdkFrameSpeed tSdkExpose tSdkTrigger tSdkPackLength tSdkPresetLut tSdkAeAlgorithm tSdkBayerDecodeAlgorithm tSdkFrameStatistic tSdkMediaType tGammaRange tContrastRange tRgbGainRange tSaturationRange tSharpnessRange tSdkIspCapacity tSdkCameraCapbility tSdkFrameHead tSdkGrabberStat,,,CALLBACK_FUNC_TYPE=None; CAMERA_STATUS_SUCCESS=0; CAMERA_AIA_PACKET_RESEND=256; CAMERA_AIA_NOT_IMPLEMENTED=32769; CAMERA_AIA_INVALID_PARAMETER=32770; CAMERA_AIA_INVALID_ADDRESS=32771; CAMERA_AIA_WRITE_PROTECT=32772; CAMERA_AIA_BAD_ALIGNMENT=32773; CAMERA_AIA_ACCESS_DENIED=32774; CAMERA_AIA_BUSY=32775; CAMERA_AIA_DEPRECATED=32776; CAMERA_AIA_PACKET_UNAVAILABLE=32780,,
+tesol_ws,data/cam_try/my_code.py,173,8ac6ef5490,2025-07-31,===============================================================================  Project      : Camera Image Acquisition Demo  File         : CameraAcquisition.py  Description  : Captures and displays live camera frames with real-time FPS.                 Uses,main,cv2 mvsdk numpy,,,,
+tesol_ws,data/cam_try/mytest.py,6,65428ec377,2025-07-31,,,,,,,
+tesol_ws,data/cam_try/trycam.py,110,dbc030624e,2025-07-27,"===============================================================================  Project      : Multi-Camera Image Acquisition Demo  File         : MultiCameraAcquisition.py  Description  : Simultaneously captures and displays live video from three cameras,   ",camera_worker main,cv2 mvsdk numpy,,,,
