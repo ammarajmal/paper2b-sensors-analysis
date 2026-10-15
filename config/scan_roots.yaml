@@ -1,21 +1,21 @@
 # Roots for the offline repository scan (read-only). ${phd_root} comes from config/paths.yaml.
 # role: what the tree is believed to be (used only as a hint in prompts; the scan does not trust it).
 roots:
-  - {label: svr,           role: "Sensors-line governance/evidence repo (study OMRPR-NS-001)", path: "${phd_root}/02_research_projects/p02_ros_multicamera_shm/structural_vision_research"}
-  - {label: omrpr_analysis, role: "clean-room OMRPR package (Ubuntu 24 refactor)", path: "${phd_root}/02_research_projects/p04_offline_pose_reconstruction/omrpr_analysis"}
-  - {label: p04_other,     role: "p04 legacy_src, docs, recovery, results", path: "${phd_root}/02_research_projects/p04_offline_pose_reconstruction", skip_subdirs: [omrpr_analysis]}
-  - {label: omrpr_fin,     role: "Measurement-paper pipeline steps 00-12", path: "${phd_root}/98_legacy_imports/source_mnt_phd_fin_phd/omrpr_fin", skip_subdirs: [results, results_wtt5sec, data]}
-  - {label: omrpr_manuscript, role: "Measurement manuscript repo and scripts", path: "${phd_root}/98_legacy_imports/source_mnt_phd_fin_phd/omrpr_manuscript"}
-  - {label: shm_github,    role: "older main repo (scripts, paper2, hybrid phases, ROS)", path: "${phd_root}/04_code_software/github/shm-displacement-project", skip_subdirs: [data, archive, context_data, ros_ws]}
-  - {label: shm_ros_src,   role: "ROS workspace sources", path: "${phd_root}/04_code_software/github/shm-displacement-project/ros_ws/src"}
-  - {label: p00,           role: "older snapshot of the shm repo", path: "${phd_root}/02_research_projects/P00_shm-displacement-project", skip_subdirs: [data, ros_ws, venv310]}
-  - {label: p03,           role: "wind-tunnel dynamic/static scripts (Plans A/B/C)", path: "${phd_root}/02_research_projects/p03_windtunnel_bridgedeck", skip_subdirs: [data]}
-  - {label: tesol_ws_2025, role: "acquisition workspace (GUI, drivers)", path: "${phd_root}/98_legacy_imports/old_ros_workspaces_2025/tesol_ws"}
-  - {label: vendor_docs,   role: "facility vendor documents and scripts (2024 session)", path: "${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution", skip_subdirs: [tesol_ws]}
-  - {label: acq_forensics, role: "Oct 2026 timing/9 Hz investigation", path: "${phd_root}/98_legacy_imports/space_adev_oct2026_analyses/paper2-acquisition-methods-research", skip_subdirs: [env, tesol_ws_git_copy, outputs]}
-  - {label: advisory,      role: "Oct 2026 multi-model audit packages", path: "${phd_root}/98_legacy_imports/space_adev_oct2026_analyses/phd-research-advisory", skip_subdirs: [03_PACKAGES]}
-  - {label: pub_p02,       role: "Measurement paper repo scripts/docs", path: "${phd_root}/05_publications/p02_sensors_windtunnel", skip_subdirs: [outputs, figures, _archive, .claude]}
-  - {label: legacy_code,   role: "unfiltered old code", path: "${phd_root}/04_code_software/legacy"}
+  - {label: svr, priority: 1,           role: "Sensors-line governance/evidence repo (study OMRPR-NS-001)", path: "${phd_root}/02_research_projects/p02_ros_multicamera_shm/structural_vision_research"}
+  - {label: omrpr_analysis, priority: 1, role: "clean-room OMRPR package (Ubuntu 24 refactor)", path: "${phd_root}/02_research_projects/p04_offline_pose_reconstruction/omrpr_analysis"}
+  - {label: p04_other, priority: 2,     role: "p04 legacy_src, docs, recovery, results", path: "${phd_root}/02_research_projects/p04_offline_pose_reconstruction", skip_subdirs: [omrpr_analysis]}
+  - {label: omrpr_fin, priority: 1,     role: "Measurement-paper pipeline steps 00-12", path: "${phd_root}/98_legacy_imports/source_mnt_phd_fin_phd/omrpr_fin", skip_subdirs: [results, results_wtt5sec, data]}
+  - {label: omrpr_manuscript, priority: 2, role: "Measurement manuscript repo and scripts", path: "${phd_root}/98_legacy_imports/source_mnt_phd_fin_phd/omrpr_manuscript"}
+  - {label: shm_github, priority: 2,    role: "older main repo (scripts, paper2, hybrid phases, ROS)", path: "${phd_root}/04_code_software/github/shm-displacement-project", skip_subdirs: [data, archive, context_data, ros_ws]}
+  - {label: shm_ros_src, priority: 9,   role: "ROS workspace sources", path: "${phd_root}/04_code_software/github/shm-displacement-project/ros_ws/src"}
+  - {label: p00, priority: 3,           role: "older snapshot of the shm repo", path: "${phd_root}/02_research_projects/P00_shm-displacement-project", skip_subdirs: [data, ros_ws, venv310]}
+  - {label: p03, priority: 3,           role: "wind-tunnel dynamic/static scripts (Plans A/B/C)", path: "${phd_root}/02_research_projects/p03_windtunnel_bridgedeck", skip_subdirs: [data]}
+  - {label: tesol_ws_2025, priority: 8, role: "acquisition workspace (GUI, drivers)", path: "${phd_root}/98_legacy_imports/old_ros_workspaces_2025/tesol_ws"}
+  - {label: vendor_docs, priority: 2,   role: "facility vendor documents and scripts (2024 session)", path: "${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution", skip_subdirs: [tesol_ws]}
+  - {label: acq_forensics, priority: 2, role: "Oct 2026 timing/9 Hz investigation", path: "${phd_root}/98_legacy_imports/space_adev_oct2026_analyses/paper2-acquisition-methods-research", skip_subdirs: [env, tesol_ws_git_copy, outputs]}
+  - {label: advisory, priority: 6,      role: "Oct 2026 multi-model audit packages", path: "${phd_root}/98_legacy_imports/space_adev_oct2026_analyses/phd-research-advisory", skip_subdirs: [03_PACKAGES]}
+  - {label: pub_p02, priority: 2,       role: "Measurement paper repo scripts/docs", path: "${phd_root}/05_publications/p02_sensors_windtunnel", skip_subdirs: [outputs, figures, _archive, .claude]}
+  - {label: legacy_code, priority: 9,   role: "unfiltered old code", path: "${phd_root}/04_code_software/legacy"}
 exclude_dirs: [.git, __pycache__, .venv, venv, venv310, node_modules, build, devel, install, .ruff_cache, .pytest_cache, .mypy_cache, .catkin_tools, graphify-out, scripts_used, site-packages, worktrees, .idea, .vscode, .agents, .codex, lost+found]
 exclude_path_contains: ["/.claude/worktrees/", "/.claude/projects/"]
 code_ext: [.py, .m, .sh, .cpp, .hpp, .h, .c, .launch, .ipynb, .R, .jl]

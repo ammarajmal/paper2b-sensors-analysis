@@ -79,9 +79,15 @@ def run(
     verbose: bool = True,
 ) -> dict:
     roles = {r["label"]: r["role"] for r in cfg["roots"]}
-    rows = con.execute(
-        "SELECT sha, MIN(path), MIN(label), MIN(rel), MIN(cat), MIN(facts) FROM files WHERE skipped='' AND sha!='' AND cat IN ('code','doc') GROUP BY sha ORDER BY MIN(label), MIN(rel)"
-    ).fetchall()
+    prio = {r["label"]: r.get("priority", 5) for r in cfg["roots"]}
+    best: dict[str, tuple] = {}
+    for sha, path, label, rel, cat, facts in con.execute(
+        "SELECT sha, path, label, rel, cat, facts FROM files WHERE skipped='' AND sha!='' AND cat IN ('code','doc')"
+    ):
+        key = (prio.get(label, 5), label, rel)
+        if sha not in best or key < best[sha][0]:
+            best[sha] = (key, (sha, path, label, rel, cat, facts))
+    rows = [v[1] for v in sorted(best.values(), key=lambda v: v[0])]
     done = {r[0] for r in con.execute("SELECT sha FROM summaries WHERE ver=?", (prompts.VER,))}
     todo = [r for r in rows if r[0] not in done and (only is None or re.search(only, r[1]))]
     if limit:
