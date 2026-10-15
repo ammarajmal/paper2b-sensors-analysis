@@ -5,9 +5,10 @@ bags:
   wtt_main: ${phd_root}/03_datasets/ds004_windtunnel_cameras_2025/raw/wtt-main
   wtt_5sec: ${phd_root}/03_datasets/ds004_windtunnel_cameras_2025/raw/wtt-5sec
   static:   ${phd_root}/03_datasets/ds005_static_camera_tests/raw/static
-laser:
-  y2025_raw: ${phd_root}/00_inbox/incoming_2026-10-14_from_mnt_data/USB/prev_data/laser_displacement
-  y2024_raw: ${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution
+laser:   # hash-compared 2026-10-16; see docs/DECISIONS.md
+  y2024_raw: ${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution/Video Measurement/RAW_Data/laser_displacement/2D_WTT   # 41 files, identical in 3 copies
+  y2024_vendor_camera: ${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution/Video Measurement/RAW_Data/3D_video_system/2D_WTT   # 43 files, identical in 3 copies
+  y2025_raw: ${phd_root}/02_research_projects/P00_shm-displacement-project/context_data/TESolution/Video Measurement/laser_displacement   # 41 files, byte-identical to the USB prev_data copy
 frozen:
   per_frame_detections: /mnt/space/adev/projects/phd-research-advisory/40_PRIMARY_DERIVED_INPUTS/per_frame_detections.csv
   prior_timing_extraction: /mnt/space/adev/projects/paper2-acquisition-methods-research/outputs/g2/timing_per_camera.csv

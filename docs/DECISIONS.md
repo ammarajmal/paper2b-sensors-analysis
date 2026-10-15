@@ -7,6 +7,8 @@
 | 2026-10-16 | Camera intrinsics = values stored in the bags' `camera_info` (identical to `omrpr_fin/config/pipeline_config.yaml`); never adjusted by laser agreement | owner | `refine_intrinsics_laser.py` not ported; intrinsics uncertainty goes in the budget as an unverified-calibration envelope |
 | 2026-10-16 | Exact campaign dates are omitted from the papers | owner | the "11 months" wording is not needed; non-simultaneity is still stated |
 | 2026-10-16 | Reuse of the older code approved after reading; new codebase `bridgedeck-vision-pipeline` in `/mnt/space/adev/projects/active/` | owner | this repo |
+| 2026-10-16 | Laser inputs: 2024 raw and vendor-camera files read from the P00 TESolution tree, 2025 laser from P00 `Video Measurement/laser_displacement` | sha256 comparison of three copies (2024: identical in all 3; 2025: P00 == USB, github is a subset) | `config/paths.yaml` |
+| 2026-10-16 | Intrinsics verified: K and all 14 distortion terms in the bags equal `omrpr_fin/config/pipeline_config.yaml` (sha256 prefix 2ce2d6b1ffeea7d1) for the e0 5-second bag; all-bag check recorded in RUNLOG | direct comparison | source file named in README |
 
 ## Open (owner)
 - O1 primary laser session for Paper 2B (see project kit OPEN_DECISIONS D1)
