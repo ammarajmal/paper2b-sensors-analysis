@@ -1,0 +1,10 @@
+label,rel_regex,verdict,why
+*,refine_intrinsics_laser,do-not-port,"tunes camera intrinsics to laser agreement; owner rule 2026-10-16: intrinsics come from the bags and are never adjusted by laser agreement"
+*,background_compensation\.py,test-first,"stage S2b must show it helps before any use; no stationary background was found in cam1/cam2 (NOTES F2)"
+*,official_tracks\.py|observation_control\.py,candidate-port,"clean-room, tested; read before porting (NOTES section 3)"
+*,per_camera_frequency_recovery,candidate-port,"same idea as Paper 2A; baseline for stage S3"
+*,S05_0[123]_|S04\.04_|S09_2_,reference,"gate definitions, validation tests and budget structure worth reusing (NOTES section 3)"
+*,S06_1_SPATIAL_OPERATORS|S09_1_,do-not-port,"uses reversed marker labels (NOTES F1)"
+*,rebuild_option_b_corrected|option_b_verified,cross-check,"states the 2024 D-file mapping used by the Measurement line (NOTES F3)"
+*,step05_synchronize,cross-check,"single-stage linear interpolation to 60 Hz; the documented gap guard was never implemented"
+*,scripts/paper2/hybrid/,outlook,"B1-B4 hybrid phases are outside the papers' scope; dissertation outlook only"

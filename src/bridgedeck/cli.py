@@ -1,6 +1,7 @@
 import typer
 
 from . import census, gates, paths
+from .scan.cli import app as scan_app
 
 app = typer.Typer(help="bridgedeck-vision-pipeline: gated re-analysis stages", no_args_is_help=True)
 
@@ -8,6 +9,9 @@ app = typer.Typer(help="bridgedeck-vision-pipeline: gated re-analysis stages", n
 @app.callback()
 def main() -> None:
     """Stages are subcommands (census, ...)."""
+
+
+app.add_typer(scan_app, name="scan")
 
 
 @app.command("census")
