@@ -9,6 +9,8 @@
 | 2026-10-16 | Reuse of the older code approved after reading; new codebase `bridgedeck-vision-pipeline` in `/mnt/space/adev/projects/active/` | owner | this repo |
 | 2026-10-16 | Laser inputs: 2024 raw and vendor-camera files read from the P00 TESolution tree, 2025 laser from P00 `Video Measurement/laser_displacement` | sha256 comparison of three copies (2024: identical in all 3; 2025: P00 == USB, github is a subset) | `config/paths.yaml` |
 | 2026-10-16 | Intrinsics verified: K and all 14 distortion terms in the bags equal `omrpr_fin/config/pipeline_config.yaml` (sha256 prefix 2ce2d6b1ffeea7d1) for the e0 5-second bag; all-bag check recorded in RUNLOG | direct comparison | source file named in README |
+| 2026-10-16 | Detector for production: official AprilRobotics v3.4.5 Python wrapper built by scripts/build_apriltag.sh (gate S2a passed); pupil-apriltags stays only as an optional cross-check | gate S2a | `import apriltag` in the project venv |
+| 2026-10-16 | Static bags have their own intrinsics (NOTES F16); WTT intrinsics are the bag values | camera_info of all 62 bags | static data is not pooled with WTT data in millimetres |
 
 ## Open (owner)
 - O1 primary laser session for Paper 2B (see project kit OPEN_DECISIONS D1)
