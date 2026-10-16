@@ -13,8 +13,9 @@
 | 2026-10-16 | Static bags have their own intrinsics (NOTES F16); WTT intrinsics are the bag values | camera_info of all 62 bags | static data is not pooled with WTT data in millimetres |
 
 ## Open (owner)
-- O1 primary laser session for Paper 2B (see project kit OPEN_DECISIONS D1)
-- O2 outcome-independent rule for the "regime-interior" set (D2)
-- O3 bending definition: heave/pitch coordinates vs band-limited bending (D3)
-- O4 gate thresholds (Wilson 0.95, margin 30, velocity 27.75 px/frame): re-derive and pre-register in S2, or adopt the SVR candidates
-- O5 official `apriltag` binding build vs `pupil-apriltags` as the production detector (decided by the S2 gate result)
+Full wording, options and recommendations: /mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/OPEN_DECISIONS.md (D1-D8). Evidence: SHARED_FACTS.md (same folder) sections B and C; docs/reference_audit/NOTES.md F3, F4, F13.
+- O1 (= kit D1) primary laser session for Paper 2B (2024, 2025, or both with equal weight)
+- O2 (= kit D2) outcome-independent rule for the "regime-interior" set
+- O3 (= kit D3) definition of "bending": heave/pitch coordinates, band-limited bending, or only conditions where bending dominates
+- O4 gate thresholds (Wilson 0.95, margin 30, velocity 27.75 px/frame): adopt as data-derived candidates, or re-derive by a rule fixed beforehand and check on the 5-second repeat bags
+- O5 CLOSED 2026-10-16: production detector = official AprilTag v3.4.5 build (gates S2a and S2 passed); pupil-apriltags only an optional cross-check
