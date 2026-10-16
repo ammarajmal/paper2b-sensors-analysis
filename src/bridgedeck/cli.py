@@ -1,6 +1,6 @@
 import typer
 
-from . import census, detect, gates, paths
+from . import census, detect, gates, laser, paths
 from .scan.cli import app as scan_app
 
 app = typer.Typer(help="bridgedeck-vision-pipeline: gated re-analysis stages", no_args_is_help=True)
@@ -45,6 +45,33 @@ def detect_cmd(
     """Stage S2: detect tags (decode path and detector settings are pinned in docs/gates/S2.md)."""
     df = detect.run(set_name, conditions.split(","), workers)
     typer.echo(f"{len(df)} frames, detected {df['detected'].mean():.4f}")
+
+
+@app.command("laser")
+def laser_cmd():
+    """Stage S5a: per-condition laser statistics for both sessions (results/laser_*_by_condition.csv)."""
+    for name in laser.SESSIONS:
+        df = laser.run_session(name)
+        df.to_csv(paths.REPO / "results" / f"laser_{name}_by_condition.csv", index=False)
+        typer.echo(f"{name}: {len(df)} conditions")
+
+
+@app.command("laser-free")
+def laser_free_cmd(n_boot: int = typer.Option(500)):
+    """Stage S5a criterion 4: reference frequencies from the free-vibration records (no band filter)."""
+    import json
+
+    rows = []
+    for name in laser.SESSIONS:
+        for mode in ("B", "T"):
+            r = laser.free_vibration(name, mode)
+            typer.echo(
+                f"{name} {r['mode']}: f_fit {r['f_fit_hz']:.4f} Hz [{r['f_fit_lo']:.4f}, {r['f_fit_hi']:.4f}]  zeta {r['zeta']:.5f}  fft {r['f_fft_hz']:.4f}  resid/amp {r['resid_over_amp']:.3f}"
+            )
+            rows.append(r)
+    (paths.REPO / "results" / "reference_frequencies_free_vibration.json").write_text(
+        json.dumps(rows, indent=1)
+    )
 
 
 if __name__ == "__main__":
