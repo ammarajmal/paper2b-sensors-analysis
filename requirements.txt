@@ -18,6 +18,8 @@ contourpy==1.4.0
     # via matplotlib
 cycler==0.12.1
     # via matplotlib
+et-xmlfile==2.0.0
+    # via openpyxl
 fonttools==4.67.0
     # via matplotlib
 formulaic==1.2.2
@@ -54,6 +56,8 @@ numpy==2.5.4
     #   scipy
     #   statsmodels
 opencv-python-headless==5.0.0.93
+    # via bridgedeck-vision-pipeline
+openpyxl==3.1.5
     # via bridgedeck-vision-pipeline
 packaging==26.3
     # via
