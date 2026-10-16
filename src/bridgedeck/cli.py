@@ -1,6 +1,6 @@
 import typer
 
-from . import census, gates, paths
+from . import census, detect, gates, paths
 from .scan.cli import app as scan_app
 
 app = typer.Typer(help="bridgedeck-vision-pipeline: gated re-analysis stages", no_args_is_help=True)
@@ -32,6 +32,19 @@ def gate_s1_cmd():
     bad = df[~df["ok"]]
     typer.echo(f"streams compared: {len(df)}; mismatches: {len(bad)}")
     raise typer.Exit(code=1 if len(bad) else 0)
+
+
+@app.command("detect")
+def detect_cmd(
+    set_name: str = typer.Argument("wtt_main"),
+    conditions: str = typer.Option(
+        "e0_0rpm,e7_90rpm,e14_200rpm", help="comma-separated condition prefixes"
+    ),
+    workers: int = typer.Option(9),
+):
+    """Stage S2: detect tags (decode path and detector settings are pinned in docs/gates/S2.md)."""
+    df = detect.run(set_name, conditions.split(","), workers)
+    typer.echo(f"{len(df)} frames, detected {df['detected'].mean():.4f}")
 
 
 if __name__ == "__main__":
