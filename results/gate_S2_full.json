@@ -1,0 +1,16 @@
+{
+ "frames_new": 115276,
+ "frames_without_frozen_row": 0,
+ "detected_flag_equal_pct": 100.0,
+ "timestamp_diff_max_s": 0.0,
+ "both_detected": 113852,
+ "corner_diff_median": 5.228251092046775e-07,
+ "corner_diff_p99": 6.822979496541666e-07,
+ "corner_diff_p999": 6.988695151138557e-07,
+ "corner_diff_max": 7.071067794012791e-07,
+ "centre_diff_median": 3.987952496788603e-07,
+ "margin_diff_median": 2.50488284336825e-07,
+ "pass_a_detected_ge_99.9pct": true,
+ "pass_b_loose_median_le_0.02_p99_le_0.1": true,
+ "info_b_tight_median_le_1e-3_p999_le_0.01": true
+}
