@@ -26,3 +26,10 @@ RESULT (2026-10-16): PASS on criteria 1-5.
  5. One code path (bridgedeck.laser), tests/test_laser.py (3 tests) pass.
  Files: results/laser_y2025_by_condition.csv, results/laser_y2024_by_condition.csv, results/reference_frequencies_free_vibration.json.
  Note for S6: at 20 RPM (no-wind-like) the 2025 bending RMS is 0.112 mm, the 2024 value 0.026 mm: the two sessions have different noise floors, to be examined before comparing amplitudes.
+
+ADDENDUM 2026-10-16 (laser layout, tested from raw; asked by the owner because the answer sets whether the vendor's "/2" is right):
+Test: amplitude and relative phase of ch1 and ch2 at the mode frequency. Symmetric heads (at +d and -d) would give ch2/ch1 = 1 and 180 deg in a pure-torsion record; a centre-plus-side pair gives ch1 ~ 0.
+ Pure torsion (Td1): 2025 ch1 0.002 mm, ch2 5.033 mm (ratio 3004, phase -92 deg); 2024 ch1 0.066 mm, ch2 1.527 mm (ratio 23).
+ Pure bending (Bd1): ratio 1.002 / 0.984, phase 0 deg in both sessions.
+ Wind-on torsion lock-in: 2025 D07 (90 RPM) ch2/ch1 = 100; 2024 D14 (90 RPM) = 38.
+Conclusion: in both sessions ch1 sits on the rotation axis and ch2 is off-axis; the heads are NOT symmetric about the axis. So pitch = (ch2 - ch1)/d (full difference), and the 2025 vendor formula (ch2 - ch1)/2 is half the pitch. This holds if d is the ch1-ch2 distance; d itself (13 cm in 2025, 10 cm in 2024) comes from the vendor scripts and the setup sheet, and has not been measured here. The 2024 ch1 residual (4% of ch2) means ch1 is slightly off the axis or the pair is slightly misaligned.
