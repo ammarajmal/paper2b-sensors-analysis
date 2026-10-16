@@ -12,10 +12,16 @@
 | 2026-10-16 | Detector for production: official AprilRobotics v3.4.5 Python wrapper built by scripts/build_apriltag.sh (gate S2a passed); pupil-apriltags stays only as an optional cross-check | gate S2a | `import apriltag` in the project venv |
 | 2026-10-16 | Static bags have their own intrinsics (NOTES F16); WTT intrinsics are the bag values | camera_info of all 62 bags | static data is not pooled with WTT data in millimetres |
 
-## Open (owner)
-Full wording, options and recommendations: /mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/OPEN_DECISIONS.md (D1-D8). Evidence: SHARED_FACTS.md (same folder) sections B and C; docs/reference_audit/NOTES.md F3, F4, F13.
-- O1 (= kit D1) primary laser session for Paper 2B (2024, 2025, or both with equal weight)
-- O2 (= kit D2) outcome-independent rule for the "regime-interior" set
-- O3 (= kit D3) definition of "bending": heave/pitch coordinates, band-limited bending, or only conditions where bending dominates
-- O4 gate thresholds (Wilson 0.95, margin 30, velocity 27.75 px/frame): adopt as data-derived candidates, or re-derive by a rule fixed beforehand and check on the 5-second repeat bags
-- O5 CLOSED 2026-10-16: production detector = official AprilTag v3.4.5 build (gates S2a and S2 passed); pupil-apriltags only an optional cross-check
+## Owner decisions of 2026-10-16 (second batch)
+| ID | Decision (owner's words, condensed) | How it is carried out |
+|---|---|---|
+| O1 | 2025 laser is expected to become the ONLY reference (closer in time, matched the camera better). Keep both lasers for now, reprocess BOTH from raw, re-test; only after the results confirm that 2025 still matches closer, discard 2024 from comparisons and the paper. | Stage S5/S6 run both sessions with identical code. Confirmation test and its criterion are written before the run (docs/gates/S6.md). 2024 is dropped only after that test. |
+| O2 | Define the regime rule from physics or the noise floor, apply it to both lasers, show all 19 conditions first. Drop 2024 at the end if 2025 is good enough. | Rule written and committed before any comparison (docs/gates/S6.md). All 19 first. |
+| O3 | Try both definitions of bending (band-limited and heave/pitch) and search for other alternatives; derive results; choose which numbers go in the paper at the end. | S4/S6 compute every candidate; selection after results, recorded in DECISIONS.md. |
+| O4 | The circularity of the gate thresholds is valid. Find a reasonable solution from the literature, test 3 to 4 candidate rules (outliers, other statistics), set them aside, derive results, select after analysis. | docs/gates/S2c.md: candidate rules fixed first, evaluated on out-of-sample data (the 5-second repeat bags). |
+| O5 | Use the latest official AprilTag release; suggest anything better, otherwise use it. | Latest tag checked (see below). v3.4.5 stays the reference for reproducing the frozen detections; a newer release is tested as a sensitivity run. |
+| D6 | Do not use three values per mode. Reproduce the natural frequencies from raw data once, use that one value everywhere. | S5 free-vibration analysis from the raw 2025 records, with an uncertainty interval; the single value is then used in both papers. |
+
+## Still open
+- Final selection among candidates for O3 and O4, and whether 2024 is dropped (O1), after the analyses above.
+- Kit D4, D5, D7, D8 (see the kit OPEN_DECISIONS.md).
