@@ -5,7 +5,7 @@ Consumers: **2A** = Sensors paper, **2B** = Measurement paper, **D** = dissertat
 | Stage | Work | Gate (written before running) | Feeds | Status |
 |---|---|---|---|---|
 | S1 | Frame-timing census of the 42 wind-tunnel bags (header vs record stamps, duplicates, gaps) | 126 streams equal the earlier extraction | 2A 2B D(timing chapter) | **done, 0 mismatches** |
-| S1b | Same for the 20 static bags (they have different intrinsics, NOTES F16) | reproduce: 5 clean bags, 7 below 55 Hz, 8 with dropped frames | D | todo (about 15 min, 63 GB read) |
+| S1b | Same for the 20 static bags (they have different intrinsics, NOTES F16) | reproduce: 5 clean bags, 7 below 55 Hz, 8 with dropped frames | D | **DONE 2026-10-18 (recompute identical; counts 4 clean / 7 low / 12 dropped vs plan 5/7/8, see docs/gates/S1b.md)** |
 | S2a | Build official AprilRobotics v3.4.5 binding (commit prefix 94be783) in a separate prefix; record library hash | `import apriltag` works; detector settings tag36h11, threads 1, maxhamming 0, decimate 1, blur 0, refine_edges True | all | **done, gate passed 2026-10-16** |
 | S2 | Detect tags in all 115,276 WTT frames | vs frozen `per_frame_detections.csv`: same detected flag in >= 99.9% of frames; corner differences median <= 0.01 px, 99th percentile <= 0.1 px; every frame outside explained. Cross-check pupil-apriltags on e0/e7/e14 | all | **done, gate passed (100% flags, corners to 7e-7 px)** |
 | S2b | Test the background-compensation hypothesis (NOTES F2): raw vs ECC-compensated amplitude at e7 and e14, plus a no-compensation baseline | decision rule fixed first: compensation is kept only if it lowers static (e0) RMS on all three cameras and leaves e7/e14 amplitude within 2% | 2B | todo |
