@@ -9,7 +9,7 @@ SCRIPT = {  # producing script per results file
     "reference_frequencies_free_vibration.json": "scripts/run_s5a.py", "s1_census_wtt_main.csv": "bridgedeck census", "gate_S2_full.json": "bridgedeck gate-s2",
     "s2c_summary.json": "scripts/run_s2c.py", "s3_spectra_by_stream.csv": "scripts/run_s3.py", "laser_y2025_by_condition.csv": "scripts/run_s5a.py",
     "laser_y2024_by_condition.csv": "scripts/run_s5a.py", "s6_metrics.csv": "scripts/run_s6.py", "s6_closeness.csv": "scripts/run_s6.py",
-    "s6b_variant_metrics.csv": "scripts/run_s6b.py", "s6b_variant_closeness.csv": "scripts/run_s6b.py", "s7_budget_by_condition.csv": "scripts/run_s7.py", "paperset_check.csv": "scripts/run_paperset_check.py",
+    "s6b_variant_metrics.csv": "scripts/run_s6b.py", "s6b_variant_closeness.csv": "scripts/run_s6b.py", "s7_budget_by_condition.csv": "scripts/run_s7.py", "paperset_check.csv": "scripts/run_paperset_check.py", "paperset_intervals.csv": "scripts/run_paperset_intervals.py", "s6_matched_pairs.csv": "scripts/run_s6.py",
 }
 commit = subprocess.check_output(["git", "-C", str(paths.REPO), "rev-parse", "--short", "HEAD"], text=True).strip()
 rows, cache = [], {}
@@ -28,9 +28,28 @@ def load(f):
     return cache[f]
 
 
+def _num(v):
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+
 def sel_df(df, sel):
+    """Selector grammar: terms joined by ';', each k=v, k!=v or k>v; '=' and '!=' compare numerically when both sides parse as numbers."""
     for kv in filter(None, sel.split(";")):
-        k, v = kv.split("=", 1); df = df[df[k].astype(str) == v]
+        if "!=" in kv:
+            k, v = kv.split("!=", 1); op = "ne"
+        elif ">" in kv:
+            k, v = kv.split(">", 1); op = "gt"
+        else:
+            k, v = kv.split("=", 1); op = "eq"
+        col = df[k]
+        if op == "gt":
+            df = df[col.astype(float) > float(v)]
+        else:
+            same = (col.astype(float) == float(v)) if _num(v) is not None and pd.api.types.is_numeric_dtype(col) else (col.astype(str) == v)
+            df = df[same if op == "eq" else ~same]
     return df
 
 
@@ -40,6 +59,11 @@ def add(group, desc, f, sel, col, agg, unit="", pop=""):
         val = d[col]
     else:
         sub = sel_df(d, sel)
+        if len(sub) == 0 and agg == "count" and ">" in sel:  # a threshold count may be 0, but only if the selection without the threshold term is not empty
+            assert len(sel_df(d, ";".join(t for t in sel.split(";") if ">" not in t or "!=" in t))) > 0, f"empty selection: {f} {sel}"
+            val = 0.0
+            return rows.append(dict(id=f"{group}.{f.rsplit('.',1)[0]}.{sel.replace('!=','-NOT-').replace('>','-GT-').replace('=','-').replace(';','.')}.{col}.{agg}", group=group, description=desc, value=val, unit=unit, population=pop or sel.replace(";", " "),
+                                    source_file=f"results/{f}", recipe=f"{f}|{sel}|{col}|{agg}", script=SCRIPT.get(f, "scripts/open_issues_check.py"), commit=commit, source_sha256_16=sha(f)))
         assert len(sub) > 0, f"empty selection: {f} {sel}"
         x = sub[col] if agg != "count" else sub.iloc[:, 0]
         if agg == "first":
@@ -49,7 +73,7 @@ def add(group, desc, f, sel, col, agg, unit="", pop=""):
     if isinstance(val, (bool, np.bool_)) or val is None or (isinstance(val, float) and not np.isfinite(val)):
         return
     sel_s = sel.replace(";", " ")
-    rows.append(dict(id=f"{group}.{f.rsplit('.',1)[0]}.{sel_s.replace('=','-').replace(' ','.')}.{col}.{agg}".replace("..", "."), group=group, description=desc, value=float(val), unit=unit,
+    rows.append(dict(id=f"{group}.{f.rsplit('.',1)[0]}.{sel_s.replace('!=','-NOT-').replace('>','-GT-').replace('=','-').replace(' ','.')}.{col}.{agg}".replace("..", "."), group=group, description=desc, value=float(val), unit=unit,
                      population=pop or sel_s, source_file=f"results/{f}", recipe=f"{f}|{sel}|{col}|{agg}", script=SCRIPT.get(f, "scripts/open_issues_check.py"), commit=commit, source_sha256_16=sha(f)))
 
 
@@ -113,6 +137,26 @@ for q in ("Q1", "Q2"):
 for _, r in load("paperset_check.csv")[["scope", "quantity"]].iterrows():
     for c in ("n", "pearson_lin", "spearman", "mean_ratio", "rmse_mm", "mae_mm", "slope_through_origin", "slope_ols"):
         add("EXPL_PAPERSET", f"rebuilt pipeline on manuscript set, {c}", "paperset_check.csv", f"scope={r.scope};quantity={r.quantity}", c, "first")
+# S8b: per-RPM rows for the table checks, stream spectra details, timebase shifts, intervals
+for rpm in sorted(load("s6_matched_pairs.csv").query("arm == 'A' and rpm < 320").rpm.astype(int).unique()):
+    for c, u in (("cam_legacy_bend_rms", "mm"), ("cam_legacy_tors_rms", "mm"), ("cam_legacy_bend_peak", "mm"), ("cam_legacy_tors_peak", "mm"), ("cam_dom_hz", "Hz")):
+        add("S8TAB", f"camera {c} at {rpm} RPM", "s6_matched_pairs.csv", f"arm=A;session=y2024;rpm={rpm}", c, "first", u)
+    for c in ("bending_avg_mm_peak", "torsion_proxy_mm_peak", "bending_dom_hz", "torsion_dom_hz"):
+        for s_ in ("2025", "2024"):
+            if (load(f"laser_y{s_}_by_condition.csv").rpm.astype(int) == rpm).any():
+                add("S8TAB", f"laser {s_} {c} at {rpm} RPM", f"laser_y{s_}_by_condition.csv", f"rpm={rpm}", c, "first")
+for _, r in s3.iterrows():
+    for c in ("f_E0", "T", "RI"):
+        add("SPEC", f"stream {c}", "s3_spectra_by_stream.csv", f"condition={r.condition};camera={r.camera}", c, "first")
+for c in ("d_E1_RI", "d_hdr_RI", "d_i60_RI", "d_nom_RI"):
+    base = "condition!=e20_320rpm"
+    add("TBASE", f"max shift in Rayleigh intervals, admitted streams, {c}", "s3_spectra_by_stream.csv", base, c, "max")
+    add("TBASE", f"median shift, admitted streams, {c}", "s3_spectra_by_stream.csv", base, c, "median")
+    add("TBASE", f"streams with shift > 0.1, {c}", "s3_spectra_by_stream.csv", base + f";{c}>0.1", c, "count", "streams")
+add("TBASE", "admitted streams", "s3_spectra_by_stream.csv", "condition!=e20_320rpm", "RI", "count", "streams")
+for _, r in load("paperset_intervals.csv")[["quantity", "stat"]].iterrows():
+    for c in ("estimate", "ci_lo", "ci_hi"):
+        add("EXPL_PAPERSET", f"paperset16 {c}", "paperset_intervals.csv", f"scope=paperset16;quantity={r.quantity};stat={r.stat}", c, "first")
 out = pd.DataFrame(rows)
 assert out.id.is_unique, out.id[out.id.duplicated()].head()
 assert out.notna().all().all()

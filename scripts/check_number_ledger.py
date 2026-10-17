@@ -17,9 +17,21 @@ def recompute(recipe):
         j = json.load(open(R / f)); rows = j if isinstance(j, list) else [j]
     else:
         rows = list(csv.DictReader(open(R / f)))
+    def num(x):
+        try:
+            return float(x)
+        except (TypeError, ValueError):
+            return None
     for kv in filter(None, sel.split(";")):
-        k, v = kv.split("=", 1); rows = [r for r in rows if str(r[k]) == v]
-    assert rows, f"empty selection {recipe}"
+        if "!=" in kv:
+            k, v = kv.split("!=", 1); rows = [r for r in rows if not (num(r[k]) == num(v) if num(v) is not None and num(r[k]) is not None else str(r[k]) == v)]
+        elif ">" in kv:
+            k, v = kv.split(">", 1); rows = [r for r in rows if float(r[k]) > float(v)]
+        else:
+            k, v = kv.split("=", 1); rows = [r for r in rows if (num(r[k]) == num(v) if num(v) is not None and num(r[k]) is not None else str(r[k]) == v)]
+    if not rows:  # legal only for a threshold count whose selection without the threshold term is not empty
+        assert agg == "count" and ">" in sel, f"empty selection {recipe}"
+        return 0.0
     if agg == "count":
         return float(len(rows))
     xs = [float(r[col]) for r in rows]

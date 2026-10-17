@@ -1,0 +1,10 @@
+manuscript,label,tab_idx,expected_rows,key_kind,rpm_col
+measurement,tab:bending,0,19,rpm,0
+measurement,tab:supp_s2,0,20,rpm,0
+measurement,tab:torsion,0,19,rpm,0
+measurement,tab:robustness,0,2,label,0
+measurement,tab:robustness,1,2,label,0
+sensors,tab:tb4-posthoc-reference,0,19,rpm,0
+sensors,tab:rpm-sweep,0,20,rpm,1
+sensors,tab:tb3-cross-view,0,21,rpm,1
+sensors,tab:timebase,0,3,label,0

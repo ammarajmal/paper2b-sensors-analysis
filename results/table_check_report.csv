@@ -1,0 +1,709 @@
+manuscript,label,row,col,part,printed,rebuilt,status,rel_diff,id_or_reason,note
+measurement,tab:bending,20,1,0,0.11,0.13480981,CLOSE,0.22554372727272728,LAS.laser_y2024_by_condition.rpm-20.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,20,2,0,0.018,0.0044533861797,DIFFER,-0.7525896566833333,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-20.cam_legacy_bend_rms.first,
+measurement,tab:bending,20,3,0,0.026,0.0264402848903,AGREE,0.016934034242307675,LAS.laser_y2024_by_condition.rpm-20.0.bending_avg_mm_rms.first,
+measurement,tab:bending,20,4,0,0.67,0.16843185306727876,DIFFER,-0.7486091745264497,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-20.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-20.0.bending_avg_mm_rms.first,
+measurement,tab:bending,20,5,0,0.067,0.0268483650317,DIFFER,-0.5992781338552239,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-20.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,20,6,0,0.125,0.1254805375,AGREE,0.0038442999999999117,S8TAB.laser_y2024_by_condition.rpm-20.bending_avg_mm_peak.first,
+measurement,tab:bending,20,7,0,0.53,0.21396437699910237,DIFFER,-0.5962936283035805,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-20.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-20.bending_avg_mm_peak.first,
+measurement,tab:bending,20,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,40,1,0,0.48,0.47350826,CLOSE,-0.013524458333333267,LAS.laser_y2024_by_condition.rpm-40.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,40,2,0,0.015,0.0094857193949,DIFFER,-0.36761870700666666,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-40.cam_legacy_bend_rms.first,
+measurement,tab:bending,40,3,0,0.028,0.0278580059624,AGREE,-0.0050712156285713916,LAS.laser_y2024_by_condition.rpm-40.0.bending_avg_mm_rms.first,
+measurement,tab:bending,40,4,0,0.53,0.34050245404150215,DIFFER,-0.3575425395443356,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-40.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-40.0.bending_avg_mm_rms.first,
+measurement,tab:bending,40,5,0,0.067,0.0414859229237,DIFFER,-0.3808071205417911,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-40.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,40,6,0,0.156,0.1568502375,CLOSE,0.005450240384615317,S8TAB.laser_y2024_by_condition.rpm-40.bending_avg_mm_peak.first,
+measurement,tab:bending,40,7,0,0.43,0.264493848303545,DIFFER,-0.38489802720105815,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-40.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-40.bending_avg_mm_peak.first,
+measurement,tab:bending,40,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,50,1,0,0.66,0.65706495,AGREE,-0.00444704545454553,LAS.laser_y2024_by_condition.rpm-50.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,50,2,0,0.034,0.0229589962675,DIFFER,-0.32473540389705885,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-50.cam_legacy_bend_rms.first,
+measurement,tab:bending,50,3,0,0.030,0.0303362492684,AGREE,0.011208308946666681,LAS.laser_y2024_by_condition.rpm-50.0.bending_avg_mm_rms.first,
+measurement,tab:bending,50,4,0,1.13,0.7568172342061886,DIFFER,-0.3302502352157622,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-50.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-50.0.bending_avg_mm_rms.first,
+measurement,tab:bending,50,5,0,0.097,0.0855626185473,DIFFER,-0.1179111489969072,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-50.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,50,6,0,0.181,0.178639575,CLOSE,-0.01304102209944751,S8TAB.laser_y2024_by_condition.rpm-50.bending_avg_mm_peak.first,
+measurement,tab:bending,50,7,0,0.53,0.47896788014246006,DIFFER,-0.09628701859913201,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-50.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-50.bending_avg_mm_peak.first,
+measurement,tab:bending,50,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,60,1,0,0.85,0.84212032,CLOSE,-0.009270211764705816,LAS.laser_y2024_by_condition.rpm-60.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,60,2,0,0.089,0.0857074967585,DIFFER,-0.0369944184438201,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-60.cam_legacy_bend_rms.first,
+measurement,tab:bending,60,3,0,2.213,2.21346234314,AGREE,0.00020892143696326715,LAS.laser_y2024_by_condition.rpm-60.0.bending_avg_mm_rms.first,
+measurement,tab:bending,60,4,0,0.04,0.03872100965445657,AGREE,-0.0319747586385857,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-60.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-60.0.bending_avg_mm_rms.first,
+measurement,tab:bending,60,5,0,0.204,0.181919299118,DIFFER,-0.10823872981372541,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-60.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,60,6,0,3.241,3.2203738375,DIFFER,-0.006364135297747656,S8TAB.laser_y2024_by_condition.rpm-60.bending_avg_mm_peak.first,
+measurement,tab:bending,60,7,0,0.06,0.056490118320929254,AGREE,-0.058498027984512396,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-60.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-60.bending_avg_mm_peak.first,
+measurement,tab:bending,60,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,70,1,0,1.03,1.0176829,CLOSE,-0.011958349514563078,LAS.laser_y2024_by_condition.rpm-70.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,70,2,0,3.111,3.09188064963,DIFFER,-0.006145724966248797,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-70.cam_legacy_bend_rms.first,
+measurement,tab:bending,70,3,0,2.739,2.73937564012,AGREE,0.0001371449872216617,LAS.laser_y2024_by_condition.rpm-70.0.bending_avg_mm_rms.first,
+measurement,tab:bending,70,4,0,1.14,1.1286807856313414,CLOSE,-0.009929135411103912,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-70.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-70.0.bending_avg_mm_rms.first,
+measurement,tab:bending,70,5,0,4.902,4.87033837713,DIFFER,-0.006458919394124794,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-70.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,70,6,0,4.020,4.056230825,DIFFER,0.009012643034826002,S8TAB.laser_y2024_by_condition.rpm-70.bending_avg_mm_peak.first,
+measurement,tab:bending,70,7,0,1.22,1.2007054300540208,CLOSE,-0.015815221267196086,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-70.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-70.bending_avg_mm_peak.first,
+measurement,tab:bending,70,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,80,1,0,1.22,1.209439,CLOSE,-0.008656557377049215,LAS.laser_y2024_by_condition.rpm-80.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,80,2,0,1.371,1.40025280009,DIFFER,0.021336834493070816,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-80.cam_legacy_bend_rms.first,
+measurement,tab:bending,80,3,0,0.493,0.492838318222,AGREE,-0.00032795492494922283,LAS.laser_y2024_by_condition.rpm-80.0.bending_avg_mm_rms.first,
+measurement,tab:bending,80,4,0,2.78,2.8412011572916156,DIFFER,0.022014804781156763,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-80.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-80.0.bending_avg_mm_rms.first,
+measurement,tab:bending,80,5,0,3.026,3.12372903955,DIFFER,0.03229644400198293,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-80.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,80,6,0,0.998,0.98568545,DIFFER,-0.012339228456913863,S8TAB.laser_y2024_by_condition.rpm-80.bending_avg_mm_peak.first,
+measurement,tab:bending,80,7,0,3.03,3.169093182363603,DIFFER,0.04590534071406048,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-80.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-80.bending_avg_mm_peak.first,
+measurement,tab:bending,80,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,90,1,0,1.40,1.3932964,CLOSE,-0.004788285714285578,LAS.laser_y2024_by_condition.rpm-90.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,90,2,0,0.813,0.815714966769,CLOSE,0.0033394425202952906,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-90.cam_legacy_bend_rms.first,
+measurement,tab:bending,90,3,0,0.544,0.543610374157,AGREE,-0.0007162239761030573,LAS.laser_y2024_by_condition.rpm-90.0.bending_avg_mm_rms.first,
+measurement,tab:bending,90,4,0,1.50,1.5005507722952571,AGREE,0.00036718153017141947,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-90.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-90.0.bending_avg_mm_rms.first,
+measurement,tab:bending,90,5,0,1.474,1.44449648165,DIFFER,-0.020015955461329626,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-90.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,90,6,0,1.055,1.0406988125,DIFFER,-0.013555627962085183,S8TAB.laser_y2024_by_condition.rpm-90.bending_avg_mm_peak.first,
+measurement,tab:bending,90,7,0,1.40,1.3880062745339206,CLOSE,-0.008566946761485252,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-90.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-90.bending_avg_mm_peak.first,
+measurement,tab:bending,90,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,100,1,0,1.58,1.5782593,AGREE,-0.0011017088607595186,LAS.laser_y2024_by_condition.rpm-100.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,100,2,0,0.174,0.161009772867,DIFFER,-0.07465647777586204,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-100.cam_legacy_bend_rms.first,
+measurement,tab:bending,100,3,0,0.149,0.149268878809,AGREE,0.0018045557651007117,LAS.laser_y2024_by_condition.rpm-100.0.bending_avg_mm_rms.first,
+measurement,tab:bending,100,4,0,1.16,1.0786560075461094,DIFFER,-0.07012413142576773,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-100.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-100.0.bending_avg_mm_rms.first,
+measurement,tab:bending,100,5,0,0.516,0.505881772841,DIFFER,-0.01960896736240313,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-100.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,100,6,0,0.480,0.4570133875,DIFFER,-0.04788877604166668,S8TAB.laser_y2024_by_condition.rpm-100.bending_avg_mm_peak.first,
+measurement,tab:bending,100,7,0,1.08,1.1069298770618619,CLOSE,0.024935071353575724,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-100.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-100.bending_avg_mm_peak.first,
+measurement,tab:bending,100,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,110,1,0,1.77,1.7423777,CLOSE,-0.01560581920903954,LAS.laser_y2024_by_condition.rpm-110.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,110,2,0,0.161,0.161448163349,AGREE,0.0027836232857142667,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-110.cam_legacy_bend_rms.first,
+measurement,tab:bending,110,3,0,0.134,0.133942662747,AGREE,-0.0004278899477611976,LAS.laser_y2024_by_condition.rpm-110.0.bending_avg_mm_rms.first,
+measurement,tab:bending,110,4,0,1.20,1.2053527982637933,CLOSE,0.004460665219827761,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-110.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-110.0.bending_avg_mm_rms.first,
+measurement,tab:bending,110,5,0,0.528,0.460693874677,DIFFER,-0.12747372220265152,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-110.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,110,6,0,0.471,0.4563300875,DIFFER,-0.03114631104033969,S8TAB.laser_y2024_by_condition.rpm-110.bending_avg_mm_peak.first,
+measurement,tab:bending,110,7,0,1.12,1.0095627864489651,DIFFER,-0.09860465495628122,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-110.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-110.bending_avg_mm_peak.first,
+measurement,tab:bending,110,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,120,1,0,1.95,1.9448288,CLOSE,-0.002651897435897401,LAS.laser_y2024_by_condition.rpm-120.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,120,2,0,0.192,0.187118419635,DIFFER,-0.025424897734374993,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-120.cam_legacy_bend_rms.first,
+measurement,tab:bending,120,3,0,0.163,0.162764016402,AGREE,-0.0014477521349693606,LAS.laser_y2024_by_condition.rpm-120.0.bending_avg_mm_rms.first,
+measurement,tab:bending,120,4,0,1.18,1.1496301441274874,DIFFER,-0.02573716599365467,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-120.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-120.0.bending_avg_mm_rms.first,
+measurement,tab:bending,120,5,0,0.633,0.622895985275,DIFFER,-0.015962108570300157,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-120.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,120,6,0,0.503,0.46172355,DIFFER,-0.0820605367793241,S8TAB.laser_y2024_by_condition.rpm-120.bending_avg_mm_peak.first,
+measurement,tab:bending,120,7,0,1.26,1.3490669585187933,DIFFER,0.07068806231650263,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-120.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-120.bending_avg_mm_peak.first,
+measurement,tab:bending,120,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,140,1,0,2.32,2.3147448,CLOSE,-0.0022651724137929667,LAS.laser_y2024_by_condition.rpm-140.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,140,2,0,0.752,0.760281635874,DIFFER,0.011012813662234033,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-140.cam_legacy_bend_rms.first,
+measurement,tab:bending,140,3,0,0.586,0.586008956602,AGREE,1.5284303754377674e-05,LAS.laser_y2024_by_condition.rpm-140.0.bending_avg_mm_rms.first,
+measurement,tab:bending,140,4,0,1.28,1.2973891052493944,CLOSE,0.013585238476089383,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-140.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-140.0.bending_avg_mm_rms.first,
+measurement,tab:bending,140,5,0,1.548,1.5346438857,DIFFER,-0.008627980813953523,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-140.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,140,6,0,1.224,1.23093105,DIFFER,0.005662622549019558,S8TAB.laser_y2024_by_condition.rpm-140.bending_avg_mm_peak.first,
+measurement,tab:bending,140,7,0,1.26,1.2467342388511526,CLOSE,-0.010528381864164577,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-140.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-140.bending_avg_mm_peak.first,
+measurement,tab:bending,140,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,160,1,0,2.69,2.6665936,CLOSE,-0.008701263940520383,LAS.laser_y2024_by_condition.rpm-160.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,160,2,0,1.242,1.23535137513,DIFFER,-0.005353160120772909,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-160.cam_legacy_bend_rms.first,
+measurement,tab:bending,160,3,0,0.842,0.842368639947,AGREE,0.000437814663895466,LAS.laser_y2024_by_condition.rpm-160.0.bending_avg_mm_rms.first,
+measurement,tab:bending,160,4,0,1.48,1.4665210889234026,CLOSE,-0.009107372349052283,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-160.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-160.0.bending_avg_mm_rms.first,
+measurement,tab:bending,160,5,0,2.398,2.37978635128,DIFFER,-0.007595349758131858,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-160.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,160,6,0,1.883,1.826552325,DIFFER,-0.02997752257036645,S8TAB.laser_y2024_by_condition.rpm-160.bending_avg_mm_peak.first,
+measurement,tab:bending,160,7,0,1.27,1.3028843021400989,DIFFER,0.02589315129141642,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-160.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-160.bending_avg_mm_peak.first,
+measurement,tab:bending,160,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,180,1,0,3.06,3.0428994,CLOSE,-0.005588431372549027,LAS.laser_y2024_by_condition.rpm-180.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,180,2,0,1.466,1.45404058741,DIFFER,-0.008157853062755795,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-180.cam_legacy_bend_rms.first,
+measurement,tab:bending,180,3,0,0.975,0.975084646592,AGREE,8.681701743592422e-05,LAS.laser_y2024_by_condition.rpm-180.0.bending_avg_mm_rms.first,
+measurement,tab:bending,180,4,0,1.50,1.491194218360416,CLOSE,-0.005870521093055932,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-180.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-180.0.bending_avg_mm_rms.first,
+measurement,tab:bending,180,5,0,2.737,2.80156277706,DIFFER,0.023588884567044176,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-180.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,180,6,0,2.305,2.198334825,DIFFER,-0.04627556399132333,S8TAB.laser_y2024_by_condition.rpm-180.bending_avg_mm_peak.first,
+measurement,tab:bending,180,7,0,1.19,1.274402218078859,DIFFER,0.0709262336797135,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-180.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-180.bending_avg_mm_peak.first,
+measurement,tab:bending,180,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,200,1,0,3.43,3.4285001,AGREE,-0.0004372886297376736,LAS.laser_y2024_by_condition.rpm-200.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,200,2,0,1.510,1.4990618465,DIFFER,-0.00724381026490062,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-200.cam_legacy_bend_rms.first,
+measurement,tab:bending,200,3,0,0.956,0.955541206521,AGREE,-0.0004799094968618287,LAS.laser_y2024_by_condition.rpm-200.0.bending_avg_mm_rms.first,
+measurement,tab:bending,200,4,0,1.58,1.5688092112300287,CLOSE,-0.007082777702513526,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-200.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-200.0.bending_avg_mm_rms.first,
+measurement,tab:bending,200,5,0,2.940,2.95471051752,DIFFER,0.005003577387755166,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-200.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,200,6,0,2.673,2.557942125,DIFFER,-0.04304447250280591,S8TAB.laser_y2024_by_condition.rpm-200.bending_avg_mm_peak.first,
+measurement,tab:bending,200,7,0,1.10,1.1551123415350926,DIFFER,0.05010212866826589,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-200.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-200.bending_avg_mm_peak.first,
+measurement,tab:bending,200,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,220,1,0,3.80,3.8056493,CLOSE,0.0014866578947368338,LAS.laser_y2024_by_condition.rpm-220.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,220,2,0,1.178,1.14977175475,DIFFER,-0.02396285674872666,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-220.cam_legacy_bend_rms.first,
+measurement,tab:bending,220,3,0,0.627,0.626550731794,AGREE,-0.0007165362137161044,LAS.laser_y2024_by_condition.rpm-220.0.bending_avg_mm_rms.first,
+measurement,tab:bending,220,4,0,1.88,1.8350816564492127,DIFFER,-0.02389273593126977,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-220.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-220.0.bending_avg_mm_rms.first,
+measurement,tab:bending,220,5,0,2.527,2.53363681304,DIFFER,0.0026263605223585586,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-220.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,220,6,0,1.788,1.8675574375,DIFFER,0.044495211129753846,S8TAB.laser_y2024_by_condition.rpm-220.bending_avg_mm_peak.first,
+measurement,tab:bending,220,7,0,1.41,1.3566580401573327,DIFFER,-0.037831177193381,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-220.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-220.bending_avg_mm_peak.first,
+measurement,tab:bending,220,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,240,1,0,4.17,4.1845071,CLOSE,0.0034789208633094313,LAS.laser_y2024_by_condition.rpm-240.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,240,2,0,0.688,0.679697437671,DIFFER,-0.012067677803779,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-240.cam_legacy_bend_rms.first,
+measurement,tab:bending,240,3,0,0.671,0.671206403576,AGREE,0.0003076059254843392,LAS.laser_y2024_by_condition.rpm-240.0.bending_avg_mm_rms.first,
+measurement,tab:bending,240,4,0,1.03,1.0126504068640616,CLOSE,-0.01684426518052274,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-240.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-240.0.bending_avg_mm_rms.first,
+measurement,tab:bending,240,5,0,2.054,2.05852902935,DIFFER,0.0022049802093476105,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-240.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,240,6,0,2.072,2.16122995,DIFFER,0.04306464768339768,S8TAB.laser_y2024_by_condition.rpm-240.bending_avg_mm_peak.first,
+measurement,tab:bending,240,7,0,0.99,0.9524803361854206,DIFFER,-0.03789865031775695,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-240.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-240.bending_avg_mm_peak.first,
+measurement,tab:bending,240,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,260,1,0,4.54,4.5419863,AGREE,0.00043751101321576043,LAS.laser_y2024_by_condition.rpm-260.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,260,2,0,0.804,0.803123134883,CLOSE,-0.0010906282549751557,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-260.cam_legacy_bend_rms.first,
+measurement,tab:bending,260,3,0,0.906,0.906400200239,AGREE,0.0004417221181015493,LAS.laser_y2024_by_condition.rpm-260.0.bending_avg_mm_rms.first,
+measurement,tab:bending,260,4,0,0.89,0.8860579848407273,AGREE,-0.004429230516036772,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-260.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-260.0.bending_avg_mm_rms.first,
+measurement,tab:bending,260,5,0,1.887,1.88075440132,DIFFER,-0.0033098032220456146,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-260.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,260,6,0,2.753,2.679712475,DIFFER,-0.026620968034871056,S8TAB.laser_y2024_by_condition.rpm-260.bending_avg_mm_peak.first,
+measurement,tab:bending,260,7,0,0.69,0.7018493285627593,CLOSE,0.017172939946028018,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-260.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-260.bending_avg_mm_peak.first,
+measurement,tab:bending,260,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,280,1,0,4.91,4.9302609,CLOSE,0.004126456211812677,LAS.laser_y2024_by_condition.rpm-280.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,280,2,0,1.039,1.03367339784,DIFFER,-0.005126662329162683,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-280.cam_legacy_bend_rms.first,
+measurement,tab:bending,280,3,0,0.787,0.786630786042,AGREE,-0.0004691409885642281,LAS.laser_y2024_by_condition.rpm-280.0.bending_avg_mm_rms.first,
+measurement,tab:bending,280,4,0,1.32,1.3140515425807524,CLOSE,-0.004506407135793678,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-280.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-280.0.bending_avg_mm_rms.first,
+measurement,tab:bending,280,5,0,3.383,3.38737770016,DIFFER,0.0012940290156665838,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-280.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,280,6,0,2.296,2.1984590375,DIFFER,-0.04248299760452947,S8TAB.laser_y2024_by_condition.rpm-280.bending_avg_mm_peak.first,
+measurement,tab:bending,280,7,0,1.47,1.5407963679923693,DIFFER,0.0481607945526322,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-280.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-280.bending_avg_mm_peak.first,
+measurement,tab:bending,280,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:bending,300,1,0,5.27,5.2809849,CLOSE,0.0020844212523719943,LAS.laser_y2024_by_condition.rpm-300.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:bending,300,2,0,1.203,1.17492673528,DIFFER,-0.02333604714879481,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-300.cam_legacy_bend_rms.first,
+measurement,tab:bending,300,3,0,2.592,2.59250287368,CLOSE,0.00019400990740737055,LAS.laser_y2024_by_condition.rpm-300.0.bending_avg_mm_rms.first,
+measurement,tab:bending,300,4,0,0.46,0.4532017099029162,CLOSE,-0.01477889151539962,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-300.cam_legacy_bend_rms.first/LAS.laser_y2024_by_condition.rpm-300.0.bending_avg_mm_rms.first,
+measurement,tab:bending,300,5,0,3.564,3.57005870561,DIFFER,0.0016999735157127115,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-300.cam_legacy_bend_peak.first,camera peak = max|x-mean| of the legacy bending series
+measurement,tab:bending,300,6,0,4.759,4.7408912375,DIFFER,-0.0038051612733769084,S8TAB.laser_y2024_by_condition.rpm-300.bending_avg_mm_peak.first,
+measurement,tab:bending,300,7,0,0.75,0.7530353527984727,AGREE,0.004047137064630224,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-300.cam_legacy_bend_peak.first/S8TAB.laser_y2024_by_condition.rpm-300.bending_avg_mm_peak.first,
+measurement,tab:bending,300,8,0,,,CELL_NOT_NUMERIC,,"unmapped:regime flag assigned by the authors, not a measurement",
+measurement,tab:supp_s2,20,1,0,0.11,0.13480981,CLOSE,0.22554372727272728,LAS.laser_y2024_by_condition.rpm-20.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,20,2,0,0.026,0.0264402848903,AGREE,0.016934034242307675,LAS.laser_y2024_by_condition.rpm-20.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,20,3,0,0.112,0.1119354141,AGREE,-0.0005766598214285454,LAS.laser_y2025_by_condition.rpm-20.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,20,4,0,0.018,0.0044533861797,DIFFER,-0.7525896566833333,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-20.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,20,5,0,0.108,0.108295589477,AGREE,0.002736939601851924,LAS.laser_y2024_by_condition.rpm-20.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,20,6,0,0.266,0.265693004001,AGREE,-0.0011541202969925788,LAS.laser_y2025_by_condition.rpm-20.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,40,1,0,0.48,0.47350826,CLOSE,-0.013524458333333267,LAS.laser_y2024_by_condition.rpm-40.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,40,2,0,0.028,0.0278580059624,AGREE,-0.0050712156285713916,LAS.laser_y2024_by_condition.rpm-40.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,40,3,0,0.112,0.111836685496,AGREE,-0.001458165214285769,LAS.laser_y2025_by_condition.rpm-40.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,40,4,0,0.015,0.0094857193949,DIFFER,-0.36761870700666666,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-40.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,40,5,0,0.107,0.106697114765,AGREE,-0.0028307031308410693,LAS.laser_y2024_by_condition.rpm-40.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,40,6,0,0.267,0.266993041004,AGREE,-2.606365543073425e-05,LAS.laser_y2025_by_condition.rpm-40.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,50,1,0,0.66,0.65706495,AGREE,-0.00444704545454553,LAS.laser_y2024_by_condition.rpm-50.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,50,2,0,0.030,0.0303362492684,AGREE,0.011208308946666681,LAS.laser_y2024_by_condition.rpm-50.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,50,3,0,0.114,0.113700188757,AGREE,-0.0026299231842105792,LAS.laser_y2025_by_condition.rpm-50.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,50,4,0,0.034,0.0229589962675,DIFFER,-0.32473540389705885,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-50.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,50,5,0,0.106,0.105850687295,AGREE,-0.001408610424528316,LAS.laser_y2024_by_condition.rpm-50.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,50,6,0,0.270,0.270172807889,AGREE,0.000640029218518451,LAS.laser_y2025_by_condition.rpm-50.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,60,1,0,0.85,0.84212032,CLOSE,-0.009270211764705816,LAS.laser_y2024_by_condition.rpm-60.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,60,2,0,2.213,2.21346234314,AGREE,0.00020892143696326715,LAS.laser_y2024_by_condition.rpm-60.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,60,3,0,1.766,1.7661792226,AGREE,0.00010148505096258071,LAS.laser_y2025_by_condition.rpm-60.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,60,4,0,0.089,0.0857074967585,DIFFER,-0.0369944184438201,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-60.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,60,5,0,0.231,0.231242963301,AGREE,0.0010517891818181283,LAS.laser_y2024_by_condition.rpm-60.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,60,6,0,0.291,0.290981100804,AGREE,-6.494569072149538e-05,LAS.laser_y2025_by_condition.rpm-60.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,70,1,0,1.03,1.0176829,CLOSE,-0.011958349514563078,LAS.laser_y2024_by_condition.rpm-70.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,70,2,0,2.739,2.73937564012,AGREE,0.0001371449872216617,LAS.laser_y2024_by_condition.rpm-70.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,70,3,0,2.908,2.90825236567,AGREE,8.678324277861026e-05,LAS.laser_y2025_by_condition.rpm-70.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,70,4,0,3.111,3.09188064963,DIFFER,-0.006145724966248797,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-70.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,70,5,0,0.221,0.22111008339,AGREE,0.0004981148868777718,LAS.laser_y2024_by_condition.rpm-70.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,70,6,0,0.307,0.307372332353,AGREE,0.0012128089674266884,LAS.laser_y2025_by_condition.rpm-70.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,80,1,0,1.22,1.209439,CLOSE,-0.008656557377049215,LAS.laser_y2024_by_condition.rpm-80.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,80,2,0,0.493,0.492838318222,AGREE,-0.00032795492494922283,LAS.laser_y2024_by_condition.rpm-80.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,80,3,0,0.620,0.620133199216,AGREE,0.0002148374451612394,LAS.laser_y2025_by_condition.rpm-80.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,80,4,0,1.371,1.40025280009,DIFFER,0.021336834493070816,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-80.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,80,5,0,1.785,1.78458540481,AGREE,-0.00023226621288507943,LAS.laser_y2024_by_condition.rpm-80.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,80,6,0,2.047,2.04719287782,AGREE,9.422463116755863e-05,LAS.laser_y2025_by_condition.rpm-80.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,90,1,0,1.40,1.3932964,CLOSE,-0.004788285714285578,LAS.laser_y2024_by_condition.rpm-90.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,90,2,0,0.544,0.543610374157,AGREE,-0.0007162239761030573,LAS.laser_y2024_by_condition.rpm-90.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,90,3,0,0.748,0.747945834163,AGREE,-7.24142205882617e-05,LAS.laser_y2025_by_condition.rpm-90.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,90,4,0,0.813,0.815714966769,CLOSE,0.0033394425202952906,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-90.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,90,5,0,2.044,2.04356067253,AGREE,-0.00021493516144818186,LAS.laser_y2024_by_condition.rpm-90.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,90,6,0,2.250,2.24966830084,AGREE,-0.00014742184888897705,LAS.laser_y2025_by_condition.rpm-90.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,100,1,0,1.58,1.5782593,AGREE,-0.0011017088607595186,LAS.laser_y2024_by_condition.rpm-100.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,100,2,0,0.149,0.149268878809,AGREE,0.0018045557651007117,LAS.laser_y2024_by_condition.rpm-100.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,100,3,0,0.164,0.163585540259,AGREE,-0.002527193542683032,LAS.laser_y2025_by_condition.rpm-100.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,100,4,0,0.174,0.161009772867,DIFFER,-0.07465647777586204,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-100.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,100,5,0,0.151,0.150572408126,AGREE,-0.0028317342649005857,LAS.laser_y2024_by_condition.rpm-100.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,100,6,0,0.323,0.322788767965,AGREE,-0.0006539691486068376,LAS.laser_y2025_by_condition.rpm-100.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,110,1,0,1.77,1.7423777,CLOSE,-0.01560581920903954,LAS.laser_y2024_by_condition.rpm-110.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,110,2,0,0.134,0.133942662747,AGREE,-0.0004278899477611976,LAS.laser_y2024_by_condition.rpm-110.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,110,3,0,0.170,0.169629272334,AGREE,-0.002180750976470707,LAS.laser_y2025_by_condition.rpm-110.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,110,4,0,0.161,0.161448163349,AGREE,0.0027836232857142667,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-110.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,110,5,0,0.127,0.127140840806,AGREE,0.001108982724409387,LAS.laser_y2024_by_condition.rpm-110.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,110,6,0,0.270,0.270379822391,AGREE,0.001406749596296238,LAS.laser_y2025_by_condition.rpm-110.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,120,1,0,1.95,1.9448288,CLOSE,-0.002651897435897401,LAS.laser_y2024_by_condition.rpm-120.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,120,2,0,0.163,0.162764016402,AGREE,-0.0014477521349693606,LAS.laser_y2024_by_condition.rpm-120.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,120,3,0,0.209,0.208812270945,AGREE,-0.0008982251435406801,LAS.laser_y2025_by_condition.rpm-120.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,120,4,0,0.192,0.187118419635,DIFFER,-0.025424897734374993,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-120.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,120,5,0,0.225,0.224576125923,AGREE,-0.0018838847866667033,LAS.laser_y2024_by_condition.rpm-120.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,120,6,0,0.351,0.350884962975,AGREE,-0.0003277408119657738,LAS.laser_y2025_by_condition.rpm-120.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,140,1,0,2.32,2.3147448,CLOSE,-0.0022651724137929667,LAS.laser_y2024_by_condition.rpm-140.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,140,2,0,0.586,0.586008956602,AGREE,1.5284303754377674e-05,LAS.laser_y2024_by_condition.rpm-140.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,140,3,0,0.754,0.753768071014,AGREE,-0.00030759812466843,LAS.laser_y2025_by_condition.rpm-140.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,140,4,0,0.752,0.760281635874,DIFFER,0.011012813662234033,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-140.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,140,5,0,1.900,1.8999603061,AGREE,-2.089152631568643e-05,LAS.laser_y2024_by_condition.rpm-140.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,140,6,0,2.129,2.12881312816,AGREE,-8.777446688585785e-05,LAS.laser_y2025_by_condition.rpm-140.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,160,1,0,2.69,2.6665936,CLOSE,-0.008701263940520383,LAS.laser_y2024_by_condition.rpm-160.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,160,2,0,0.842,0.842368639947,AGREE,0.000437814663895466,LAS.laser_y2024_by_condition.rpm-160.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,160,3,0,1.089,1.08904772083,AGREE,4.382078053263729e-05,LAS.laser_y2025_by_condition.rpm-160.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,160,4,0,1.242,1.23535137513,DIFFER,-0.005353160120772909,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-160.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,160,5,0,3.174,3.17392068035,AGREE,-2.499043793312629e-05,LAS.laser_y2024_by_condition.rpm-160.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,160,6,0,3.147,3.14683906216,AGREE,-5.114008261823882e-05,LAS.laser_y2025_by_condition.rpm-160.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,180,1,0,3.06,3.0428994,CLOSE,-0.005588431372549027,LAS.laser_y2024_by_condition.rpm-180.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,180,2,0,0.975,0.975084646592,AGREE,8.681701743592422e-05,LAS.laser_y2024_by_condition.rpm-180.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,180,3,0,1.277,1.27722580265,AGREE,0.00017682274862972747,LAS.laser_y2025_by_condition.rpm-180.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,180,4,0,1.466,1.45404058741,DIFFER,-0.008157853062755795,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-180.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,180,5,0,3.804,3.80399911817,AGREE,-2.318165088559994e-07,LAS.laser_y2024_by_condition.rpm-180.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,180,6,0,4.108,4.10818792704,AGREE,4.574660175284849e-05,LAS.laser_y2025_by_condition.rpm-180.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,200,1,0,3.43,3.4285001,AGREE,-0.0004372886297376736,LAS.laser_y2024_by_condition.rpm-200.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,200,2,0,0.956,0.955541206521,AGREE,-0.0004799094968618287,LAS.laser_y2024_by_condition.rpm-200.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,200,3,0,1.359,1.35936642548,AGREE,0.00026962875643854874,LAS.laser_y2025_by_condition.rpm-200.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,200,4,0,1.510,1.4990618465,DIFFER,-0.00724381026490062,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-200.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,200,5,0,3.799,3.79936070356,AGREE,9.494697551991975e-05,LAS.laser_y2024_by_condition.rpm-200.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,200,6,0,4.350,4.35044368411,AGREE,0.00010199634712652816,LAS.laser_y2025_by_condition.rpm-200.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,220,1,0,3.80,3.8056493,CLOSE,0.0014866578947368338,LAS.laser_y2024_by_condition.rpm-220.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,220,2,0,0.626,0.626550731794,CLOSE,0.0008797632492012834,LAS.laser_y2024_by_condition.rpm-220.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,220,3,0,0.942,0.942483998915,AGREE,0.0005137992728238441,LAS.laser_y2025_by_condition.rpm-220.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,220,4,0,1.178,1.14977175475,DIFFER,-0.02396285674872666,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-220.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,220,5,0,1.427,1.4268281925,AGREE,-0.00012039768745628639,LAS.laser_y2024_by_condition.rpm-220.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,220,6,0,2.644,2.64451268388,CLOSE,0.0001939046444779913,LAS.laser_y2025_by_condition.rpm-220.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,240,1,0,4.17,4.1845071,CLOSE,0.0034789208633094313,LAS.laser_y2024_by_condition.rpm-240.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,240,2,0,0.671,0.671206403576,AGREE,0.0003076059254843392,LAS.laser_y2024_by_condition.rpm-240.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,240,3,0,0.750,0.749662420329,AGREE,-0.00045010622800001343,LAS.laser_y2025_by_condition.rpm-240.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,240,4,0,0.688,0.679697437671,DIFFER,-0.012067677803779,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-240.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,240,5,0,0.429,0.429262421152,AGREE,0.0006117043170162724,LAS.laser_y2024_by_condition.rpm-240.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,240,6,0,0.421,0.420939504901,AGREE,-0.00014369382185265708,LAS.laser_y2025_by_condition.rpm-240.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,260,1,0,4.54,4.5419863,AGREE,0.00043751101321576043,LAS.laser_y2024_by_condition.rpm-260.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,260,2,0,0.906,0.906400200239,AGREE,0.0004417221181015493,LAS.laser_y2024_by_condition.rpm-260.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,260,3,0,1.010,1.00983304934,AGREE,-0.00016529768316826004,LAS.laser_y2025_by_condition.rpm-260.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,260,4,0,0.804,0.803123134883,CLOSE,-0.0010906282549751557,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-260.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,260,5,0,0.326,0.326262835267,AGREE,0.0008062431503067316,LAS.laser_y2024_by_condition.rpm-260.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,260,6,0,0.479,0.478681801539,AGREE,-0.0006642974133611852,LAS.laser_y2025_by_condition.rpm-260.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,280,1,0,4.91,4.9302609,CLOSE,0.004126456211812677,LAS.laser_y2024_by_condition.rpm-280.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,280,2,0,0.787,0.786630786042,AGREE,-0.0004691409885642281,LAS.laser_y2024_by_condition.rpm-280.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,280,3,0,1.120,1.12015131079,AGREE,0.00013509891964283029,LAS.laser_y2025_by_condition.rpm-280.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,280,4,0,1.039,1.03367339784,DIFFER,-0.005126662329162683,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-280.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,280,5,0,0.523,0.522597215515,AGREE,-0.0007701424187379999,LAS.laser_y2024_by_condition.rpm-280.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,280,6,0,0.414,0.413714640476,AGREE,-0.0006892742125603746,LAS.laser_y2025_by_condition.rpm-280.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,300,1,0,5.27,5.2809849,CLOSE,0.0020844212523719943,LAS.laser_y2024_by_condition.rpm-300.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,300,2,0,2.592,2.59250287368,CLOSE,0.00019400990740737055,LAS.laser_y2024_by_condition.rpm-300.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,300,3,0,1.005,1.00554185162,CLOSE,0.0005391558407962189,LAS.laser_y2025_by_condition.rpm-300.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,300,4,0,1.203,1.17492673528,DIFFER,-0.02333604714879481,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-300.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,300,5,0,15.969,15.9698334079,CLOSE,5.218911015092258e-05,LAS.laser_y2024_by_condition.rpm-300.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,300,6,0,1.108,1.10842268419,AGREE,0.0003814839259926996,LAS.laser_y2025_by_condition.rpm-300.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:supp_s2,320,1,0,5.64,,NOT_IN_LEDGER,,LAS.laser_y2024_by_condition.rpm-320.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind
+measurement,tab:supp_s2,320,2,0,,,CELL_NOT_NUMERIC,,id:LAS.laser_y2024_by_condition.rpm-{rpm}.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,320,3,0,3.575,3.5752656855,AGREE,7.431762237751405e-05,LAS.laser_y2025_by_condition.rpm-320.0.bending_avg_mm_rms.first,
+measurement,tab:supp_s2,320,4,0,4.518,,NOT_IN_LEDGER,,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-320.cam_legacy_bend_rms.first,
+measurement,tab:supp_s2,320,5,0,,,CELL_NOT_NUMERIC,,id:LAS.laser_y2024_by_condition.rpm-{rpm}.0.torsion_proxy_mm_rms.first,
+measurement,tab:supp_s2,320,6,0,17.366,17.3674524257,CLOSE,8.363616837509644e-05,LAS.laser_y2025_by_condition.rpm-320.0.torsion_proxy_mm_rms.first,"2025 torsion uses the corrected (side - centre) x dp convention, not the vendor column (NOTES B9)"
+measurement,tab:torsion,20,1,0,0.034,0.00680747481316,DIFFER,-0.7997801525541177,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-20.cam_legacy_tors_rms.first,
+measurement,tab:torsion,20,2,0,0.108,0.108295589477,AGREE,0.002736939601851924,LAS.laser_y2024_by_condition.rpm-20.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,20,3,0,0.32,0.06286012981725154,DIFFER,-0.8035620943210889,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-20.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-20.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,20,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,40,1,0,0.029,0.00593587237323,DIFFER,-0.7953147457506896,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-40.cam_legacy_tors_rms.first,
+measurement,tab:torsion,40,2,0,0.107,0.106697114765,AGREE,-0.0028307031308410693,LAS.laser_y2024_by_condition.rpm-40.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,40,3,0,0.27,0.05563292302986577,DIFFER,-0.7939521369264231,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-40.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-40.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,40,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,50,1,0,0.037,0.00727772046819,DIFFER,-0.803304852211081,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-50.cam_legacy_tors_rms.first,
+measurement,tab:torsion,50,2,0,0.106,0.105850687295,AGREE,-0.001408610424528316,LAS.laser_y2024_by_condition.rpm-50.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,50,3,0,0.35,0.06875458869631519,DIFFER,-0.803558318010528,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-50.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-50.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,50,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,60,1,0,0.040,0.011117753165,DIFFER,-0.722056170875,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-60.cam_legacy_tors_rms.first,
+measurement,tab:torsion,60,2,0,0.231,0.231242963301,AGREE,0.0010517891818181283,LAS.laser_y2024_by_condition.rpm-60.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,60,3,0,0.17,0.048078233414300495,DIFFER,-0.7171868622688207,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-60.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-60.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,60,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,70,1,0,0.146,0.234444973495,DIFFER,0.6057874896917809,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-70.cam_legacy_tors_rms.first,
+measurement,tab:torsion,70,2,0,0.221,0.22111008339,AGREE,0.0004981148868777718,LAS.laser_y2024_by_condition.rpm-70.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,70,3,0,0.66,1.0603088285280937,DIFFER,0.6065285280728692,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-70.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-70.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,70,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,80,1,0,0.137,0.154546235355,DIFFER,0.1280747106204379,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-80.cam_legacy_tors_rms.first,
+measurement,tab:torsion,80,2,0,1.784,1.78458540481,CLOSE,0.00032814170964126855,LAS.laser_y2024_by_condition.rpm-80.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,80,3,0,0.08,0.08660063841072045,CLOSE,0.08250798013400562,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-80.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-80.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,80,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,90,1,0,1.611,1.64089114311,DIFFER,0.018554402923649883,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-90.cam_legacy_tors_rms.first,
+measurement,tab:torsion,90,2,0,2.043,2.04356067253,CLOSE,0.0002744358932940803,LAS.laser_y2024_by_condition.rpm-90.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,90,3,0,0.79,0.8029569002610131,CLOSE,0.016401139570902577,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-90.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-90.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,90,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,100,1,0,0.220,0.221527901061,CLOSE,0.006945004822727313,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-100.cam_legacy_tors_rms.first,
+measurement,tab:torsion,100,2,0,0.151,0.150572408126,AGREE,-0.0028317342649005857,LAS.laser_y2024_by_condition.rpm-100.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,100,3,0,1.46,1.4712383485002376,CLOSE,0.007697498972765506,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-100.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-100.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,100,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,110,1,0,0.087,0.0682885292422,DIFFER,-0.21507437652643677,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-110.cam_legacy_tors_rms.first,
+measurement,tab:torsion,110,2,0,0.127,0.127140840806,AGREE,0.001108982724409387,LAS.laser_y2024_by_condition.rpm-110.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,110,3,0,0.68,0.537109309717396,DIFFER,-0.21013336806265298,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-110.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-110.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,110,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,120,1,0,0.167,0.161157667503,DIFFER,-0.03498402692814372,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-120.cam_legacy_tors_rms.first,
+measurement,tab:torsion,120,2,0,0.225,0.224576125923,AGREE,-0.0018838847866667033,LAS.laser_y2024_by_condition.rpm-120.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,120,3,0,0.74,0.7176081911674611,CLOSE,-0.030259201125052548,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-120.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-120.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,120,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,140,1,0,1.340,1.35206421131,DIFFER,0.009003142768656729,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-140.cam_legacy_tors_rms.first,
+measurement,tab:torsion,140,2,0,1.900,1.8999603061,AGREE,-2.089152631568643e-05,LAS.laser_y2024_by_condition.rpm-140.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,140,3,0,0.71,0.7116276097816736,AGREE,0.0022924081432023164,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-140.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-140.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,140,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,160,1,0,2.267,2.29861595246,DIFFER,0.013946163414203861,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-160.cam_legacy_tors_rms.first,
+measurement,tab:torsion,160,2,0,3.174,3.17392068035,AGREE,-2.499043793312629e-05,LAS.laser_y2024_by_condition.rpm-160.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,160,3,0,0.71,0.7242197219013435,CLOSE,0.02002777732583602,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-160.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-160.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,160,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,180,1,0,2.690,2.72484723529,DIFFER,0.01295436256133829,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-180.cam_legacy_tors_rms.first,
+measurement,tab:torsion,180,2,0,3.804,3.80399911817,AGREE,-2.318165088559994e-07,LAS.laser_y2024_by_condition.rpm-180.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,180,3,0,0.71,0.716311216339306,CLOSE,0.008889037097614058,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-180.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-180.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,180,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,200,1,0,2.804,2.84105493886,DIFFER,0.013215028124108534,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-200.cam_legacy_tors_rms.first,
+measurement,tab:torsion,200,2,0,3.799,3.79936070356,AGREE,9.494697551991975e-05,LAS.laser_y2024_by_condition.rpm-200.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,200,3,0,0.74,0.7477718386143049,CLOSE,0.010502484613925486,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-200.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-200.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,200,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,220,1,0,2.002,2.02544039126,DIFFER,0.011708487142857295,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-220.cam_legacy_tors_rms.first,
+measurement,tab:torsion,220,2,0,1.427,1.4268281925,AGREE,-0.00012039768745628639,LAS.laser_y2024_by_condition.rpm-220.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,220,3,0,1.40,1.4195404898126864,CLOSE,0.013957492723347517,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-220.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-220.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,220,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,240,1,0,0.431,0.44590584059,DIFFER,0.034584316914153125,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-240.cam_legacy_tors_rms.first,
+measurement,tab:torsion,240,2,0,0.429,0.429262421152,AGREE,0.0006117043170162724,LAS.laser_y2024_by_condition.rpm-240.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,240,3,0,1.00,1.0387721324250432,DIFFER,0.03877213242504318,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-240.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-240.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,240,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,260,1,0,0.483,0.506675884727,DIFFER,0.04901839487991718,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-260.cam_legacy_tors_rms.first,
+measurement,tab:torsion,260,2,0,0.326,0.326262835267,AGREE,0.0008062431503067316,LAS.laser_y2024_by_condition.rpm-260.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,260,3,0,1.48,1.5529684351340765,DIFFER,0.04930299671221383,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-260.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-260.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,260,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,280,1,0,0.660,0.691891907692,DIFFER,0.04832107226060607,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-280.cam_legacy_tors_rms.first,
+measurement,tab:torsion,280,2,0,0.523,0.522597215515,AGREE,-0.0007701424187379999,LAS.laser_y2024_by_condition.rpm-280.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,280,3,0,1.26,1.323948706864361,DIFFER,0.05075294195584201,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-280.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-280.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,280,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:torsion,300,1,0,0.700,0.738920878816,DIFFER,0.055601255451428626,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-300.cam_legacy_tors_rms.first,
+measurement,tab:torsion,300,2,0,15.969,15.9698334079,CLOSE,5.218911015092258e-05,LAS.laser_y2024_by_condition.rpm-300.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,300,3,0,0.04,0.04626979254839745,CLOSE,0.1567448137099362,S8TAB.s6_matched_pairs.arm-A.session-y2024.rpm-300.cam_legacy_tors_rms.first/LAS.laser_y2024_by_condition.rpm-300.0.torsion_proxy_mm_rms.first,
+measurement,tab:torsion,300,4,0,,,CELL_NOT_NUMERIC,,unmapped:regime flag assigned by the authors,
+measurement,tab:robustness,Bending,1,0,0.9711,0.971730590253,DIFFER,0.0006493566604881596,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-bending.stat-pearson_lin.estimate.first,
+measurement,tab:robustness,Bending,2,0,0.9470,0.949391325741,DIFFER,0.002525159177402423,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-bending.stat-loo_r.ci_lo.first,
+measurement,tab:robustness,Bending,2,1,0.9783,0.978165073242,CLOSE,-0.00013791961361543062,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-bending.stat-loo_r.ci_hi.first,
+measurement,tab:robustness,Bending,3,0,0.9886,0.977319197987,DIFFER,-0.011410886114707747,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-bending.stat-pearson_log.estimate.first,
+measurement,tab:robustness,Torsion proxy,1,0,0.9682,0.967303371273,DIFFER,-0.0009260780076429613,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-torsion.stat-pearson_lin.estimate.first,
+measurement,tab:robustness,Torsion proxy,2,0,0.9581,0.956922175636,DIFFER,-0.001229333434923218,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-torsion.stat-loo_r.ci_lo.first,
+measurement,tab:robustness,Torsion proxy,2,1,0.9943,0.992918049939,DIFFER,-0.0013898723332997566,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-torsion.stat-loo_r.ci_hi.first,
+measurement,tab:robustness,Torsion proxy,3,0,0.9537,0.887455307506,DIFFER,-0.06946072401593793,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-torsion.stat-pearson_log.estimate.first,
+measurement,tab:robustness,Bending,1,0,1.175,1.17082687671,DIFFER,-0.003551594289361676,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-bending.stat-slope_ols.estimate.first,
+measurement,tab:robustness,Bending,2,0,1.009,1.09483643933,DIFFER,0.08507080211100118,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-bending.stat-slope_ols.ci_lo.first,
+measurement,tab:robustness,Bending,2,1,1.340,1.55435061895,DIFFER,0.15996314847014922,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-bending.stat-slope_ols.ci_hi.first,
+measurement,tab:robustness,Bending,3,0,0.079,0.0730939866072,DIFFER,-0.07475966320000003,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-bending.stat-intercept_ols.estimate.first,
+measurement,tab:robustness,Torsion proxy,1,0,0.718,0.727715633873,DIFFER,0.01353152350000001,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-torsion.stat-slope_ols.estimate.first,
+measurement,tab:robustness,Torsion proxy,2,0,0.612,0.682513394335,DIFFER,0.11521796459967326,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-torsion.stat-slope_ols.ci_lo.first,
+measurement,tab:robustness,Torsion proxy,2,1,0.825,0.854272648982,DIFFER,0.0354819987660606,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-torsion.stat-slope_ols.ci_hi.first,
+measurement,tab:robustness,Torsion proxy,3,0,0.109,0.111995220557,CLOSE,0.027479087678899033,EXPL_PAPERSET.paperset_intervals.scope-paperset16.quantity-torsion.stat-intercept_ols.estimate.first,
+sensors,tab:tb4-posthoc-reference,20,1,0,0.11,0.13480981,CLOSE,0.22554372727272728,LAS.laser_y2024_by_condition.rpm-20.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,20,2,0,4.930,4.35625,DIFFER,-0.1163793103448275,S8TAB.laser_y2025_by_condition.rpm-20.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,20,3,0,8.925,8.93125,DIFFER,0.000700280112044778,S8TAB.laser_y2025_by_condition.rpm-20.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,20,4,0,9.085,9.08428728586,CLOSE,-7.844954760600047e-05,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,20,5,0,9.083,9.0815559218,CLOSE,-0.00015898692062099262,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,20,6,0,1.441,1.43946296899,CLOSE,-0.001066641922276213,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,20,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,20,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,40,1,0,0.48,0.47350826,CLOSE,-0.013524458333333267,LAS.laser_y2024_by_condition.rpm-40.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,40,2,0,6.680,4.93125,DIFFER,-0.26178892215568855,S8TAB.laser_y2025_by_condition.rpm-40.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,40,3,0,6.230,1.25,DIFFER,-0.7993579454253612,S8TAB.laser_y2025_by_condition.rpm-40.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,40,4,0,1.444,1.44377853317,AGREE,-0.00015337038088643814,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,40,5,0,1.445,1.44435544221,CLOSE,-0.00044606075432529783,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,40,6,0,1.445,1.44398529928,CLOSE,-0.0007022150311419339,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,40,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,40,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,50,1,0,0.66,0.65706495,AGREE,-0.00444704545454553,LAS.laser_y2024_by_condition.rpm-50.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,50,2,0,1.420,1.4125,DIFFER,-0.0052816901408449584,S8TAB.laser_y2025_by_condition.rpm-50.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,50,3,0,4.590,6.075,DIFFER,0.32352941176470595,S8TAB.laser_y2025_by_condition.rpm-50.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,50,4,0,1.447,1.448573444,CLOSE,0.0010873835521768651,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,50,5,0,1.447,1.44840458943,CLOSE,0.0009706906910849209,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,50,6,0,1.448,1.44814491171,AGREE,0.00010007714779011332,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,50,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,50,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,60,1,0,0.85,0.84212032,CLOSE,-0.009270211764705816,LAS.laser_y2024_by_condition.rpm-60.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,60,2,0,1.430,1.43125,CLOSE,0.0008741258741258555,S8TAB.laser_y2025_by_condition.rpm-60.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,60,3,0,4.290,4.2875,CLOSE,-0.0005827505827506738,S8TAB.laser_y2025_by_condition.rpm-60.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,60,4,0,1.382,1.38178807353,AGREE,-0.00015334766280737357,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,60,5,0,1.382,1.38169949409,AGREE,-0.00021744277134577405,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,60,6,0,1.382,1.38170921673,AGREE,-0.00021040757597675288,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,60,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,60,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,70,1,0,1.03,1.0176829,CLOSE,-0.011958349514563078,LAS.laser_y2024_by_condition.rpm-70.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,70,2,0,1.445,1.44375,CLOSE,-0.0008650519031141683,S8TAB.laser_y2025_by_condition.rpm-70.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,70,3,0,2.890,2.8875,CLOSE,-0.0008650519031141683,S8TAB.laser_y2025_by_condition.rpm-70.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,70,4,0,1.445,1.44414339722,CLOSE,-0.0005928046920415945,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,70,5,0,1.445,1.44421834466,CLOSE,-0.000540937951557069,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,70,6,0,1.445,1.44436277932,CLOSE,-0.0004409831695502077,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,70,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,70,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,80,1,0,1.22,1.209439,CLOSE,-0.008656557377049215,LAS.laser_y2024_by_condition.rpm-80.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,80,2,0,3.105,3.10625,CLOSE,0.0004025764895330742,S8TAB.laser_y2025_by_condition.rpm-80.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,80,3,0,3.105,3.10625,CLOSE,0.0004025764895330742,S8TAB.laser_y2025_by_condition.rpm-80.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,80,4,0,1.471,1.46976589089,CLOSE,-0.0008389592861999342,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,80,5,0,1.470,1.46978665968,AGREE,-0.00014512946938773964,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,80,6,0,1.471,1.46961758733,CLOSE,-0.0009397774779062991,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,80,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,80,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,90,1,0,1.40,1.3932964,CLOSE,-0.004788285714285578,LAS.laser_y2024_by_condition.rpm-90.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,90,2,0,3.115,3.11875,DIFFER,0.001203852327447736,S8TAB.laser_y2025_by_condition.rpm-90.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,90,3,0,3.115,3.11875,DIFFER,0.001203852327447736,S8TAB.laser_y2025_by_condition.rpm-90.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,90,4,0,3.115,3.11384327294,CLOSE,-0.0003713409502408154,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,90,5,0,3.115,3.11377433025,CLOSE,-0.00039347343499202496,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,90,6,0,1.461,1.46023160239,CLOSE,-0.0005259395003423256,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,90,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,90,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,100,1,0,1.58,1.5782593,AGREE,-0.0011017088607595186,LAS.laser_y2024_by_condition.rpm-100.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,100,2,0,1.475,1.49375,DIFFER,0.01271186440677954,S8TAB.laser_y2025_by_condition.rpm-100.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,100,3,0,3.155,3.15625,CLOSE,0.00039619651347074344,S8TAB.laser_y2025_by_condition.rpm-100.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,100,4,0,3.153,3.15413652316,CLOSE,0.0003604577101173529,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,100,5,0,3.153,3.15426776876,CLOSE,0.00040208333650491906,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,100,6,0,1.490,1.49054139653,CLOSE,0.00036335337583897395,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,100,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,100,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,110,1,0,1.77,1.7423777,CLOSE,-0.01560581920903954,LAS.laser_y2024_by_condition.rpm-110.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,110,2,0,1.425,1.425,AGREE,0.0,S8TAB.laser_y2025_by_condition.rpm-110.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,110,3,0,1.425,1.425,AGREE,0.0,S8TAB.laser_y2025_by_condition.rpm-110.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,110,4,0,2.271,2.27091001538,AGREE,-3.962334654326779e-05,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,110,5,0,2.271,2.27093498183,AGREE,-2.862975341256311e-05,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,110,6,0,2.271,2.27058386804,AGREE,-0.00018323732276520835,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,110,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,110,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,120,1,0,1.95,1.9448288,CLOSE,-0.002651897435897401,LAS.laser_y2024_by_condition.rpm-120.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,120,2,0,2.275,2.275,AGREE,0.0,S8TAB.laser_y2025_by_condition.rpm-120.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,120,3,0,2.925,2.91875,DIFFER,-0.0021367521367520155,S8TAB.laser_y2025_by_condition.rpm-120.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,120,4,0,2.900,2.90131267002,CLOSE,0.00045264483448272634,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,120,5,0,2.902,2.90133775954,CLOSE,-0.00022820139903517372,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,120,6,0,1.471,1.47075810173,AGREE,-0.00016444477906192792,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,120,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,120,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,140,1,0,2.32,2.3147448,CLOSE,-0.0022651724137929667,LAS.laser_y2024_by_condition.rpm-140.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,140,2,0,3.055,3.05625,CLOSE,0.00040916530278224265,S8TAB.laser_y2025_by_condition.rpm-140.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,140,3,0,3.055,3.05625,CLOSE,0.00040916530278224265,S8TAB.laser_y2025_by_condition.rpm-140.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,140,4,0,3.057,3.05526482161,CLOSE,-0.000567608240104726,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,140,5,0,3.055,3.05515197917,AGREE,4.9747682487719425e-05,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,140,6,0,2.265,2.26594340452,CLOSE,0.00041651413686537726,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,140,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,140,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,160,1,0,2.69,2.6665936,CLOSE,-0.008701263940520383,LAS.laser_y2024_by_condition.rpm-160.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,160,2,0,3.065,3.0625,CLOSE,-0.0008156606851549581,S8TAB.laser_y2025_by_condition.rpm-160.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,160,3,0,3.065,3.0625,CLOSE,-0.0008156606851549581,S8TAB.laser_y2025_by_condition.rpm-160.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,160,4,0,3.063,3.0633903059,AGREE,0.00012742602024155651,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,160,5,0,3.063,3.06366185954,CLOSE,0.0002160821221023973,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,160,6,0,1.519,1.51860536837,AGREE,-0.00025979699144164863,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,160,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,160,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,180,1,0,3.06,3.0428994,CLOSE,-0.005588431372549027,LAS.laser_y2024_by_condition.rpm-180.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,180,2,0,3.065,3.0625,CLOSE,-0.0008156606851549581,S8TAB.laser_y2025_by_condition.rpm-180.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,180,3,0,3.065,3.0625,CLOSE,-0.0008156606851549581,S8TAB.laser_y2025_by_condition.rpm-180.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,180,4,0,3.062,3.06360987585,CLOSE,0.0005257595852384962,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,180,5,0,3.064,3.06375225343,AGREE,-8.08572356396636e-05,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,180,6,0,1.458,1.45802574101,AGREE,1.765501371739977e-05,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,180,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,180,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,200,1,0,3.43,3.4285001,AGREE,-0.0004372886297376736,LAS.laser_y2024_by_condition.rpm-200.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,200,2,0,3.065,3.0625,CLOSE,-0.0008156606851549581,S8TAB.laser_y2025_by_condition.rpm-200.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,200,3,0,3.065,3.0625,CLOSE,-0.0008156606851549581,S8TAB.laser_y2025_by_condition.rpm-200.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,200,4,0,3.061,3.06210565143,CLOSE,0.0003612059555701001,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,200,5,0,3.062,3.0621344733,AGREE,4.391681907255378e-05,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,200,6,0,3.060,3.06167766377,CLOSE,0.0005482561339868569,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,200,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,200,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,220,1,0,3.80,3.8056493,CLOSE,0.0014866578947368338,LAS.laser_y2024_by_condition.rpm-220.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,220,2,0,3.070,3.06875,CLOSE,-0.00040716612377842066,S8TAB.laser_y2025_by_condition.rpm-220.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,220,3,0,3.070,3.06875,CLOSE,-0.00040716612377842066,S8TAB.laser_y2025_by_condition.rpm-220.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,220,4,0,3.072,3.07080906478,CLOSE,-0.0003876742252603878,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,220,5,0,3.070,3.07092850891,CLOSE,0.0003024458990227879,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,220,6,0,3.070,3.06972648815,AGREE,-8.909180781748724e-05,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,220,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,220,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,240,1,0,4.17,4.1845071,CLOSE,0.0034789208633094313,LAS.laser_y2024_by_condition.rpm-240.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,240,2,0,1.350,1.35625,DIFFER,0.0046296296296295305,S8TAB.laser_y2025_by_condition.rpm-240.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,240,3,0,3.085,3.08125,DIFFER,-0.0012155591572123637,S8TAB.laser_y2025_by_condition.rpm-240.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,240,4,0,1.415,1.41516962759,AGREE,0.0001198781554770702,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,240,5,0,1.416,1.41514637452,CLOSE,-0.0006028428531073508,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,240,6,0,1.416,1.41526931862,CLOSE,-0.0005160179237287258,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,240,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,240,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,260,1,0,4.54,4.5419863,AGREE,0.00043751101321576043,LAS.laser_y2024_by_condition.rpm-260.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,260,2,0,1.360,1.36875,DIFFER,0.006433823529411627,S8TAB.laser_y2025_by_condition.rpm-260.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,260,3,0,3.070,3.075,DIFFER,0.0016286644951141165,S8TAB.laser_y2025_by_condition.rpm-260.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,260,4,0,1.394,1.39259622234,CLOSE,-0.0010070141032998523,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,260,5,0,1.394,1.39260432588,CLOSE,-0.001001200946915249,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,260,6,0,1.394,1.39278218243,CLOSE,-0.0008736137517933617,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,260,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,260,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,280,1,0,4.91,4.9302609,CLOSE,0.004126456211812677,LAS.laser_y2024_by_condition.rpm-280.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,280,2,0,1.430,1.4375,DIFFER,0.005244755244755288,S8TAB.laser_y2025_by_condition.rpm-280.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,280,3,0,3.020,3.0,DIFFER,-0.006622516556291397,S8TAB.laser_y2025_by_condition.rpm-280.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,280,4,0,1.395,1.39623943343,CLOSE,0.000888482745519628,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,280,5,0,1.395,1.39627175586,CLOSE,0.0009116529462365202,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,280,6,0,1.395,1.39665678904,CLOSE,0.00118766239426515,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,280,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,280,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,300,1,0,5.27,5.2809849,CLOSE,0.0020844212523719943,LAS.laser_y2024_by_condition.rpm-300.0.wind_measured_ms.first,printed wind = the 2024 session's measured wind (same values as the Measurement tables)
+sensors,tab:tb4-posthoc-reference,300,2,0,1.440,1.425,DIFFER,-0.010416666666666598,S8TAB.laser_y2025_by_condition.rpm-300.bending_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,300,3,0,3.000,3.0,AGREE,0.0,S8TAB.laser_y2025_by_condition.rpm-300.torsion_dom_hz.first,
+sensors,tab:tb4-posthoc-reference,300,4,0,1.441,1.44085241614,AGREE,-0.00010241766828592805,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam1.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,300,5,0,1.441,1.44093371756,AGREE,-4.5997529493375415e-05,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam2.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,300,6,0,1.440,1.44010890048,AGREE,7.562533333341535e-05,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam3.f_refined.first,dominant frequency = f_refined of the S3 spectrum
+sensors,tab:tb4-posthoc-reference,300,7,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:tb4-posthoc-reference,300,8,0,,,CELL_NOT_NUMERIC,,unmapped:match flag derived from the printed values,
+sensors,tab:rpm-sweep,0,2,0,9.2828,9.28347750463,DIFFER,7.298494312056745e-05,SPEC.s3_spectra_by_stream.condition-e0_0rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,0,2,1,0.032735,0.0327350456391,AGREE,1.3941988696874091e-06,SPEC.s3_spectra_by_stream.condition-e0_0rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,0,3,0,9.2829,9.28396979373,DIFFER,0.00011524348317876494,SPEC.s3_spectra_by_stream.condition-e0_0rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,0,3,1,0.032735,0.0327352341778,AGREE,7.153743699363999e-06,SPEC.s3_spectra_by_stream.condition-e0_0rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,0,4,0,9.2935,9.29497444775,DIFFER,0.00015865365578098746,SPEC.s3_spectra_by_stream.condition-e0_0rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,0,4,1,0.032750,0.0327504007379,AGREE,1.2236271755593082e-05,SPEC.s3_spectra_by_stream.condition-e0_0rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,20,2,0,9.0853,9.08428728586,DIFFER,-0.00011146733074304812,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,20,2,1,0.032781,0.0327809558771,AGREE,-1.3459900552250333e-06,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,20,3,0,9.0830,9.0815559218,DIFFER,-0.00015898692062099262,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,20,3,1,0.032772,0.0327719594751,AGREE,-1.2365708533250252e-06,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,20,4,0,1.4410,1.43946296899,DIFFER,-0.001066641922276213,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,20,4,1,0.032788,0.032787780319,AGREE,-6.700042698401782e-06,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,40,2,0,1.4443,1.44377853317,DIFFER,-0.00036105160285258164,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,40,2,1,0.032788,0.0327883067502,AGREE,9.355563011004416e-06,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,40,3,0,1.4449,1.44435544221,DIFFER,-0.0003768826839228088,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,40,3,1,0.032808,0.0328076221339,AGREE,-1.1517498780787257e-05,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,40,4,0,1.4448,1.44398529928,DIFFER,-0.0005638847729790397,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,40,4,1,0.032805,0.0328054743378,AGREE,1.4459314128840598e-05,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,50,2,0,1.4471,1.448573444,DIFFER,0.001018204685232489,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,50,2,1,0.032772,0.0327715733536,AGREE,-1.3018625656071805e-05,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,50,3,0,1.4470,1.44840458943,DIFFER,0.0009706906910849209,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,50,3,1,0.032766,0.0327664799474,AGREE,1.4647726301544449e-05,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,50,4,0,1.4478,1.44814491171,DIFFER,0.00023823159966850535,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,50,4,1,0.032794,0.0327943000049,AGREE,9.148164298521116e-06,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,60,2,0,1.3820,1.38178807353,CLOSE,-0.00015334766280737357,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,60,2,1,0.032788,0.0327884293208,AGREE,1.309383920949293e-05,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,60,3,0,1.3815,1.38169949409,CLOSE,0.00014440397394142976,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,60,3,1,0.032771,0.0327712132727,AGREE,6.50797046170021e-06,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,60,4,0,1.3820,1.38170921673,CLOSE,-0.00021040757597675288,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,60,4,1,0.032787,0.0327874531676,AGREE,1.3821563424552517e-05,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,70,2,0,1.4449,1.44414339722,DIFFER,-0.0005236367776317496,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,70,2,1,0.032809,0.0328087391923,AGREE,-7.949273065289655e-06,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,70,3,0,1.4448,1.44421834466,DIFFER,-0.00040258536821704513,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,70,3,1,0.032807,0.0328070276659,AGREE,8.432925898294081e-07,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,70,4,0,1.4453,1.44436277932,DIFFER,-0.0006484609977167489,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,70,4,1,0.032822,0.0328224984865,AGREE,1.5187572360049979e-05,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,80,2,0,1.4706,1.46976589089,DIFFER,-0.000567189657282691,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,80,2,1,0.032790,0.0327897887828,AGREE,-6.441512656328195e-06,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,80,3,0,1.4703,1.46978665968,DIFFER,-0.00034913984901036813,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,80,3,1,0.032782,0.0327817238258,AGREE,-8.424568360749446e-06,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,80,4,0,1.4705,1.46961758733,DIFFER,-0.0006000766201972112,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,80,4,1,0.032788,0.032787593745,AGREE,-1.2390356227728086e-05,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,90,2,0,3.1149,3.11384327294,DIFFER,-0.00033924911233103116,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,90,2,1,0.032809,0.032808848863,AGREE,-4.606571367565884e-06,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,90,3,0,3.1148,3.11377433025,DIFFER,-0.00032928911968657247,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,90,3,1,0.032809,0.03280864293,AGREE,-1.0883294217997929e-05,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,90,4,0,1.4612,1.46023160239,DIFFER,-0.0006627413153573198,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,90,4,1,0.032806,0.0328061430402,AGREE,4.360184112576012e-06,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,100,2,0,3.1526,3.15413652316,DIFFER,0.00048738284590495764,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,100,2,1,0.032789,0.0327892166635,AGREE,6.607810546288928e-06,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,100,3,0,3.1527,3.15426776876,DIFFER,0.0004972781298570111,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,100,3,1,0.032790,0.0327895282786,AGREE,-1.4386136016992453e-05,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,100,4,0,1.4902,1.49054139653,DIFFER,0.00022909443698838626,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,100,4,1,0.032787,0.0327867808119,AGREE,-6.685213651648623e-06,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,110,2,0,2.2706,2.27091001538,DIFFER,0.00013653456355156997,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,110,2,1,0.032789,0.0327894705462,AGREE,1.4350733477822045e-05,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,110,3,0,2.2707,2.27093498183,CLOSE,0.0001034843132072991,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,110,3,1,0.032790,0.0327898258912,AGREE,-5.3098139677446876e-06,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,110,4,0,2.2706,2.27058386804,AGREE,-7.104712410742619e-06,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,110,4,1,0.032789,0.032788659394,AGREE,-1.0387812986112139e-05,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,120,2,0,2.9004,2.90131267002,DIFFER,0.00031467039718657787,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,120,2,1,0.032792,0.0327919422171,AGREE,-1.7621035618298845e-06,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,120,3,0,2.9017,2.90133775954,DIFFER,-0.00012483732294857677,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,120,3,1,0.032810,0.0328103432547,AGREE,1.0461892715757826e-05,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,120,4,0,1.4710,1.47075810173,CLOSE,-0.00016444477906192792,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,120,4,1,0.032805,0.0328053144552,AGREE,9.585587562780375e-06,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,140,2,0,3.0569,3.05526482161,DIFFER,-0.0005349139291440284,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,140,2,1,0.032739,0.0327387883538,AGREE,-6.464650722265542e-06,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,140,3,0,3.0546,3.05515197917,DIFFER,0.0001807042395076078,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,140,3,1,0.032752,0.0327518897272,AGREE,-3.3669027846366633e-06,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,140,4,0,2.2654,2.26594340452,DIFFER,0.0002398713339808085,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,140,4,1,0.032753,0.0327529405686,AGREE,-1.8145330197465094e-06,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,160,2,0,3.0629,3.0633903059,DIFFER,0.00016007897743971355,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,160,2,1,0.032774,0.0327741101277,AGREE,3.360215414687298e-06,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,160,3,0,3.0626,3.06366185954,DIFFER,0.00034671832429948373,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,160,3,1,0.032770,0.0327696066252,AGREE,-1.2004113518398021e-05,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,160,4,0,1.5186,1.51860536837,AGREE,3.535078361709282e-06,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,160,4,1,0.032752,0.0327518973068,AGREE,-3.135478749577593e-06,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,180,2,0,3.0625,3.06360987585,DIFFER,0.00036240844081636186,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,180,2,1,0.032810,0.0328099126044,AGREE,-2.6636879000299987e-06,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,180,3,0,3.0638,3.06375225343,AGREE,-1.558410144263702e-05,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,180,3,1,0.032828,0.032827616338,AGREE,-1.168703545762946e-05,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,180,4,0,1.4584,1.45802574101,DIFFER,-0.00025662300466263517,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,180,4,1,0.032823,0.032822854329,AGREE,-4.4380769581886516e-06,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,200,2,0,3.0610,3.06210565143,DIFFER,0.0003612059555701001,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,200,2,1,0.032791,0.0327912462709,AGREE,7.510319904828602e-06,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,200,3,0,3.0623,3.0621344733,CLOSE,-5.405306468994851e-05,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,200,3,1,0.032807,0.0328074144156,AGREE,1.2631926113209197e-05,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,200,4,0,3.0601,3.06167766377,DIFFER,0.0005155595470736301,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,200,4,1,0.032822,0.0328217364418,AGREE,-8.029925050285106e-06,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,220,2,0,3.0723,3.07080906478,DIFFER,-0.0004852830843341003,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,220,2,1,0.032811,0.0328105037709,AGREE,-1.5123863948021218e-05,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,220,3,0,3.0704,3.07092850891,DIFFER,0.00017213031201146524,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,220,3,1,0.032828,0.0328277252082,AGREE,-8.370653101074115e-06,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,220,4,0,3.0701,3.06972648815,DIFFER,-0.00012166113481642189,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,220,4,1,0.032824,0.032824013663,AGREE,4.162503047226889e-07,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,240,2,0,1.4154,1.41516962759,CLOSE,-0.00016276134661572813,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,240,2,1,0.032808,0.0328084041071,AGREE,1.2317334186934154e-05,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,240,3,0,1.4158,1.41514637452,DIFFER,-0.00046166512219242175,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,240,3,1,0.032826,0.032825895357,AGREE,-3.1878084445633522e-06,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,240,4,0,1.4157,1.41526931862,DIFFER,-0.0003042179699088145,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,240,4,1,0.032822,0.0328222214138,AGREE,6.7458960454221375e-06,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,260,2,0,1.3937,1.39259622234,DIFFER,-0.0007919765085743181,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,260,2,1,0.032736,0.0327363315348,AGREE,1.0127529325578638e-05,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,260,3,0,1.3940,1.39260432588,DIFFER,-0.001001200946915249,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,260,3,1,0.032749,0.0327486918542,AGREE,-9.409319368575877e-06,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,260,4,0,1.3941,1.39278218243,DIFFER,-0.0009452819525141203,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,260,4,1,0.032752,0.0327515456903,AGREE,-1.3871204812092409e-05,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,280,2,0,1.3947,1.39623943343,DIFFER,0.001103773879687279,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,280,2,1,0.032773,0.0327725198986,AGREE,-1.4649296677040781e-05,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,280,3,0,1.3952,1.39627175586,DIFFER,0.0007681736381880503,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,280,3,1,0.032791,0.0327907325105,AGREE,-8.157405995586358e-06,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,280,4,0,1.3951,1.39665678904,DIFFER,0.001115897813776715,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,280,4,1,0.032787,0.0327873670192,AGREE,1.1194046420953893e-05,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,300,2,0,1.4406,1.44085241614,CLOSE,0.0001752159794529596,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam1.f_refined.first,
+sensors,tab:rpm-sweep,300,2,1,0.032773,0.0327725247521,AGREE,-1.4501202209102638e-05,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam1.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,300,3,0,1.4405,1.44093371756,DIFFER,0.00030108820548435477,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam2.f_refined.first,
+sensors,tab:rpm-sweep,300,3,1,0.032770,0.0327704498489,AGREE,1.3727461092416694e-05,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam2.RI.first,Rayleigh resolution 1/T
+sensors,tab:rpm-sweep,300,4,0,1.4400,1.44010890048,CLOSE,7.562533333341535e-05,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam3.f_refined.first,
+sensors,tab:rpm-sweep,300,4,1,0.032753,0.0327526784505,AGREE,-9.817406039099629e-06,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam3.RI.first,Rayleigh resolution 1/T
+sensors,tab:tb3-cross-view,0,2,0,9.2828,9.28347750463,DIFFER,7.298494312056745e-05,SPEC.s3_spectra_by_stream.condition-e0_0rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,0,3,0,9.2829,9.28396979373,DIFFER,0.00011524348317876494,SPEC.s3_spectra_by_stream.condition-e0_0rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,0,4,0,0.0015,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,20,2,0,9.0853,9.08428728586,DIFFER,-0.00011146733074304812,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,20,3,0,9.0830,9.0815559218,DIFFER,-0.00015898692062099262,SPEC.s3_spectra_by_stream.condition-e1_20rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,20,4,0,0.0719,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,40,2,0,1.4443,1.44377853317,DIFFER,-0.00036105160285258164,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,40,3,0,1.4449,1.44435544221,DIFFER,-0.0003768826839228088,SPEC.s3_spectra_by_stream.condition-e2_40rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,40,4,0,0.0170,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,50,2,0,1.4471,1.448573444,DIFFER,0.001018204685232489,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,50,3,0,1.4470,1.44840458943,DIFFER,0.0009706906910849209,SPEC.s3_spectra_by_stream.condition-e3_50rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,50,4,0,0.0045,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,60,2,0,1.3820,1.38178807353,CLOSE,-0.00015334766280737357,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,60,3,0,1.3815,1.38169949409,CLOSE,0.00014440397394142976,SPEC.s3_spectra_by_stream.condition-e4_60rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,60,4,0,0.0141,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,70,2,0,1.4449,1.44414339722,DIFFER,-0.0005236367776317496,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,70,3,0,1.4448,1.44421834466,DIFFER,-0.00040258536821704513,SPEC.s3_spectra_by_stream.condition-e5_70rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,70,4,0,0.0015,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,80,2,0,1.4706,1.46976589089,DIFFER,-0.000567189657282691,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,80,3,0,1.4703,1.46978665968,DIFFER,-0.00034913984901036813,SPEC.s3_spectra_by_stream.condition-e6_80rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,80,4,0,0.0073,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,90,2,0,3.1149,3.11384327294,DIFFER,-0.00033924911233103116,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,90,3,0,3.1148,3.11377433025,DIFFER,-0.00032928911968657247,SPEC.s3_spectra_by_stream.condition-e7_90rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,90,4,0,0.0005,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,100,2,0,3.1526,3.15413652316,DIFFER,0.00048738284590495764,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,100,3,0,3.1527,3.15426776876,DIFFER,0.0004972781298570111,SPEC.s3_spectra_by_stream.condition-e8_100rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,100,4,0,0.0008,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,110,2,0,2.2706,2.27091001538,DIFFER,0.00013653456355156997,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,110,3,0,2.2707,2.27093498183,CLOSE,0.0001034843132072991,SPEC.s3_spectra_by_stream.condition-e9_110rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,110,4,0,0.0006,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,120,2,0,2.9004,2.90131267002,DIFFER,0.00031467039718657787,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,120,3,0,2.9017,2.90133775954,DIFFER,-0.00012483732294857677,SPEC.s3_spectra_by_stream.condition-e10_120rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,120,4,0,0.0411,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,140,2,0,3.0569,3.05526482161,DIFFER,-0.0005349139291440284,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,140,3,0,3.0546,3.05515197917,DIFFER,0.0001807042395076078,SPEC.s3_spectra_by_stream.condition-e11_140rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,140,4,0,0.0688,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,160,2,0,3.0629,3.0633903059,DIFFER,0.00016007897743971355,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,160,3,0,3.0626,3.06366185954,DIFFER,0.00034671832429948373,SPEC.s3_spectra_by_stream.condition-e12_160rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,160,4,0,0.0107,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,180,2,0,3.0625,3.06360987585,DIFFER,0.00036240844081636186,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,180,3,0,3.0638,3.06375225343,AGREE,-1.558410144263702e-05,SPEC.s3_spectra_by_stream.condition-e13_180rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,180,4,0,0.0421,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,200,2,0,3.0610,3.06210565143,DIFFER,0.0003612059555701001,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,200,3,0,3.0623,3.0621344733,CLOSE,-5.405306468994851e-05,SPEC.s3_spectra_by_stream.condition-e14_200rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,200,4,0,0.0385,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,220,2,0,3.0723,3.07080906478,DIFFER,-0.0004852830843341003,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,220,3,0,3.0704,3.07092850891,DIFFER,0.00017213031201146524,SPEC.s3_spectra_by_stream.condition-e15_220rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,220,4,0,0.0589,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,240,2,0,1.4154,1.41516962759,CLOSE,-0.00016276134661572813,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,240,3,0,1.4158,1.41514637452,DIFFER,-0.00046166512219242175,SPEC.s3_spectra_by_stream.condition-e16_240rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,240,4,0,0.0149,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,260,2,0,1.3937,1.39259622234,DIFFER,-0.0007919765085743181,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,260,3,0,1.3940,1.39260432588,DIFFER,-0.001001200946915249,SPEC.s3_spectra_by_stream.condition-e17_260rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,260,4,0,0.0103,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,280,2,0,1.3947,1.39623943343,DIFFER,0.001103773879687279,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,280,3,0,1.3952,1.39627175586,DIFFER,0.0007681736381880503,SPEC.s3_spectra_by_stream.condition-e18_280rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,280,4,0,0.0152,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,300,2,0,1.4406,1.44085241614,CLOSE,0.0001752159794529596,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,300,3,0,1.4405,1.44093371756,DIFFER,0.00030108820548435477,SPEC.s3_spectra_by_stream.condition-e19_300rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,300,4,0,0.0018,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:tb3-cross-view,320,2,0,2.9417,,NOT_IN_LEDGER,,SPEC.s3_spectra_by_stream.condition-e20_320rpm.camera-cam1.f_refined.first,
+sensors,tab:tb3-cross-view,320,3,0,2.9397,,NOT_IN_LEDGER,,SPEC.s3_spectra_by_stream.condition-e20_320rpm.camera-cam2.f_refined.first,
+sensors,tab:tb3-cross-view,320,4,0,0.0610,,UNMAPPED,,|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
+sensors,tab:timebase,Interpolated to uniform 60 Hz grid,1,0,0.106,0.1,DIFFER,-0.05660377358490558,TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_i60_RI.max,
+sensors,tab:timebase,Interpolated to uniform 60 Hz grid,2,0,0.016,0.0,DIFFER,-1.0,TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_i60_RI.median,
+sensors,tab:timebase,Interpolated to uniform 60 Hz grid,3,0,1,2.0,CLOSE,1.0,TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_i60_RI-GT-0.1.d_i60_RI.count,
+sensors,tab:timebase,Interpolated to uniform 59.94 Hz grid,1,0,0.064,,UNMAPPED,,no 59.94 Hz treatment exists in the rebuilt S3 table,
+sensors,tab:timebase,Interpolated to uniform 59.94 Hz grid,2,0,0.004,,UNMAPPED,,no 59.94 Hz treatment exists in the rebuilt S3 table,
+sensors,tab:timebase,Interpolated to uniform 59.94 Hz grid,3,0,0,,UNMAPPED,,no 59.94 Hz treatment exists in the rebuilt S3 table,
+sensors,tab:timebase,"Timestamps ignored, nominal 60 Hz",1,0,1.492,1.5,DIFFER,0.005361930294906171,TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_nom_RI.max,
+sensors,tab:timebase,"Timestamps ignored, nominal 60 Hz",2,0,0.030,0.0,DIFFER,-1.0,TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_nom_RI.median,
+sensors,tab:timebase,"Timestamps ignored, nominal 60 Hz",3,0,11,18.0,DIFFER,0.6363636363636364,TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_nom_RI-GT-0.1.d_nom_RI.count,

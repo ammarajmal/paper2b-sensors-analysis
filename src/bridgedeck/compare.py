@@ -64,6 +64,10 @@ def camera_table(frames: pd.DataFrame) -> pd.DataFrame:
                 float(np.std(bend)),
                 float(np.std(tors)),
             )
+            r["cam_legacy_bend_peak"], r["cam_legacy_tors_peak"] = (  # laser convention: max |x - mean|
+                float(np.max(np.abs(bend - bend.mean()))),
+                float(np.max(np.abs(tors - tors.mean()))),
+            )
             r["legacy_pair_share"] = float(ok.mean())
         rows.append(r)
     return pd.DataFrame(rows).sort_values("rpm").reset_index(drop=True)

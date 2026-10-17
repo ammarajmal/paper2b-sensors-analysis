@@ -28,6 +28,8 @@
   "cam_legacy_tors_Afa": 0.00027119114504217873,
   "cam_legacy_bend_rms": 0.003883356499274954,
   "cam_legacy_tors_rms": 0.005000417777526168,
+  "cam_legacy_bend_peak": 0.02432913944645179,
+  "cam_legacy_tors_peak": 0.02784038855578627,
   "cam_dom_hz": 9.283969793733393
  },
  "laser": {
