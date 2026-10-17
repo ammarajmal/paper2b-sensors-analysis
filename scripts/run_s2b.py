@@ -63,7 +63,8 @@ def run_stream(args):
 
 
 if __name__ == "__main__":
-    jobs = [(c, k) for c in CONDS for k in CAMS]
-    with ProcessPoolExecutor(max_workers=9) as ex:
+    jobs = [(c, k) for c in CONDS for k in CAMS if not (O / f"s2b_{c}_{k}.parquet").exists()]   # resume: finished streams are kept
+    print("streams to do:", len(jobs), flush=True)
+    with ProcessPoolExecutor(max_workers=8) as ex:
         for res in ex.map(run_stream, jobs):
             print("done", res, flush=True)
