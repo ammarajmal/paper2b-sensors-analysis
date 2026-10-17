@@ -4,7 +4,7 @@ from pathlib import Path
 from bridgedeck import pose, paths
 O=Path(paths.load()["outputs"]); R=paths.REPO/"results"; FH,FA=1.4318,3.0982
 det=pd.read_parquet(O/"s2_detect/wtt_main/detections_ALL21.parquet")
-CH=["P0_y_px","P1_y_mm","P2_y_mm","P3_y_mm","P4_y_mm","P6_y_mm","P1_x_mm","P3_x_mm","P3_z_mm","P3_rx_rad","P3_ry_rad","P3_rz_rad","P5_roll_rad"]
+CH=["H1_y_mm","H1_x_mm","H2_roll_rad","P0_y_px","P1_y_mm","P2_y_mm","P3_y_mm","P4_y_mm","P6_y_mm","P1_x_mm","P3_x_mm","P3_z_mm","P3_rx_rad","P3_ry_rad","P3_rz_rad","P5_roll_rad"]
 def one(key):
     cond,cam=key
     g=det[(det.condition==cond)&(det.camera==cam)&det.detected&(det.decision_margin>=30)].sort_values("frame_idx")

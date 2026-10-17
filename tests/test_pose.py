@@ -49,3 +49,24 @@ def test_noise_tolerance():
     mm = pose.TAG_MM / np.median(pose.side_len(cu))
     y1 = (cu.mean(axis=1)[:, 1] - np.median(cu.mean(axis=1)[:, 1])) * mm
     assert abs(pose.line_amplitude(t, y1, 1.4318)[0] - 0.5) / 0.5 < 0.05
+
+
+def test_rectified_recovers_motion_under_tilt():
+    import cv2
+
+    n = 600
+    t = np.arange(n) / 60.0
+    dy, roll = 0.5 * np.sin(2 * np.pi * 1.4318 * t), 0.02 * np.sin(2 * np.pi * 3.0982 * t)
+    tilt = np.radians(20)
+    Rt = cv2.Rodrigues(np.array([0.0, tilt, 0.0]))[0]
+    fr = []
+    for i in range(n):
+        Rr = cv2.Rodrigues(np.array([0.0, 0.0, roll[i]]))[0]  # in-plane roll in the tag plane
+        pts_tag = (Rr @ pose.obj_points("a").T).T + np.array([0, dy[i], 0])
+        rv = cv2.Rodrigues(Rt)[0]
+        p, _ = cv2.projectPoints(pts_tag, rv, np.array([[3.0], [0.0], [1600.0]]), K, D)
+        fr.append(p.reshape(4, 2))
+    cu = pose.undistort(np.array(fr), K, D)
+    h = pose.rectified_channels(cu)
+    assert abs(pose.line_amplitude(t, h["H1_y_mm"], 1.4318)[0] - 0.5) / 0.5 < 0.01
+    assert abs(pose.line_amplitude(t, h["H2_roll_rad"], 3.0982)[0] - 0.02) / 0.02 < 0.01

@@ -9,4 +9,11 @@ Pass criteria:
  2. Real data, same marker: for cam1 versus cam2 (both view the offset marker), the amplitude ratio cam2/cam1 for (a) roll at the torsion line, (b) vertical displacement at the torsion line, (c) vertical displacement at the bending line, over all conditions where cam1 has amplitude > 5x its e0 noise floor at that line. Compare the median |ratio - 1| of (P5, P1) with (H2, H1).
  3. Adoption rule: H replaces P in the summary tables only if the median |ratio - 1| falls by at least 25% (relative) for each of (a), (b), (c) and none of the three worsens by more than 10%. Otherwise both are kept and P stays the default. Either way all columns are stored.
 Failure means: the rectified estimators do not improve agreement; the 1-2% cam1/cam2 difference is then treated as measurement noise plus small geometry, and reported as such.
-Result: (filled after the run)
+RESULT (2026-10-17; src/bridgedeck/pose.py rectified_channels, tests/test_pose.py, scripts/run_s4.py rerun; columns H1_x_mm, H1_y_mm, H2_roll_rad added to results/s4_pose_by_stream.csv and the per-frame parquet):
+ 1. PASS: with a 20 degree tilt, H1 and H2 recover the 0.5 mm / 0.02 rad motion within 1%. (17 tests pass in the repo.)
+ 2. Real data, cam2/cam1 amplitude ratio on the same marker, median |ratio - 1|:
+    (a) roll at the torsion line, 16 conditions: P5 1.62%  ->  H2 0.80%  (-51%)
+    (b) vertical at the torsion line, 17 conditions: P1 0.29%  ->  H1 0.23%  (-19%)
+    (c) vertical at the bending line, 19 conditions: P1 0.45%  ->  H1 0.32%  (-29%)
+ 3. Adoption rule: NOT met as written (it needs every one of (a), (b), (c) to improve by >= 25%; (b) improved by 19%). No metric worsened. So P stays the default in the summary tables, and H1/H2 are stored and carried into S6 as additional candidate channels (owner decision: compute all, choose later).
+Reading: rectification halves the camera-to-camera disagreement in rotation and trims the vertical disagreement a little, but all the disagreements were already small (under 2% for rotation, under 0.5% for vertical), so the effect on the final comparison with the laser will be small compared with the 2.5% tag-size scale uncertainty. Inverting the PnP pose was not done (ambiguous angles, S4).

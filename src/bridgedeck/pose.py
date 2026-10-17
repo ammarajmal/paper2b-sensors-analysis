@@ -140,6 +140,8 @@ def stream_channels(g: pd.DataFrame, cam: str) -> pd.DataFrame:
     out["P5_roll_rad"] = ang - np.median(ang)
     cm = c.mean(axis=1)
     cmu = undistort(c, K, D).mean(axis=1)
+    for k, v in rectified_channels(cu).items():
+        out[k] = v
     out["P6_x_mm"], out["P6_y_mm"] = (
         (cmu[:, 0] - np.median(cmu[:, 0])) * mm_px,
         (cmu[:, 1] - np.median(cmu[:, 1])) * mm_px,
@@ -168,3 +170,21 @@ def line_amplitude(
         if a > best[0]:
             best = (a, float(f))
     return best
+
+
+def rectified_channels(cu: np.ndarray, s: float = TAG_MM) -> dict[str, np.ndarray]:
+    """H1/H2 (docs/gates/S4b.md): map undistorted corners through the inverse of the reference tag-plane homography."""
+    h = s / 2
+    plane = np.array([[-h, -h], [h, -h], [h, h], [-h, h]], np.float32)
+    ref = np.median(cu, axis=0).astype(np.float32)
+    H, _ = cv2.findHomography(plane, ref, method=0)
+    Hinv = np.linalg.inv(H)
+    pts = cu.reshape(-1, 1, 2).astype(np.float64)
+    m = cv2.perspectiveTransform(pts, Hinv).reshape(-1, 4, 2)
+    cen = m.mean(axis=1)
+    ang = edge_angle(m)
+    return {
+        "H1_x_mm": cen[:, 0] - np.median(cen[:, 0]),
+        "H1_y_mm": cen[:, 1] - np.median(cen[:, 1]),
+        "H2_roll_rad": ang - np.median(ang),
+    }
