@@ -35,6 +35,11 @@
 | R | Regime rule a (both instruments >= 5x their own zero-wind amplitude) is adopted as the basis for the 2025-versus-2024 decision, as an AMENDMENT to the primary (rule d) fixed on 2026-10-17 | reason (physical, not outcome): a ratio is only meaningful where both instruments clearly see the motion. The amendment is made after seeing S6 results and must be stated as such in the paper; rule d (all 19) remains reported |
 | other | all four regime rules, all metrics, both pairing arms stay recorded; S6b variants stay exploratory | owner 2026-10-17 |
 
+## Owner decision of 2026-10-17 (after S8)
+| ID | Decision | Reason |
+|---|---|---|
+| N | The manuscripts carry the REBUILT numbers throughout (ledger values, not the earlier published or audit values) once each number is in the ledger with provenance | single reproducible source; owner decision 2026-10-17. Numbers without a ledger row stay "as previously computed" until they have one. Consequence: abstract values such as mean ratio 1.217 and RMSE 0.288 change in the revision |
+
 ## Still open
 - Final selection among candidates for O3 and O4, and whether 2024 is dropped (O1), after the analyses above.
 - Kit D4, D5, D7, D8 (see the kit OPEN_DECISIONS.md).
