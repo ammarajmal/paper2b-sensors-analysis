@@ -90,7 +90,7 @@ for e in exp:
             elif v is None:
                 st, rb, rd = "NOT_IN_LEDGER", "", ""  # e.g. 320 RPM streams the pipeline rejected
             else:
-                st = "AGREE" if round(v, d) == float(tok) else ("CLOSE" if abs(v - float(tok)) <= 3 * 10 ** -d else "DIFFER"); rb = v; rd = (v - float(tok)) / float(tok) if float(tok) else ""
+                st = "AGREE" if round(v, d) == float(tok) else ("CLOSE" if d > 0 and abs(v - float(tok)) <= 3 * 10 ** -d else "DIFFER"); rb = v; rd = (v - float(tok)) / float(tok) if float(tok) else ""
             report.append(dict(manuscript=mp["manuscript"], label=mp["label"], row=r[0] if rk is None else rk, col=ci, part=p, printed=tok, rebuilt=rb, status=st, rel_diff=rd, id_or_reason=ident, note=mp["note"]))
 tmpl_ok = all(any(r["status"] in ("AGREE", "CLOSE", "DIFFER") for r in report if (r["label"], r["col"], r["part"]) == (m["label"], int(m["col_idx"]), int(m["part"]))) or m["expr"].startswith("unmapped") for m in amap)
 miss = [m for m in amap if not tmpl_ok]

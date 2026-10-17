@@ -51,9 +51,9 @@
 | tab:tb4-posthoc-reference | 6.0 | 8 | 11 | 0 | 0 | 0 | |
 | tab:tb4-posthoc-reference | 7.0 | 0 | 0 | 0 | 0 | 0 | |
 | tab:tb4-posthoc-reference | 8.0 | 0 | 0 | 0 | 0 | 0 | |
-| tab:timebase | 1.0 | 0 | 0 | 2 | 1 | 0 | 0.031 |
-| tab:timebase | 2.0 | 0 | 0 | 2 | 1 | 0 | 1.000 |
-| tab:timebase | 3.0 | 0 | 1 | 1 | 1 | 0 | 0.636 |
+| tab:timebase | 1.0 | 0 | 0 | 3 | 0 | 0 | 0.475 |
+| tab:timebase | 2.0 | 0 | 0 | 3 | 0 | 0 | 0.948 |
+| tab:timebase | 3.0 | 1 | 0 | 2 | 0 | 0 | 0.773 |
 | tab:torsion | 1.0 | 0 | 1 | 18 | 0 | 0 | 0.049 |
 | tab:torsion | 2.0 | 16 | 3 | 0 | 0 | 0 | |
 | tab:torsion | 3.0 | 1 | 9 | 9 | 0 | 0 | 0.607 |

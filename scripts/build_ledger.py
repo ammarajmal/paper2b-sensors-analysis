@@ -9,7 +9,7 @@ SCRIPT = {  # producing script per results file
     "reference_frequencies_free_vibration.json": "scripts/run_s5a.py", "s1_census_wtt_main.csv": "bridgedeck census", "gate_S2_full.json": "bridgedeck gate-s2",
     "s2c_summary.json": "scripts/run_s2c.py", "s3_spectra_by_stream.csv": "scripts/run_s3.py", "laser_y2025_by_condition.csv": "scripts/run_s5a.py",
     "laser_y2024_by_condition.csv": "scripts/run_s5a.py", "s6_metrics.csv": "scripts/run_s6.py", "s6_closeness.csv": "scripts/run_s6.py",
-    "s6b_variant_metrics.csv": "scripts/run_s6b.py", "s6b_variant_closeness.csv": "scripts/run_s6b.py", "s7_budget_by_condition.csv": "scripts/run_s7.py", "paperset_check.csv": "scripts/run_paperset_check.py", "paperset_intervals.csv": "scripts/run_paperset_intervals.py", "s6_matched_pairs.csv": "scripts/run_s6.py",
+    "s6b_variant_metrics.csv": "scripts/run_s6b.py", "s6b_variant_closeness.csv": "scripts/run_s6b.py", "s7_budget_by_condition.csv": "scripts/run_s7.py", "paperset_check.csv": "scripts/run_paperset_check.py", "paperset_intervals.csv": "scripts/run_paperset_intervals.py", "s3b_timebase_refined.csv": "scripts/run_s3b.py", "s6_matched_pairs.csv": "scripts/run_s6.py",
 }
 commit = subprocess.check_output(["git", "-C", str(paths.REPO), "rev-parse", "--short", "HEAD"], text=True).strip()
 rows, cache = [], {}
@@ -154,6 +154,11 @@ for c in ("d_E1_RI", "d_hdr_RI", "d_i60_RI", "d_nom_RI"):
     add("TBASE", f"median shift, admitted streams, {c}", "s3_spectra_by_stream.csv", base, c, "median")
     add("TBASE", f"streams with shift > 0.1, {c}", "s3_spectra_by_stream.csv", base + f";{c}>0.1", c, "count", "streams")
 add("TBASE", "admitted streams", "s3_spectra_by_stream.csv", "condition!=e20_320rpm", "RI", "count", "streams")
+for k in ("s_hdr_RI", "s_i60_RI", "s_i5994_RI", "s_nom_RI"):
+    base = "condition!=e20_320rpm"
+    add("TBASE2", f"max refined-frequency shift in Rayleigh intervals, admitted streams, {k}", "s3b_timebase_refined.csv", base, k, "max")
+    add("TBASE2", f"median refined-frequency shift, admitted streams, {k}", "s3b_timebase_refined.csv", base, k, "median")
+    add("TBASE2", f"streams with refined shift > 0.1, {k}", "s3b_timebase_refined.csv", base + f";{k}>0.1", k, "count", "streams")
 for _, r in load("paperset_intervals.csv")[["quantity", "stat"]].iterrows():
     for c in ("estimate", "ci_lo", "ci_hi"):
         add("EXPL_PAPERSET", f"paperset16 {c}", "paperset_intervals.csv", f"scope=paperset16;quantity={r.quantity};stat={r.stat}", c, "first")

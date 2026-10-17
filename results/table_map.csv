@@ -50,12 +50,12 @@ sensors,tab:rpm-sweep,0,4,1,rpm,1,,id:SPEC.s3_spectra_by_stream.condition-{cond}
 sensors,tab:tb3-cross-view,0,2,0,rpm,1,,id:SPEC.s3_spectra_by_stream.condition-{cond}.camera-cam1.f_refined.first,
 sensors,tab:tb3-cross-view,0,3,0,rpm,1,,id:SPEC.s3_spectra_by_stream.condition-{cond}.camera-cam2.f_refined.first,
 sensors,tab:tb3-cross-view,0,4,0,rpm,1,,unmapped:|df|/dfR is defined in the table footnote; the divisor stream is not stated in the table text,
-sensors,tab:timebase,0,1,0,label,0,Interpolated to uniform 60 Hz grid,id:TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_i60_RI.max,
-sensors,tab:timebase,0,2,0,label,0,Interpolated to uniform 60 Hz grid,id:TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_i60_RI.median,
-sensors,tab:timebase,0,3,0,label,0,Interpolated to uniform 60 Hz grid,id:TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_i60_RI-GT-0.1.d_i60_RI.count,
-sensors,tab:timebase,0,1,0,label,0,"Timestamps ignored, nominal 60 Hz",id:TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_nom_RI.max,
-sensors,tab:timebase,0,2,0,label,0,"Timestamps ignored, nominal 60 Hz",id:TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_nom_RI.median,
-sensors,tab:timebase,0,3,0,label,0,"Timestamps ignored, nominal 60 Hz",id:TBASE.s3_spectra_by_stream.condition-NOT-e20_320rpm.d_nom_RI-GT-0.1.d_nom_RI.count,
-sensors,tab:timebase,0,1,0,label,0,Interpolated to uniform 59.94 Hz grid,unmapped:no 59.94 Hz treatment exists in the rebuilt S3 table,
-sensors,tab:timebase,0,2,0,label,0,Interpolated to uniform 59.94 Hz grid,unmapped:no 59.94 Hz treatment exists in the rebuilt S3 table,
-sensors,tab:timebase,0,3,0,label,0,Interpolated to uniform 59.94 Hz grid,unmapped:no 59.94 Hz treatment exists in the rebuilt S3 table,
+sensors,tab:timebase,0,1,0,label,0,Interpolated to uniform 60 Hz grid,id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_i60_RI.max,refined-frequency shift (S3b)
+sensors,tab:timebase,0,2,0,label,0,Interpolated to uniform 60 Hz grid,id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_i60_RI.median,refined-frequency shift (S3b)
+sensors,tab:timebase,0,3,0,label,0,Interpolated to uniform 60 Hz grid,id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_i60_RI-GT-0.1.s_i60_RI.count,refined-frequency shift (S3b)
+sensors,tab:timebase,0,1,0,label,0,Interpolated to uniform 59.94 Hz grid,id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_i5994_RI.max,refined-frequency shift (S3b)
+sensors,tab:timebase,0,2,0,label,0,Interpolated to uniform 59.94 Hz grid,id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_i5994_RI.median,refined-frequency shift (S3b)
+sensors,tab:timebase,0,3,0,label,0,Interpolated to uniform 59.94 Hz grid,id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_i5994_RI-GT-0.1.s_i5994_RI.count,refined-frequency shift (S3b)
+sensors,tab:timebase,0,1,0,label,0,"Timestamps ignored, nominal 60 Hz",id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_nom_RI.max,refined-frequency shift (S3b)
+sensors,tab:timebase,0,2,0,label,0,"Timestamps ignored, nominal 60 Hz",id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_nom_RI.median,refined-frequency shift (S3b)
+sensors,tab:timebase,0,3,0,label,0,"Timestamps ignored, nominal 60 Hz",id:TBASE2.s3b_timebase_refined.condition-NOT-e20_320rpm.s_nom_RI-GT-0.1.s_nom_RI.count,refined-frequency shift (S3b)
