@@ -22,6 +22,11 @@
 | O5 | Use the latest official AprilTag release; suggest anything better, otherwise use it. | Latest tag checked (see below). v3.4.5 stays the reference for reproducing the frozen detections; a newer release is tested as a sensitivity run. |
 | D6 | Do not use three values per mode. Reproduce the natural frequencies from raw data once, use that one value everywhere. | S5 free-vibration analysis from the raw 2025 records, with an uncertainty interval; the single value is then used in both papers. |
 
+## Open-issue checks of 2026-10-17 (docs/OPEN_ISSUES_2026-10-17.md)
+- Tag size: ruler graduations support 20 mm to about 1% (ticks assumed 5 mm; owner to confirm the ruler). Budget carries 2.5% until confirmed.
+- Camera scale: +/-2.5% changes the primary heave error E by at most 0.003; the laser cannot determine the tag size (opposite optimum scales for the two sessions).
+- Laser spacing d: full difference over d is supported by the camera angle (ratio about 1.1-1.2, not 0.5-0.6); implied d is 10-16% below the vendor values (13 cm, 10 cm); carried as an input with +/-15%, not tuned.
+
 ## Still open
 - Final selection among candidates for O3 and O4, and whether 2024 is dropped (O1), after the analyses above.
 - Kit D4, D5, D7, D8 (see the kit OPEN_DECISIONS.md).

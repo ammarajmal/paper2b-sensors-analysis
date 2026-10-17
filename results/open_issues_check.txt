@@ -1,0 +1,11 @@
+== 1. tag size from the ruler graduations (e0_0rpm frame 0; ruler ticks assumed 5 mm: printed numbers 10 and 5 are 10 ticks apart, read as cm)
+cam1: tag side 289.92 px; tick period 72.08 px (comb fit, 25 intervals) / 72.22 px (mean of 9 clean spacings) -> tag = 20.11 mm / 20.07 mm
+cam3: tag side 292.44 px; tick period 72.26 px (comb fit, 25 intervals) / 72.14 px (mean of 7 clean spacings) -> tag = 20.23 mm / 20.27 mm
+
+== 2. camera scale sensitivity on the primary heave error E (arm A, 19 conditions)
+y2025: E at -2.5%/0/+2.5% = 0.448/0.445/0.442; E-minimising scale x1.33 (tag 26.5 mm), bootstrap 95% [0.88, 2.00]
+y2024: E at -2.5%/0/+2.5% = 0.566/0.568/0.571; E-minimising scale x0.74 (tag 14.9 mm), bootstrap 95% [0.50, 1.39]
+
+== 3. head spacing d implied by the camera's pitch angle (consistency check, not a calibration)
+y2025: conditions [90, 140, 160, 180, 200, 220]; camera/laser pitch ratio median 1.117; implied d 11.7 cm [10.5, 12.5] vs vendor 13 cm; ratio if the vendor halving were right: 0.56
+y2024: conditions [90, 140, 160, 180, 200, 220]; camera/laser pitch ratio median 1.194; implied d 8.4 cm [5.9, 8.9] vs vendor 10 cm; ratio if the vendor halving were right: 0.60
