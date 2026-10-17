@@ -1,0 +1,77 @@
+quantity,session,condition,rpm,type,type_literal,type_floor_first,flags,cam_floor,las_floor,dom_diff_hz,ln_ratio,abs_ln,u_R,jump,type_onset_jump
+Q1,y2025,e1_20rpm,20,a_camera_defect,a_camera_defect,a_camera_defect,F3 F5 F6,False,True,4.7253059,-1.3457231,1.3457231,0.58268022,False,a_camera_defect
+Q1,y2025,e2_40rpm,40,a_camera_defect,a_camera_defect,a_camera_defect,F6,False,True,3.4872647,0.34232106,0.34232106,0.83798121,True,a_camera_defect
+Q1,y2025,e3_50rpm,50,d_unexplained,d_unexplained,d_unexplained,,False,False,0.035904589,0.034563368,0.034563368,0.33698831,False,d_unexplained
+Q1,y2025,e4_60rpm,60,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.049540783,-3.1645485,3.1645485,0.18616152,True,b_regime_mismatch
+Q1,y2025,e5_70rpm,70,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.00046834466,0.043499376,0.043499376,0.059103703,True,b_regime_mismatch
+Q1,y2025,e6_80rpm,80,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.6364841,2.157166,2.157166,0.26935782,True,b_regime_mismatch
+Q1,y2025,e7_90rpm,90,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0049756697,-0.58072661,0.58072661,0.17451693,True,b_regime_mismatch
+Q1,y2025,e8_100rpm,100,a_camera_defect,a_camera_defect,a_camera_defect,F3,False,False,1.6603865,0.13295935,0.13295935,0.3399188,False,a_camera_defect
+Q1,y2025,e9_110rpm,110,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,0.84591002,-0.77008153,0.77008153,0.20297793,False,b_regime_mismatch
+Q1,y2025,e10_120rpm,120,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,0.62631267,0.52442098,0.52442098,0.29231286,False,b_regime_mismatch
+Q1,y2025,e11_140rpm,140,a_camera_defect,a_camera_defect,a_camera_defect,F3,False,False,0.0010980208,-1.2030573,1.2030573,0.17615999,True,a_camera_defect
+Q1,y2025,e12_160rpm,160,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0008903059,0.16654593,0.16654593,0.10578414,False,d_unexplained
+Q1,y2025,e13_180rpm,180,a_camera_defect,a_camera_defect,a_camera_defect,F3,False,False,0.0011098758,-0.3933616,0.3933616,0.2378093,False,a_camera_defect
+Q1,y2025,e14_200rpm,200,d_unexplained,d_unexplained,d_unexplained,,False,False,0.00039434857,-0.37084067,0.37084067,0.26493269,False,d_unexplained
+Q1,y2025,e15_220rpm,220,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0020590648,-0.4211269,0.4211269,0.31989882,False,d_unexplained
+Q1,y2025,e16_240rpm,240,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.058919628,-0.16408379,0.16408379,0.2376117,False,d_unexplained
+Q1,y2025,e17_260rpm,260,d_unexplained,d_unexplained,d_unexplained,,False,False,0.023854326,-0.19336401,0.19336401,0.29006654,False,d_unexplained
+Q1,y2025,e18_280rpm,280,d_unexplained,d_unexplained,d_unexplained,,False,False,0.041228244,-0.26467028,0.26467028,0.20491313,False,d_unexplained
+Q1,y2025,e19_300rpm,300,d_unexplained,d_unexplained,d_unexplained,,False,False,0.015852416,0.1062937,0.1062937,0.26490558,False,d_unexplained
+Q1,y2024,e1_20rpm,20,a_camera_defect,a_camera_defect,a_camera_defect,F3 F5 F6,False,True,0.70177741,0.77768354,0.77768354,1.3393583,False,a_camera_defect
+Q1,y2024,e2_40rpm,40,a_camera_defect,a_camera_defect,a_camera_defect,F6,False,False,0.010181367,-0.2155951,0.2155951,0.48045519,False,a_camera_defect
+Q1,y2024,e3_50rpm,50,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0099287439,0.53318007,0.53318007,0.30969957,False,d_unexplained
+Q1,y2024,e4_60rpm,60,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.04745745,-3.4059636,3.4059636,0.18521924,True,b_regime_mismatch
+Q1,y2024,e5_70rpm,70,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.0016149887,0.10845422,0.10845422,0.059223769,True,b_regime_mismatch
+Q1,y2024,e6_80rpm,80,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.6385674,3.675305,3.675305,0.3050574,True,b_regime_mismatch
+Q1,y2024,e7_90rpm,90,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0070590031,0.46508005,0.46508005,0.29535936,True,b_regime_mismatch
+Q1,y2024,e8_100rpm,100,a_camera_defect,a_camera_defect,a_camera_defect,F3,False,False,0.76663652,0.79904291,0.79904291,0.15727236,False,a_camera_defect
+Q1,y2024,e9_110rpm,110,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,0.79591002,-0.51590343,0.51590343,0.26974486,False,b_regime_mismatch
+Q1,y2024,e10_120rpm,120,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.032020663,0.71018251,0.71018251,0.23199779,False,d_unexplained
+Q1,y2024,e11_140rpm,140,a_camera_defect,a_camera_defect,a_camera_defect,F3,False,False,0.0031813542,0.29380131,0.29380131,0.25009532,False,a_camera_defect
+Q1,y2024,e12_160rpm,160,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0032763608,0.78568487,0.78568487,0.29080786,False,d_unexplained
+Q1,y2024,e13_180rpm,180,a_camera_defect,a_camera_defect,a_camera_defect,F3,False,False,0.0030567908,-0.18166639,0.18166639,0.22975986,False,a_camera_defect
+Q1,y2024,e14_200rpm,200,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0087276819,-0.40563036,0.40563036,0.27357053,False,d_unexplained
+Q1,y2024,e15_220rpm,220,d_unexplained,d_unexplained,d_unexplained,,False,False,0.016690935,-0.22605172,0.22605172,0.28994228,False,d_unexplained
+Q1,y2024,e16_240rpm,240,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.055663706,-0.018062274,0.018062274,0.1582658,False,d_unexplained
+Q1,y2024,e17_260rpm,260,d_unexplained,d_unexplained,d_unexplained,,False,False,0.019895674,0.19563541,0.19563541,0.35149921,False,d_unexplained
+Q1,y2024,e18_280rpm,280,d_unexplained,d_unexplained,d_unexplained,,False,False,0.082894911,0.28817611,0.28817611,0.14988883,False,d_unexplained
+Q1,y2024,e19_300rpm,300,b_regime_mismatch,b_regime_mismatch,b_regime_mismatch,,False,False,1.5008143,1.943034,1.943034,0.38464756,True,b_regime_mismatch
+Q2,y2025,e1_20rpm,20,a_camera_defect,a_camera_defect,c_noise_floor,F3 F6,True,True,0.15030592,-1.7213809,1.7213809,1.1914052,False,c_noise_floor
+Q2,y2025,e2_40rpm,40,a_camera_defect,a_camera_defect,c_noise_floor,F3 F6,True,True,0.1939853,-1.7522998,1.7522998,1.0419096,False,c_noise_floor
+Q2,y2025,e3_50rpm,50,a_camera_defect,a_camera_defect,c_noise_floor,F3,True,True,4.6265954,-0.21798295,0.21798295,0.98924063,False,c_noise_floor
+Q2,y2025,e4_60rpm,60,a_camera_defect,a_camera_defect,a_camera_defect,F3,False,True,2.9057908,0.25673739,0.25673739,0.76629198,False,a_camera_defect
+Q2,y2025,e5_70rpm,70,c_noise_floor,c_noise_floor,c_noise_floor,,False,True,1.4432817,0.46885684,0.46885684,0.46203165,False,c_noise_floor
+Q2,y2025,e6_80rpm,80,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.6364841,-2.4968175,2.4968175,0.32314451,True,b_regime_mismatch
+Q2,y2025,e7_90rpm,90,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.0049756697,0.14606849,0.14606849,0.087163366,True,b_regime_mismatch
+Q2,y2025,e8_100rpm,100,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.0021134768,0.69989648,0.69989648,0.37624773,False,d_unexplained
+Q2,y2025,e9_110rpm,110,a_camera_defect,a_camera_defect,a_camera_defect,F3 F5,False,True,0.84591002,0.91919738,0.91919738,0.38930353,False,a_camera_defect
+Q2,y2025,e10_120rpm,120,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.01743733,0.12686293,0.12686293,0.40433924,False,d_unexplained
+Q2,y2025,e11_140rpm,140,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0010980208,0.0066590359,0.0066590359,0.11953526,False,d_unexplained
+Q2,y2025,e12_160rpm,160,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0008903059,0.14881409,0.14881409,0.088488157,False,d_unexplained
+Q2,y2025,e13_180rpm,180,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.0011098758,0.067566675,0.067566675,0.087518382,False,d_unexplained
+Q2,y2025,e14_200rpm,200,d_unexplained,d_unexplained,d_unexplained,,False,False,0.00039434857,0.073637472,0.073637472,0.089132424,False,d_unexplained
+Q2,y2025,e15_220rpm,220,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0020590648,0.29272423,0.29272423,0.11311019,False,d_unexplained
+Q2,y2025,e16_240rpm,240,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.6660804,0.33287082,0.33287082,0.55809868,False,b_regime_mismatch
+Q2,y2025,e17_260rpm,260,b_regime_mismatch,b_regime_mismatch,b_regime_mismatch,,False,False,1.6823957,-0.57552001,0.57552001,0.29911033,False,b_regime_mismatch
+Q2,y2025,e18_280rpm,280,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.6037282,0.13742726,0.13742726,0.44638705,False,b_regime_mismatch
+Q2,y2025,e19_300rpm,300,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.5591476,-0.74566023,0.74566023,0.53844606,False,b_regime_mismatch
+Q2,y2024,e1_20rpm,20,a_camera_defect,a_camera_defect,c_noise_floor,F3 F6,True,True,4.1732226,-0.38228363,0.38228363,2.5669906,False,c_noise_floor
+Q2,y2024,e2_40rpm,40,a_camera_defect,a_camera_defect,c_noise_floor,F3 F6,True,True,3.9310147,-0.7150595,0.7150595,1.6816899,False,c_noise_floor
+Q2,y2024,e3_50rpm,50,a_camera_defect,a_camera_defect,c_noise_floor,F3,True,True,3.4307621,-0.23189928,0.23189928,0.89925146,False,c_noise_floor
+Q2,y2024,e4_60rpm,60,a_camera_defect,a_camera_defect,a_camera_defect,F3,False,True,0.04745745,1.4294423,1.4294423,1.8127483,True,a_camera_defect
+Q2,y2024,e5_70rpm,70,c_noise_floor,c_noise_floor,c_noise_floor,,False,True,2.889115,1.1278212,1.1278212,0.66681734,False,c_noise_floor
+Q2,y2024,e6_80rpm,80,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.6385674,-2.3673939,2.3673939,0.32334037,True,b_regime_mismatch
+Q2,y2024,e7_90rpm,90,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.0070590031,0.23321558,0.23321558,0.089019889,True,b_regime_mismatch
+Q2,y2024,e8_100rpm,100,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.0041968102,1.9316314,1.9316314,0.48942968,True,b_regime_mismatch
+Q2,y2024,e9_110rpm,110,a_camera_defect,a_camera_defect,a_camera_defect,F3 F5,False,True,3.0707567,1.7173666,1.7173666,0.64489236,False,a_camera_defect
+Q2,y2024,e10_120rpm,120,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.032020663,0.45871449,0.45871449,0.45191786,False,d_unexplained
+Q2,y2024,e11_140rpm,140,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0031813542,0.10994069,0.10994069,0.12778501,False,d_unexplained
+Q2,y2024,e12_160rpm,160,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0032763608,0.13322416,0.13322416,0.088945644,False,d_unexplained
+Q2,y2024,e13_180rpm,180,d_unexplained,a_camera_defect,d_unexplained,F5,False,False,0.0030567908,0.14569594,0.14569594,0.087841025,False,d_unexplained
+Q2,y2024,e14_200rpm,200,d_unexplained,d_unexplained,d_unexplained,,False,False,0.0045610152,0.20732508,0.20732508,0.088944738,False,d_unexplained
+Q2,y2024,e15_220rpm,220,d_unexplained,d_unexplained,d_unexplained,,False,False,0.016690935,0.92868312,0.92868312,0.099050205,False,d_unexplained
+Q2,y2024,e16_240rpm,240,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.651497,0.15520138,0.15520138,0.63737829,False,b_regime_mismatch
+Q2,y2024,e17_260rpm,260,b_regime_mismatch,b_regime_mismatch,b_regime_mismatch,,False,False,1.4073957,0.51434209,0.51434209,0.36751292,False,b_regime_mismatch
+Q2,y2024,e18_280rpm,280,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.6037282,-0.24925704,0.24925704,0.28109657,False,b_regime_mismatch
+Q2,y2024,e19_300rpm,300,b_regime_mismatch,a_camera_defect,b_regime_mismatch,F5,False,False,1.5008143,-1.8126011,1.8126011,0.89140852,False,b_regime_mismatch
