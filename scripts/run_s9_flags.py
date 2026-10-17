@@ -60,7 +60,7 @@ def light(g, cam, line, kind, half=0.15, nwin=3):
 
 rc = []
 for c in CONDS:
-    if c.startswith("e20"): continue
+    if c.startswith("e20") or c not in P.index: continue   # e0 (static) and e20 (rejected) are not among the 19 compared conditions
     rpm = int(c.split("_")[1].replace("rpm", "")); r = dict(condition=c, rpm=rpm)
     for q, col, suf, line, kind in (("Q1", "cam_mean_P1_y_mm_Afh", "P1_y_mm_Afh", FH, "heave"), ("Q2", "cam_mean_P5_roll_rad_Afa", "P5_roll_rad_Afa", FA, "pitch")):
         a1, a2 = P.loc[c, f"cam_cam1_{suf.replace('_Afh', '_Afh').replace('_Afa', '_Afa')}"], P.loc[c, f"cam_cam2_{suf}"]
