@@ -1,6 +1,6 @@
 # S8 number check summary
 
-Ledger rows 5007; P1 empty fields 0; recompute mismatches 0.
+Ledger rows 5031; P1 empty fields 0; recompute mismatches 0.
 
 ## Curated claims (results/claims_map.csv)
 
@@ -36,7 +36,7 @@ Ledger rows 5007; P1 empty fields 0; recompute mismatches 0.
 | measurement | 1 | 49 | 35 |
 | measurement | 2 | 193 | 46 |
 | measurement | 3 | 234 | 128 |
-| measurement | 4+ | 17 | 73 |
+| measurement | 4+ | 19 | 71 |
 | sensors | 1 | 31 | 8 |
 | sensors | 2 | 82 | 6 |
 | sensors | 3 | 134 | 38 |

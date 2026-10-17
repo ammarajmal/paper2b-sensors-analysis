@@ -9,7 +9,7 @@ SCRIPT = {  # producing script per results file
     "reference_frequencies_free_vibration.json": "scripts/run_s5a.py", "s1_census_wtt_main.csv": "bridgedeck census", "gate_S2_full.json": "bridgedeck gate-s2",
     "s2c_summary.json": "scripts/run_s2c.py", "s3_spectra_by_stream.csv": "scripts/run_s3.py", "laser_y2025_by_condition.csv": "scripts/run_s5a.py",
     "laser_y2024_by_condition.csv": "scripts/run_s5a.py", "s6_metrics.csv": "scripts/run_s6.py", "s6_closeness.csv": "scripts/run_s6.py",
-    "s6b_variant_metrics.csv": "scripts/run_s6b.py", "s6b_variant_closeness.csv": "scripts/run_s6b.py", "s7_budget_by_condition.csv": "scripts/run_s7.py", "paperset_check.csv": "scripts/run_paperset_check.py", "paperset_intervals.csv": "scripts/run_paperset_intervals.py", "s3b_timebase_refined.csv": "scripts/run_s3b.py", "s6_matched_pairs.csv": "scripts/run_s6.py",
+    "s6b_variant_metrics.csv": "scripts/run_s6b.py", "s6b_variant_closeness.csv": "scripts/run_s6b.py", "s7_budget_by_condition.csv": "scripts/run_s7.py", "paperset_check.csv": "scripts/run_paperset_check.py", "paperset_intervals.csv": "scripts/run_paperset_intervals.py", "s9_fix_summary.csv": "scripts/run_s9_fixes.py", "s3b_timebase_refined.csv": "scripts/run_s3b.py", "s6_matched_pairs.csv": "scripts/run_s6.py",
 }
 commit = subprocess.check_output(["git", "-C", str(paths.REPO), "rev-parse", "--short", "HEAD"], text=True).strip()
 rows, cache = [], {}
@@ -159,6 +159,10 @@ for k in ("s_hdr_RI", "s_i60_RI", "s_i5994_RI", "s_nom_RI"):
     add("TBASE2", f"max refined-frequency shift in Rayleigh intervals, admitted streams, {k}", "s3b_timebase_refined.csv", base, k, "max")
     add("TBASE2", f"median refined-frequency shift, admitted streams, {k}", "s3b_timebase_refined.csv", base, k, "median")
     add("TBASE2", f"streams with refined shift > 0.1, {k}", "s3b_timebase_refined.csv", base + f";{k}>0.1", k, "count", "streams")
+for v in ("base", "X3"):  # X3 is a SENSITIVITY row only (S9, S10 gate): not the adopted estimator
+    for q in ("Q1", "Q2"):
+        for c in ("median_abs_ln_c1c2", "y2025_all19_E", "y2024_all19_E", "y2025_all19_median_ratio", "y2024_all19_median_ratio", "perm_p_2025_closer_all19"):
+            add("EXPL_X3", f"S9 estimator variant {v}: {c}", "s9_fix_summary.csv", f"quantity={q};variant={v}", c, "first")
 for _, r in load("paperset_intervals.csv")[["quantity", "stat"]].iterrows():
     for c in ("estimate", "ci_lo", "ci_hi"):
         add("EXPL_PAPERSET", f"paperset16 {c}", "paperset_intervals.csv", f"scope=paperset16;quantity={r.quantity};stat={r.stat}", c, "first")
