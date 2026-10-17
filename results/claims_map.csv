@@ -1,0 +1,23 @@
+claim_id,manuscript,file,line,token,description,ledger_id,relation
+M01,measurement,abstract.tex,12,0.9711,bending Pearson r on 16 regime-interior conditions (R002),EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-bending.pearson_lin.first,ANALOGUE
+M02,measurement,abstract.tex,12,0.288,bending RMSE mm on 16 conditions,EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-bending.rmse_mm.first,ANALOGUE
+M03,measurement,abstract.tex,13,0.205,bending MAE mm on 16 conditions,EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-bending.mae_mm.first,ANALOGUE
+M04,measurement,abstract.tex,13,1.217,mean camera/LDS bending ratio on 16 conditions,EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-bending.mean_ratio.first,ANALOGUE
+M05,measurement,abstract.tex,15,0.9682,torsion-proxy Pearson r on 16 conditions (R004),EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-torsion.pearson_lin.first,ANALOGUE
+M06,measurement,abstract.tex,16,0.830,mean camera/LDS torsion ratio on 16 conditions,EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-torsion.mean_ratio.first,ANALOGUE
+M07,measurement,abstract.tex,17,0.6307,bending Pearson r all 19 conditions (R001),EXPL_PAPERSET.paperset_check.scope-all19.quantity-bending.pearson_lin.first,ANALOGUE
+M08,measurement,sections/01_introduction.tex,203,0.2930,torsion-proxy Pearson r all 19 conditions (R003),EXPL_PAPERSET.paperset_check.scope-all19.quantity-torsion.pearson_lin.first,ANALOGUE
+M09,measurement,sections/04_results.tex,144,0.9294,bending Spearman rho on 16 conditions,EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-bending.spearman.first,ANALOGUE
+M10,measurement,sections/04_results.tex,362,0.9676,torsion Spearman rho on 16 conditions,EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-torsion.spearman.first,ANALOGUE
+M11,measurement,sections/06_limitations.tex,47,0.718,torsion regression slope (R005; definition not stated; candidate OLS),EXPL_PAPERSET.paperset_check.scope-paperset16.quantity-torsion.slope_ols.first,CANDIDATE_DEFINITION
+M12,measurement,sections/02_methods.tex,14,1.4323,bending natural frequency Hz (facility log decrement per paper),REF.reference_frequencies_free_vibration.session-y2025.mode-bending.f_fit_hz.first,ANALOGUE
+M13,measurement,sections/02_methods.tex,15,3.0827,torsion natural frequency Hz (facility log decrement per paper),REF.reference_frequencies_free_vibration.session-y2025.mode-torsion.f_fit_hz.first,ANALOGUE
+M14,measurement,sections/02_methods.tex,115,24.7,largest single-frame gap ms (cam1 value in the ledger),TIM.s1_census_wtt_main.cam-sony_cam1.dt_max_ms.max,SAME_QUANTITY
+M15,measurement,sections/02_methods.tex,18,1.4290,camera FFT free-vibration frequency Hz,,NOT_IN_LEDGER
+M16,measurement,sections/02_methods.tex,20,1.4303,facility-quoted vertical frequency Hz,,NOT_IN_LEDGER
+S01,sensors,paper2_sensors_synthesis.tex,234,60.00,cam3 effective frame rate Hz,TIM.s1_census_wtt_main.cam-sony_cam3.rate_mean_hz.median,SAME_QUANTITY
+S02,sensors,paper2_sensors_synthesis.tex,234,59.998,cam3 lowest per-stream mean rate Hz,TIM.s1_census_wtt_main.cam-sony_cam3.rate_mean_hz.min,SAME_QUANTITY
+S03,sensors,paper2_sensors_synthesis.tex,234,60.014,cam3 highest per-stream mean rate Hz,TIM.s1_census_wtt_main.cam-sony_cam3.rate_mean_hz.max,SAME_QUANTITY
+S04,sensors,paper2_sensors_synthesis.tex,233,59.94,cam1 and cam2 effective frame rate Hz (cam1 median in ledger),TIM.s1_census_wtt_main.cam-sony_cam1.rate_mean_hz.median,SAME_QUANTITY
+S05,sensors,paper2_sensors_synthesis.tex,234,59.925,cam2 lowest per-stream mean rate Hz,TIM.s1_census_wtt_main.cam-sony_cam2.rate_mean_hz.min,SAME_QUANTITY
+S06,sensors,paper2_sensors_synthesis.tex,234,59.956,cam1 highest per-stream mean rate Hz,TIM.s1_census_wtt_main.cam-sony_cam1.rate_mean_hz.max,SAME_QUANTITY

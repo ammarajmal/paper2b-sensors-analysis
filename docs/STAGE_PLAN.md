@@ -14,7 +14,7 @@ Consumers: **2A** = Sensors paper, **2B** = Measurement paper, **D** = dissertat
 | S5 | Laser: parse 2024 and 2025 raw D-files; unit test (native cm -> mm); test both D-file mappings (NOTES F3); regress against facility sheets; vendor 2024 camera check (F7) | mapping chosen by pre-listed physical tests (monotone RMS with wind speed, lock-in near 1.43/3.10 Hz); reproduces Table S2 for the chosen mapping; the 2025 torsion halving documented | 2B | todo |
 | S6 | **RUN 2026-10-17; primary closeness test not met (see gate).** | Camera-vs-laser comparison: all 19 conditions first, then any subset by an outcome-independent rule (O2); both laser sessions; Deming/EIV; leave-one-out; effective n | rule file committed before the comparison | 2B | blocked on O1-O3 |
 | S7 | Uncertainty: GUM table + Monte Carlo through S4 (static noise, intrinsics envelope, scale, timing, laser) | each component has a source and a number or is listed as unquantified | 2B D | todo |
-| S8 | `results/ledger.csv`, one script per figure/table, number-check against manuscripts | `check_number_ledger.py` passes on both manuscripts | 2A 2B D | todo |
+| S8 | `results/ledger.csv`, one script per figure/table, number-check against manuscripts | `check_number_ledger.py` passes on both manuscripts | 2A 2B D | **DONE 2026-10-17 (machinery gate passed; 15 of 22 curated claims differ, see S8.md)** |
 
 ## Compute and storage
 - Decode cost: S2 reads 18.8 GB of JPEG frames from the bags (no PNG export; frames are decoded in memory). Output: detections table only.
