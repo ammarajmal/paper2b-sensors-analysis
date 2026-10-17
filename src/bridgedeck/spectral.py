@@ -1,4 +1,5 @@
 """Stage S3: per-camera spectra on native timestamps (gate: docs/gates/S3.md)."""
+
 from __future__ import annotations
 
 import numpy as np
@@ -44,16 +45,22 @@ def top_peaks(f, p, n=3, min_sep=0.1):
 
 def fit_sinusoid_freq(t, y, f0, ri):
     """Least-squares refinement of the frequency within +/- ri of f0."""
+
     def sse(fr):
-        X = np.column_stack([np.cos(2 * np.pi * fr * t), np.sin(2 * np.pi * fr * t), np.ones_like(t)])
+        X = np.column_stack(
+            [np.cos(2 * np.pi * fr * t), np.sin(2 * np.pi * fr * t), np.ones_like(t)]
+        )
         c, *_ = np.linalg.lstsq(X, y, rcond=None)
         return float(np.sum((y - X @ c) ** 2))
+
     r = minimize_scalar(sse, bounds=(f0 - ri, f0 + ri), method="bounded", options={"xatol": 1e-7})
     return float(r.x)
 
 
 def boot_interval(t, y, f_hat, ri, n_boot=200, seed=5):
-    X = np.column_stack([np.cos(2 * np.pi * f_hat * t), np.sin(2 * np.pi * f_hat * t), np.ones_like(t)])
+    X = np.column_stack(
+        [np.cos(2 * np.pi * f_hat * t), np.sin(2 * np.pi * f_hat * t), np.ones_like(t)]
+    )
     c, *_ = np.linalg.lstsq(X, y, rcond=None)
     fit, res = X @ c, y - X @ c
     rng = np.random.default_rng(seed)
@@ -63,19 +70,25 @@ def boot_interval(t, y, f_hat, ri, n_boot=200, seed=5):
     out = []
     for _ in range(n_boot):
         idx = rng.integers(0, nb, nb)
-        r = np.concatenate([res[i * bl:(i + 1) * bl] for i in idx])
-        yb = fit[:len(r)] + r
-        out.append(fit_sinusoid_freq(t[:len(r)], yb, f_hat, ri))
+        r = np.concatenate([res[i * bl : (i + 1) * bl] for i in idx])
+        yb = fit[: len(r)] + r
+        out.append(fit_sinusoid_freq(t[: len(r)], yb, f_hat, ri))
     return float(np.percentile(out, 2.5)), float(np.percentile(out, 97.5))
 
 
 def baluev_fap(t, y, f, power_at_peak):
     ls = LombScargle(t, y, fit_mean=True, center_data=True)
-    return float(ls.false_alarm_probability(power_at_peak, method="baluev", minimum_frequency=f[0], maximum_frequency=f[-1]))
+    return float(
+        ls.false_alarm_probability(
+            power_at_peak, method="baluev", minimum_frequency=f[0], maximum_frequency=f[-1]
+        )
+    )
 
 
 def stream_series(det: pd.DataFrame, cond: str, cam: str, stamp: str = "timestamp_s"):
-    g = det[(det.condition == cond) & (det.camera == cam) & det.detected & (det.decision_margin >= 30)].sort_values("frame_idx")
+    g = det[
+        (det.condition == cond) & (det.camera == cam) & det.detected & (det.decision_margin >= 30)
+    ].sort_values("frame_idx")
     t = g[stamp].to_numpy() if stamp != "stamp_hdr_ns" else g[stamp].to_numpy() / 1e9
     return g.frame_idx.to_numpy(), t, g.centroid_y.to_numpy()
 
