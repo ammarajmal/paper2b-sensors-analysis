@@ -27,6 +27,14 @@
 - Camera scale: +/-2.5% changes the primary heave error E by at most 0.003; the laser cannot determine the tag size (opposite optimum scales for the two sessions).
 - Laser spacing d: full difference over d is supported by the camera angle (ratio about 1.1-1.2, not 0.5-0.6); implied d is 10-16% below the vendor values (13 cm, 10 cm); carried as an input with +/-15%, not tuned.
 
+## Owner decisions of 2026-10-17 (fixed before S7)
+| ID | Decision | Provenance / reason |
+|---|---|---|
+| T | Tag size fixed at 20 mm | ruler check 20.1-20.2 mm (docs/OPEN_ISSUES_2026-10-17.md); acquisition GUI 0.02 m. Budget carries 2.5% (bound) until the ruler graduation (5 mm ticks) is confirmed |
+| d | Laser head spacing primary = 13 cm (2025) and 10 cm (2024), +/-15% (bound) in the budget; 12 cm and 8 cm only as sensitivity | 13 cm: vendor workbook 설계속도 및 모형Setup_영상계측.xlsx, sheet '모형 Setup! (2)', row 29 '센서간격' = 13cm, and vendor script BRID2D1.m (dside = 13). 10 cm: vendor script BRID2D1_choi.m only (dside = 10, modified 2024-11-11), no spreadsheet entry. Camera-implied values 11.7 and 8.4 cm are a consistency check, not a calibration |
+| R | Regime rule a (both instruments >= 5x their own zero-wind amplitude) is adopted as the basis for the 2025-versus-2024 decision, as an AMENDMENT to the primary (rule d) fixed on 2026-10-17 | reason (physical, not outcome): a ratio is only meaningful where both instruments clearly see the motion. The amendment is made after seeing S6 results and must be stated as such in the paper; rule d (all 19) remains reported |
+| other | all four regime rules, all metrics, both pairing arms stay recorded; S6b variants stay exploratory | owner 2026-10-17 |
+
 ## Still open
 - Final selection among candidates for O3 and O4, and whether 2024 is dropped (O1), after the analyses above.
 - Kit D4, D5, D7, D8 (see the kit OPEN_DECISIONS.md).
