@@ -40,6 +40,11 @@
 |---|---|---|
 | N | The manuscripts carry the REBUILT numbers throughout (ledger values, not the earlier published or audit values) once each number is in the ledger with provenance | single reproducible source; owner decision 2026-10-17. Numbers without a ledger row stay "as previously computed" until they have one. Consequence: abstract values such as mean ratio 1.217 and RMSE 0.288 change in the revision |
 
+## Owner decision of 2026-10-18
+| ID | Decision | Reason |
+|---|---|---|
+| W | The 2025 wind-speed calibration / anemometer record cannot be found; proceed without it. All camera-laser comparisons are at equal fan RPM. The 2025 workbook wind column (about half the 2024 column at every RPM) is treated as unverified and is not used as a comparison axis; S6 arm B is reported for 2024 only or flagged. Wind speeds printed in the papers are the Measurement-paper RPM-derived values and must be stated as an assumption for the 2025 session | S10: both lasers and the camera lock in at the same RPM, which contradicts a factor-two flow difference, so the 2025 wind column is probably a recording issue; not resolvable from data |
+
 ## Still open
 - Final selection among candidates for O3 and O4, and whether 2024 is dropped (O1), after the analyses above.
 - Kit D4, D5, D7, D8 (see the kit OPEN_DECISIONS.md).
