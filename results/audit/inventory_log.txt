@@ -1,0 +1,12 @@
+phd_data	files=1279697	seconds=40	errors=1	[Errno 13] Permission denied: '/mnt/phd_data/lost+found'
+phd-legacy	files=138220	seconds=12	errors=0	
+phd	EMPTY_OR_UNMOUNTED
+data	files=808921	seconds=144	errors=0	
+archive	files=57703	seconds=3	errors=1	[Errno 13] Permission denied: '/mnt/archive/lost+found'
+career-legacy	files=78521	seconds=5	errors=0	
+career	EMPTY_OR_UNMOUNTED
+wdc_phd	EMPTY_OR_UNMOUNTED
+wdc_career	EMPTY_OR_UNMOUNTED
+space	files=433033	seconds=2	errors=0	
+home	files=987070	seconds=52	errors=0	
+DONE
