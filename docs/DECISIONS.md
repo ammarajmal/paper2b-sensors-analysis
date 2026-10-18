@@ -45,6 +45,17 @@
 |---|---|---|
 | W | The 2025 wind-speed calibration / anemometer record cannot be found; proceed without it. All camera-laser comparisons are at equal fan RPM. The 2025 workbook wind column (about half the 2024 column at every RPM) is treated as unverified and is not used as a comparison axis; S6 arm B is reported for 2024 only or flagged. Wind speeds printed in the papers are the Measurement-paper RPM-derived values and must be stated as an assumption for the 2025 session | S10: both lasers and the camera lock in at the same RPM, which contradicts a factor-two flow difference, so the 2025 wind column is probably a recording issue; not resolvable from data |
 
+## Owner decisions of 2026-10-18 (scope)
+| ID | Decision | Note |
+|---|---|---|
+| A1 | Laser 2024 is DROPPED from the papers and from all further analysis. Only camera and laser 2025 | supersedes O1's "confirm first"; owner confirmed. The 2024 results stay in the repository history/ledger as internal records (groups EXPL_*, S6 y2024) and are not cited in the papers |
+| A3 | Reference frequencies in the papers = rebuilt values 1.4318 Hz (bending) and 3.0982 Hz (torsion) | decision D6 |
+| B1 | Ruler graduation (5 mm) and tag size 20 mm: cannot be confirmed; used as is, stated as an assumption with the 2.5% bound | |
+| B2 | Laser head spacing: vendor value 13 cm (2025 workbook and script), +/-15% bound; no drawing available | |
+| B3 | Changes between the sessions unknown: not needed once 2024 is out of scope | |
+| C1 | No comparison among lasers and no comparison of rebuilt versus previously printed values in the papers; only rebuilt values, camera versus laser 2025 | the S7b/S9 laser-vs-laser and printed-vs-rebuilt tables remain internal audit material |
+| C2 | Order of work: (1) outliers and their reasons, camera vs laser 2025 only; (2) owner literature review, gaps, research questions, hypotheses; (3) story and theme; (4) results refinement; (5) paper architecture; (6) finalise | |
+
 ## Still open
 - Final selection among candidates for O3 and O4, and whether 2024 is dropped (O1), after the analyses above.
 - Kit D4, D5, D7, D8 (see the kit OPEN_DECISIONS.md).
