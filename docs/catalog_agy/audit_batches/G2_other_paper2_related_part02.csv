@@ -1,0 +1,151 @@
+path,size,mtime,ext,group,rank_hint
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/filterexample/hpfiltdes.m,493,1666839482,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/filterexample/filterorders.m,892,1666839482,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/filterexample/filterfast.m,912,1666814414,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/filterexample/filtertest.m,876,1666813596,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/filterexample/filtersim01_example.m,907,1666812398,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/filterexample/fftexample.m,760,1666811318,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/MATLAB/hpfiltdesfast.m,277,1666234404,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/MATLAB/hpfiltdes.m,488,1666234404,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/MATLAB/filtersim01.m,789,1666234404,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/MATLAB/filtersim01_example.m,789,1666234404,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/MATLAB/filterorders.m,888,1666234404,.m,G2_other_paper2_related,2
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/MATLAB/filterzeros.m,511,1666234404,.m,G2_other_paper2_related,2
+/home/ammar/Desktop/P2A_Measurement_ChatGPT_Project_Kit_2026-10-14/P2A_Measurement_Project_Package/05_REVIEW_DIGEST/prior_chatgpp_review_chat.md,174464,1791965635,.md,G2_other_paper2_related,1
+/home/ammar/Desktop/P2A_Measurement_ChatGPT_Project_Kit_2026-10-14/P2A_Measurement_Project_Package/05_REVIEW_DIGEST/PROVISIONAL_ABSTRACT.md,1923,1791921846,.md,G2_other_paper2_related,1
+/home/ammar/Desktop/P2A_Measurement_ChatGPT_Project_Kit_2026-10-14/P2A_Measurement_Project_Package/01_PROJECT_SETUP/PROJECT_PROFILE.md,1411,1791921846,.md,G2_other_paper2_related,1
+/home/ammar/Desktop/P2A_Measurement_ChatGPT_Project_Kit_2026-10-14/P2A_Measurement_Project_Package/03_WORKFLOWS/REVISION_SOP.md,1303,1791921846,.md,G2_other_paper2_related,1
+/home/ammar/Desktop/P2A_Measurement_ChatGPT_Project_Kit_2026-10-14/P2A_Measurement_Project_Package/03_WORKFLOWS/CHAT_PROMPTS.md,5723,1791921846,.md,G2_other_paper2_related,1
+/home/ammar/Downloads/Paper_A_OMRPR_Measurement_ChatGPT_GPT-6_Editorial_Scientific_Review_2026-10-14.md,32216,1791908582,.md,G2_other_paper2_related,1
+/home/ammar/librealsense/doc/installation_windows.md,5504,1787244630,.md,G2_other_paper2_related,1
+/home/ammar/librealsense/doc/distribution_windows.md,1730,1787244630,.md,G2_other_paper2_related,1
+/home/ammar/.antigravity/extensions/ms-python.python-2026.4.0-universal/resources/walkthrough/install-python-windows-8.md,553,1786219910,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/dump/Improving AprilTag Methodology for Vision-Based Structural Health Monitoring.md,36587,1785557133,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_2/Q1/Week_056_Launch_parameters_rosbag2_diagnostics_and_tests.md,8900,1784542352,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_2/Q1/Week_058_TurtleBot3_sensors_odometry_and_calibration.md,8954,1784542352,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_1/Q4/Week_042_Contours_segmentation_and_image_measurement.md,8930,1784542352,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_1/Q4/Week_049_PiCam_and_Arducam_measurement_comparison.md,8828,1784542352,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_1/Q4/Week_052_Quarter_project_multi_camera_measurement_toolkit_v1.md,9083,1784542352,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_1/Q4/Week_046_PnP_coordinate_frames_and_AprilTags.md,8913,1784542352,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_1/Q1/Week_004_Electronics_safety_breadboards_voltage_current_and_measurement.md,9239,1784542352,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_1/Q1/Week_007_ADC_PWM_and_analog_sensors.md,9029,1784542352,.md,G2_other_paper2_related,1
+/home/ammar/Documents/ammar-engineering-mastery/01_curriculum/weeks/Year_1/Q2/Week_021_Low_power_firmware_and_current_measurement.md,9146,1784542352,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/OMRPR_Logseq_Revision_Bundle/OMRPR Revision Checklist.md,49303,1784185750,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/OMRPR_Logseq_Revision_Bundle/OMRPR Revision Dashboard.md,3458,1784185750,.md,G2_other_paper2_related,1
+/mnt/career-legacy/relive/Engineering_Mastery_Plan/weeks/Year_1/Q1/Week_007_ADC_PWM_and_analog_sensors.md,9015,1784142988,.md,G2_other_paper2_related,1
+/mnt/career-legacy/relive/Engineering_Mastery_Plan/weeks/Year_1/Q4/Week_042_Contours_segmentation_and_image_measurement.md,8917,1784142988,.md,G2_other_paper2_related,1
+/mnt/career-legacy/relive/Engineering_Mastery_Plan/weeks/Year_1/Q4/Week_046_PnP_coordinate_frames_and_AprilTags.md,8899,1784142988,.md,G2_other_paper2_related,1
+/mnt/career-legacy/relive/Engineering_Mastery_Plan/weeks/Year_1/Q4/Week_049_PiCam_and_Arducam_measurement_comparison.md,8814,1784142988,.md,G2_other_paper2_related,1
+/mnt/career-legacy/relive/Engineering_Mastery_Plan/weeks/Year_2/Q1/Week_056_Launch_parameters_rosbag2_diagnostics_and_tests.md,8886,1784142988,.md,G2_other_paper2_related,1
+/mnt/career-legacy/relive/Engineering_Mastery_Plan/weeks/Year_2/Q1/Week_058_TurtleBot3_sensors_odometry_and_calibration.md,8940,1784142988,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/CURRENT_STATUS.md,12775,1783432199,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/submission_package/cover_letter.md,4257,1783432008,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/OMRPR_finalization_plan-10chatgpt.md,29771,1783430126,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/submission_package/final_consistency_sweep.md,2519,1783425324,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/FINALIZATION_PLAN.md,24387,1783424862,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/10_chatgpt_finalization_plan.md,10855,1783424452,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/fable_variants_phase7_2026-07-07.md,5149,1783424073,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/07_claude_fable_guide.md,6707,1783423832,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/09_chatgpt_brutal_review.md,15711,1783423746,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/06_adversarial_review.md,5340,1783423726,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/04_discussion_conclusion.md,5566,1783423714,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/02_introduction_reframing.md,4386,1783423691,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/01_literature_deep_research.md,7638,1783423680,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/05_diagrams_flowcharts_math.md,5741,1783423658,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_literature/matrices/comparison_table.md,10205,1783421717,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/submission_package/suggested_reviewers_candidates.md,2081,1783274984,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/fable_variants_phase7.md,4524,1783274629,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/GIT_CONSOLIDATION_GUIDE.md,3320,1783052299,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/00_geometry_provenance_resolution.md,4372,1783049762,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_outputs_review/prompts/08_submission_package.md,3736,1783010437,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/dump/OMRPR_AI_Ecosystem_Setup_Guide (1).md,26082,1782912007,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_literature/notes/google_Lit_review.md,44129,1782906049,.md,G2_other_paper2_related,1
+/mnt/phd-legacy/fin_phd/omrpr_literature/notes/claude_lit_review.md,30904,1782905920,.md,G2_other_paper2_related,1
+/mnt/phd_data/phd_master/00_inbox/incoming_2026-10-14_from_mnt_data/DEV_shm-displacement-project/docs/archive/Chat_Prompts/codex_prompt.md,148065,1781059854,.md,G2_other_paper2_related,1
+/home/ammar/.config/marktext/window-state.json,138,1792294474,.json,G2_other_paper2_related,0
+/home/ammar/.config/Logseq/window-state.json,139,1792036968,.json,G2_other_paper2_related,0
+/home/ammar/.config/Zettlr/window_state.yml,125,1791992787,.yml,G2_other_paper2_related,0
+/home/ammar/Desktop/P2A_Measurement_ChatGPT_Project_Kit_2026-10-14/P2A_Measurement_Project_Package/PROJECT_INSTRUCTIONS_COPY_PASTE.txt,4109,1791921846,.txt,G2_other_paper2_related,0
+/home/ammar/Desktop/P2A_Measurement_ChatGPT_Project_Kit_2026-10-14/P2A_Measurement_Project_Package/04_TEMPLATES/ISSUE_REGISTER.csv,1967,1791921846,.csv,G2_other_paper2_related,0
+/home/ammar/Desktop/P2A_Measurement_ChatGPT_Project_Kit_2026-10-14/P2A_Measurement_Project_Package/01_PROJECT_SETUP/PROJECT_INSTRUCTIONS.txt,4109,1791921846,.txt,G2_other_paper2_related,0
+/home/ammar/Desktop/chatgpt_reference_check/sensors_reference_list.tex.txt,4422,1791904335,.txt,G2_other_paper2_related,0
+/home/ammar/.config/Claude/window-state.json,194,1791509026,.json,G2_other_paper2_related,0
+/home/ammar/.agents/skills/gstack/.github/workflows/windows-free-tests.yml,6272,1790643698,.yml,G2_other_paper2_related,0
+/home/ammar/.agents/skills/gstack/.github/workflows/windows-setup-e2e.yml,3955,1790643698,.yml,G2_other_paper2_related,0
+/home/ammar/suspend-repair/cases/phase1-20260910T080539+0900/53-current-failure-window.txt,102591,1788995240,.txt,G2_other_paper2_related,0
+/home/ammar/.config/Code/User/globalStorage/github.vscode-pull-request-github/assignableUsers/ammarajmal/shm-displacement-project.json,271,1788625571,.json,G2_other_paper2_related,0
+/home/ammar/Downloads/3. Photo - Anum Saeed_visa_output/3. Photo - Anum Saeed_measurements.txt,2177,1788596453,.txt,G2_other_paper2_related,0
+/home/ammar/.config/Code/User/globalStorage/github.vscode-pull-request-github/assignableUsers/ammarajmal/omrpr.json,271,1787684792,.json,G2_other_paper2_related,0
+/home/ammar/.aider/caches/model_prices_and_context_window.json,1676410,1786214110,.json,G2_other_paper2_related,0
+/mnt/space/data on Computer/~~ DATA TO MOVE/~~~ moST IMPORTANT PERSONAL DATA ~~~/adev/datasets/omrpr/interim/condition-matched/camera_tunnel_a_2024.csv,5537,1785682755,.csv,G2_other_paper2_related,0
+/home/ammar/.config/Code/User/globalStorage/github.vscode-pull-request-github/mentionableUsers/ammarajmal/omrpr.json,503,1785517910,.json,G2_other_paper2_related,0
+/mnt/phd-legacy/dump/VERIFY_OMRPR_DOWNLOAD_v1.0.1.sh,786,1785207247,.sh,G2_other_paper2_related,0
+/home/ammar/gstack/.github/workflows/windows-free-tests.yml,5886,1784897734,.yml,G2_other_paper2_related,0
+/home/ammar/gstack/.github/workflows/windows-setup-e2e.yml,3678,1784897734,.yml,G2_other_paper2_related,0
+/mnt/phd-legacy/dump/omrpr_clean_start_ubuntu24.sh,14055,1782828228,.sh,G2_other_paper2_related,0
+/mnt/phd-legacy/dump/omrpr_ubuntu24_bootstrap_updated.sh,10341,1782822979,.sh,G2_other_paper2_related,0
+/mnt/phd-legacy/dump/omrpr_ubuntu24_bootstrap (1).sh,1535,1782822435,.sh,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/shm-displacement-project-github/raw_sony_cam1.csv,96187,1775232886,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/shm-displacement-project-github/stabilized_sony_cam1.csv,93162,1775232886,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/shm-displacement-project-github/raw_cam1.csv,22,1775232886,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/shm-displacement-project-github/displacement_sony_cam1.csv,83519,1775232886,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test5_timestamps.csv,35914,1758693467,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test4_timestamps.csv,36433,1758693458,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test3_timestamps.csv,36287,1758693450,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test2_timestamps.csv,36766,1758693441,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test1_timestamps.csv,36256,1758693432,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam3/static_cam3_test5_timestamps.csv,35913,1758692847,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam3/static_cam3_test4_timestamps.csv,35700,1758692837,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam3/static_cam3_test3_timestamps.csv,36769,1758692828,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam3/static_cam3_test2_timestamps.csv,36745,1758692819,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam3/static_cam3_test1_timestamps.csv,36697,1758692809,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam1/static_cam1_test5_timestamps.csv,33317,1758685460,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam1/static_cam1_test4_timestamps.csv,28922,1758685450,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam1/static_cam1_test3_timestamps.csv,36274,1758685441,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam1/static_cam1_test2_timestamps.csv,36873,1758685429,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam1/static_cam1_test1_timestamps.csv,36753,1758685418,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test9_timestamps.csv,36654,1758617920,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test8_timestamps.csv,36801,1758617909,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test7_timestamps.csv,36477,1758617897,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test6_timestamps.csv,36766,1758617884,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test5_timestamps.csv,36792,1758617873,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test4_timestamps.csv,35051,1758617861,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test3_timestamps.csv,36620,1758617849,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test2_timestamps.csv,36842,1758617837,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test10_timestamps.csv,36812,1758617826,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/static_cam2_test1_timestamps.csv,36802,1758617815,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/old/capture_metadata.csv,1354,1758617578,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test10_timestamps.csv,20632,1758608772,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test9_timestamps.csv,21840,1758608760,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test8_timestamps.csv,22040,1758608748,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test7_timestamps.csv,22535,1758608736,.csv,G2_other_paper2_related,0
+/mnt/archive/00_inbox/adev/datasets/omrpr/raw/camera/rosbag/static_bags/cam2/static_cam2_test6_timestamps.csv,21091,1758608724,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/old_ros_workspaces_2025/tesol_ws/src/gsim_urdf_pkg/urdf/gsim_urdf_pkg.csv,3090,1751366020,.csv,G2_other_paper2_related,0
+/mnt/space/data on Computer/~~ DATA TO MOVE/dump/ubuntu/QRSENSOR/lib/FastLZ-master/.github/workflows/amd64_windows_vs2019.yml,809,1748268243,.yml,G2_other_paper2_related,0
+/mnt/space/data on Computer/~~ DATA TO MOVE/dump/ubuntu/QRSENSOR/lib/FastLZ-master/.github/workflows/i686_windows_vs2017.yml,859,1748268243,.yml,G2_other_paper2_related,0
+/mnt/space/data on Computer/~~ DATA TO MOVE/dump/ubuntu/QRSENSOR/lib/FastLZ-master/.github/workflows/amd64_windows_gcc.yml,813,1748268243,.yml,G2_other_paper2_related,0
+/mnt/space/data on Computer/~~ DATA TO MOVE/dump/ubuntu/QRSENSOR/lib/FastLZ-master/.github/workflows/amd64_windows_vs2017.yml,863,1748268243,.yml,G2_other_paper2_related,0
+/mnt/space/data on Computer/~~ DATA TO MOVE/dump/ubuntu/QRSENSOR/lib/FastLZ-master/.github/workflows/i686_windows_vs2019.yml,837,1748268243,.yml,G2_other_paper2_related,0
+/mnt/space/data on Computer/~~ DATA TO MOVE/dump/ubuntu/QRSENSOR/lib/FastLZ-master/.github/workflows/amd64_windows_clang.yml,1038,1748268243,.yml,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/old_ros_workspaces_2025/ros_ws/src/gig_data_/csvfiles/old/LDV Data/LDV_ARUCO_15Hz.csv,795406,1748258364,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/old_ros_workspaces_2025/ros_ws/src/gig_data_/csvfiles/old/LDV Data/LDV_ARUCO_10Hz.csv,798846,1748258364,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/old_ros_workspaces_2025/ros_ws/src/gig_data_/csvfiles/old/LDV Data/LDV_ARUCO_5Hz.csv,398343,1748258364,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/old_ros_workspaces_2025/ros_ws/src/gig_data_/csvfiles/old/LDV Data/LDV_ARUCO_20Hz.csv,798846,1748258364,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/old_ros_workspaces_2025/ros_ws/src/gig_data_/csvfiles/old/LDV Data/LDV_ARUCO_7Hz.csv,798926,1748258364,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/old_ros_workspaces_2025/ros_ws/src/gig_data_/csvfiles/old/LDV Data/LDV_ARUCO_3Hz.csv,796286,1748258364,.csv,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/98_legacy_imports/old_ros_workspaces_2025/tesol_ws_backup/optimized_camera_params.yaml,1083,1748256308,.yaml,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/07_literature/p01_gige_multicamera_literature/sensors-v20-i20_20250413.bib,1699,1744572388,.bib,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/_ReadMe.txt,300,1740202253,.txt,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/COPS/application.json,3525,1740202237,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/CCXP/application.json,20591,1740202191,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/ACR/application.json,39811,1740202191,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/COSY/application.json,9043,1740202075,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/CORG/application.json,2112,1740202075,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/CORE/application.json,8356,1740202075,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/UXPW/application.json,3908,1740201852,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/PHSP/application.json,76010,1740201527,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/COCM/application.json,1992,1740201005,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/products/ACAI/application.json,2156,1740199141,.json,G2_other_paper2_related,0
+/mnt/archive/05_software/Adobe Photoshop 2023 v24.1.0.166 (x64) FULL [TheWindowsForum.com]/www.TheWindowsForum.com - www.ThumperDC.COM.txt,80,1740199054,.txt,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/SDKinstallation.txt,273,1670702686,.txt,G2_other_paper2_related,0
+/mnt/phd_data/phd_master/09_courses_training/c02_fall_2022/3. Sensors/Setting up Arduino IDE for Sensor.txt,120,1666809708,.txt,G2_other_paper2_related,0

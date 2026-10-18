@@ -1,0 +1,151 @@
+path,size,mtime,ext,group,rank_hint
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/01_sensors_main_FLAT.tex,87256,1792042664,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/01_measurement_main_FLAT.tex,144736,1792042663,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/crossref_check.py,3258,1792042398,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_measurement_revision_2026-10/manuscript/sections/04_results.tex,37838,1792032520,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_revision_2026-10/revision_tools/table_laser_vs_camera_rows.tex,1485,1792032381,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/analysis_2026-10-15/laser2025_condition_level.py,2016,1792032187,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/analysis_2026-10-15/laser2025_vs_camera.py,3543,1792026497,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/analysis_2026-10-15/native_vs_resampled.py,3981,1792026368,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/make_claim_table_sensors.py,4741,1791897539,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/make_claim_table.py,3374,1791897280,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/sections/04_results.tex,37519,1791816563,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_pass4_audit.py,14213,1788839638,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_pass4_audit.py,14213,1788839378,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/49_results_5_6_5_8.tex,16056,1788791499,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/48_results_5_3_5_5.tex,14113,1788785374,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/audit_paper2.py,11273,1788657603,.py,G1_paper2_core,4
+/mnt/phd-legacy/fin_phd/omrpr_manuscript/manuscript/sections/04_results.tex,32736,1784430440,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/98_legacy_imports/career_paper2_NEW_unmatched_worktree/PhD_previous_data/paper2_NEW/prev_work/Phd_data_dump/omrpr-paper2-manuscript/manuscript/sections/04_results.tex,11504,1782868245,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/98_legacy_imports/career_paper2_NEW_unmatched_worktree/PhD_previous_data/paper2_NEW/prev_work/Phd_data_dump/work/omrpr-paper2-manuscript/manuscript/sections/04_results.tex,11603,1782793143,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/98_legacy_imports/career_omrpr_ubuntu24_snapshot/docs/omrpr-paper2-manuscript/manuscript/sections/04_results.tex,89,1781651696,.tex,G1_paper2_core,4
+/mnt/phd_data/phd_master/03_datasets/ds003_windtunnel_ldv_2024/reference/te_solution/cameras_py/updated_detect.py,8995,1686214352,.py,G1_paper2_core,4
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/PAPER2_REBUILD_REPORT_2026-10-18.md,10236,1792319015,.md,G1_paper2_core,3
+/home/ammar/.codex/memories/rollout_summaries/2026-10-12T09-04-13-a18b-p2_sensors_read_only_evidence_audit.md,5462,1792297373,.md,G1_paper2_core,3
+/home/ammar/.codex/memories/rollout_summaries/2026-10-12T09-04-13-CQWk-targeted_p2_sensors_blocker_audit.md,5344,1792297373,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/WHERE_THINGS_ARE.md,3279,1792080266,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/README_SETUP.md,4255,1792080266,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/SHARED_FACTS.md,9673,1792080266,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/00_SHARED_FACTS.md,9673,1792080266,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/OPEN_DECISIONS.md,2258,1792042847,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/PROMPTS.md,1779,1792042821,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/07_findings_2025_laser.md,4346,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/12_crossref_check.md,2013,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/06_changelog_2026-10-15.md,3986,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/10_preregistration_laser2025.md,1662,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/05_audit_sensors_full.md,15347,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/13_redesign_plan.md,12935,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/14_acquisition_forensics_master_report.md,38707,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/12_redesign_plan.md,12935,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/07_audit_results_discussion.md,9438,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/08_audit_limitations_conclusion.md,6985,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/10_findings_2025_laser.md,4346,1792042664,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/06_audit_intro_methods.md,9047,1792042663,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/CROSSREF_CHECK_2026-10-15.md,2013,1792042398,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/REDESIGN_2026-10-15.md,12935,1792032693,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/README_AUDIT.md,9793,1792032693,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/analysis_2026-10-15/PIPELINE_FROM_BAGS_PLAN.md,2866,1792026814,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/analysis_2026-10-15/FINDINGS_2026-10-15.md,4346,1792026814,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/analysis_2026-10-15/PREREGISTRATION_laser2025_vs_camera.md,1662,1792026344,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/CLAUDE_AUDIT_sensors_full.md,15347,1791908852,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/CLAUDE_AUDIT_measurement_05_limitations_06_conclusion.md,6985,1791908471,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/CLAUDE_AUDIT_measurement_03_results_04_discussion.md,9438,1791907263,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/CLAUDE_AUDIT_measurement_01_intro_02_methods.md,9047,1791906150,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/REVISION_GUIDE_both_papers.md,8000,1791905665,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/02_research_projects/paper2_acquisition_methods_research/PAPER2_MASTER_PROGRESS_REPORT_2026-10-13.md,38707,1791863468,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/98_legacy_imports/space_adev_oct2026_analyses/adev-env-paper2-plan-2026-10-09/PAPER2_CLAIM_EVIDENCE_MATRIX.md,3953,1791517441,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/98_legacy_imports/space_adev_oct2026_analyses/adev-env-paper2-plan-2026-10-09/INSTALLATION_GAP_REPORT.md,2521,1791517363,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_releases/PAPER2_FINAL_AUDIT_2026-10-01/00_README/AUDIT_README.md,7996,1790892931,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/65_OPUS_CORRECTION_REPORT.md,9037,1788881447,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/63_TERRA_CORRECTION_REPORT.md,13574,1788879064,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_MANUSCRIPT_REWRITE_PASS4_COMPLETION_REPORT.md,17437,1788844155,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50B_MANUSCRIPT_REWRITE_PASS4_COMPLETION_REPORT.md,64832,1788839526,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_MANUSCRIPT_REWRITE_PASS4_REPORT.md,6539,1788797882,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/49_MANUSCRIPT_REWRITE_PASS3_REPORT.md,18393,1788791690,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/48_MANUSCRIPT_REWRITE_PASS2_REPORT.md,24406,1788785684,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/47_MANUSCRIPT_REWRITE_PASS1_REPORT.md,15088,1788778442,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/40_PRE_MANUSCRIPT_EVIDENCE_LOCK_REPORT.md,17417,1788743783,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/38_FACILITY_FREQUENCY_LINEAGE_REPORT.md,11737,1788732850,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/31_POST_SWEEP_VALIDATION_REPORT.md,14292,1788729406,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/29_NONSTATIONARITY_REPORT.md,17089,1788728902,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/27_BACKGROUND_SPECTRAL_BAND_REPORT.md,8764,1788728331,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/23_FULL_FREQUENCY_SWEEP_REPORT.md,20665,1788720654,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/19_PRE_SWEEP_CLEANUP_REPORT.md,17042,1788716247,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/17_CAMPAIGN_PROVENANCE_CORRECTION_COMPLETION_REPORT_2026-09-07.md,12936,1788713977,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/16_TAG_SIZE_PNP_AUDIT_REPORT.md,8169,1788713925,.md,G1_paper2_core,3
+/mnt/phd-legacy/dump/OMRPR_Paper2_Reviewer2_Report (1).md,80600,1784040088,.md,G1_paper2_core,3
+/mnt/phd-legacy/fin_phd/omrpr_review_reports/claude_OMRPR_Paper2_Reviewer2_Report.md,80600,1784040088,.md,G1_paper2_core,3
+/mnt/phd-legacy/dump/OMRPR_Paper2_Reviewer2_Report.md,80600,1784039308,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/98_legacy_imports/career_paper2_NEW_unmatched_worktree/PhD_previous_data/paper2_NEW/prev_work/Phd_data_dump/Comprehensive Audit Report — OMRPR Manuscript.md,10247,1782239665,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/98_legacy_imports/career_omrpr_ubuntu24_snapshot/docs/omrpr-paper2-manuscript/notes/claim_audit.md,0,1781652451,.md,G1_paper2_core,3
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/paper2_work/litrev/chdeep-research-report.md,35979,1776127002,.md,G1_paper2_core,3
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/logs/B05_results_tables_figures_p2.last.txt",324,1792135359,.txt,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_B/B05_results_tables_figures_p2.json",12104,1792135349,.json,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/logs/B05_results_tables_figures_p1.last.txt",289,1792135311,.txt,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_B/B05_results_tables_figures_p1.json",32399,1792135302,.json,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/logs/B05_results_tables_figures_p4.last.txt",287,1792134562,.txt,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B05_results_tables_figures_p4.json",18499,1792134546,.json,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/logs/B05_results_tables_figures_p3.last.txt",364,1792134501,.txt,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B05_results_tables_figures_p3.json",17991,1792134489,.json,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B05_results_tables_figures_p2.json",26717,1792134422,.json,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B05_results_tables_figures_p1.json",18459,1792119412,.json,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/scripts/make_buckets.py",1843,1792113482,.py,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/scripts/validate_clusters.py",1007,1792113462,.py,G1_paper2_core,2
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/scripts/parse_register.py",2655,1792113440,.py,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/registers/ISSUE_REGISTER.csv,4165,1792042847,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/GATE_S1_report.csv,12779,1792042788,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/04_code_software/paper2-rebuild-2026-10_snapshot/verify/gate_S1_report.csv,12779,1792042757,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/04_code_software/paper2-rebuild-2026-10_snapshot/verify/gate_S1.py,2242,1792042749,.py,G1_paper2_core,2
+/mnt/phd_data/phd_master/04_code_software/paper2-rebuild-2026-10_snapshot/stage1_census/out_wtt_main/census_summary.csv,11586,1792042742,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/03_references.bib,11580,1792042696,.bib,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/11_literature_candidates.csv,3998,1792042664,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/08_laser2025_vs_camera_dominant.csv,1723,1792042664,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/04_claim_table_sensors.csv,86125,1792042664,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_sensors/09_native_vs_resampled_60streams.csv,8490,1792042664,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/11_laser2025_vs_camera_dominant.csv,1723,1792042664,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/upload_measurement/05_claim_table_v3.1.csv,154242,1792042663,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/INSTRUCTIONS_SENSORS_project.txt,3429,1792042646,.txt,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/INSTRUCTIONS_MEASUREMENT_project.txt,3566,1792042646,.txt,G1_paper2_core,2
+/mnt/phd_data/phd_master/04_code_software/paper2-rebuild-2026-10_snapshot/stage1_census/out_wtt_5sec/census_summary.csv,11474,1792042581,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/registers/DECISION_LOG.csv,108,1792042580,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/registers/SUBMISSION_GATES.csv,895,1792042580,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/registers/FIGURE_TABLE_REGISTER.csv,144,1792042580,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/registers/CLAIM_EVIDENCE_MATRIX.csv,112,1792042580,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/project_kit_v2_2026-10-15/registers/RESULTS_REGISTER.csv,1025,1792042580,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/04_code_software/paper2-rebuild-2026-10_snapshot/stage1_census/census.py,2758,1792042512,.py,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/CROSSREF_LIVE_CHECK_2026-10-15_raw.csv,18201,1792042398,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_measurement_revision_2026-10/manuscript/abstract.tex,1758,1792032520,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_measurement_revision_2026-10/manuscript/sections/06_limitations.tex,9646,1792032520,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_measurement_revision_2026-10/manuscript/sections/01_introduction.tex,14464,1792032520,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_measurement_revision_2026-10/manuscript/sections/03_experimental_conditions.tex,6652,1792032520,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_measurement_revision_2026-10/manuscript/sections/07_conclusion.tex,4797,1792032520,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_measurement_revision_2026-10/revision_tools/apply_measurement_fixes.py,5778,1792032520,.py,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_revision_2026-10/paper2_sensors_synthesis.tex,87977,1792032454,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_revision_2026-10/revision_tools/apply_text_fixes_part2.py,7267,1792032417,.py,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_revision_2026-10/revision_tools/apply_text_fixes.py,19689,1792032381,.py,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_revision_2026-10/revision_tools/after_authors_and_LS.tex,94114,1792032381,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_revision_2026-10/supplement/paper2_supplement_synthesis.tex,14479,1792026739,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/analysis_2026-10-15/laser2025_vs_camera_dominant.csv,1723,1792026518,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/analysis_2026-10-15/native_vs_resampled_60streams.csv,8490,1792026431,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/SENSORS_LITERATURE_CANDIDATES.csv,3998,1791905076,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/SENSORS_REFERENCE_DOI_CHECK.csv,3502,1791897767,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/CLAIM_TABLE_sensors_release_20260916.csv,86125,1791897539,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_audit_2026-10/CLAIM_TABLE_measurement_v3.1.csv,154242,1791897176,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/submission/supplementary_table_s2.tex,4062,1791816883,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/sections/06_limitations.tex,9435,1791816822,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/submission/cover_letter.tex,3666,1791816793,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/sections/07_conclusion.tex,4762,1791816766,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/sections/05_discussion.tex,19466,1791816607,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/sections/03_experimental_conditions.tex,6635,1791816187,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/sections/02_methods.tex,38374,1791816156,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/sections/01_introduction.tex,14425,1791816095,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/abstract.tex,1717,1791816068,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/manuscript/main.tex,2966,1791543817,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/98_legacy_imports/space_adev_oct2026_analyses/adev-env-paper2-plan-2026-10-09/evidence/p2_rebuild_check/SHA256_compare.txt,380,1791517311,.txt,G1_paper2_core,2
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/manuscript/final_candidates/synthesis_v2/supplement/paper2_supplement_synthesis.tex,14673,1788930142,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_releases/PAPER2_FINAL_AUDIT_2026-10-01/04_RESULTS_EVIDENCE/S11_EXCLUDED_320RPM_RETAINED_PEAKS_JOINED.csv,4231,1788917406,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/05_publications/p02_sensors_mdpi_releases/PAPER2_FINAL_AUDIT_2026-10-01/04_RESULTS_EVIDENCE/S10_ADMITTED_RETAINED_PEAKS_JOINED.csv,76004,1788917406,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/manuscript/final_candidates/synthesis/supplement_rebuilt/paper2_supplement_synthesis.tex,13303,1788917400,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/manuscript/final_candidates/synthesis/paper2_sensors_synthesis.tex,92358,1788912041,.tex,G1_paper2_core,2
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/66_OPUS_CORRECTION_DIFF_SUMMARY.csv,13525,1788881397,.csv,G1_paper2_core,2
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/manuscript/final_candidates/opus/supplement/paper2_supplement_opus.tex,9592,1788881125,.tex,G1_paper2_core,2

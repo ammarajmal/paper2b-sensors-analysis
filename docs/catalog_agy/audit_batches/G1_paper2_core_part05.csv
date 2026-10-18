@@ -1,0 +1,151 @@
+path,size,mtime,ext,group,rank_hint
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/reviewed_text/A_reviewed_Oct12.txt",170341,1792134295,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B04_experimental_conditions_p1.json",11705,1792119361,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/logs/B03_methods_pipeline_p4.last.txt",295,1792119312,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B03_methods_pipeline_p4.json",8378,1792119304,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/logs/B03_methods_pipeline_p3.last.txt",330,1792119267,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B03_methods_pipeline_p3.json",18035,1792119256,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B03_methods_pipeline_p2.json",26400,1792119185,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B03_methods_pipeline_p1.json",15622,1792119145,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B02_introduction_p2.json",9834,1792119076,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/clusters_A/B02_introduction_p1.json",19602,1792119023,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/scripts/run_stage1.sh",1742,1792113523,.sh,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/B_findings_tails.json",21430,1792113440,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/A_findings_tails.json",18235,1792113440,.json,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/Paper A Measurement (three AI reviews).txt",335042,1792113424,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/consolidation/work/Paper B Sensor (three AI reviews).txt",246996,1792113424,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/TEXT/Paper B Sensor - Claude.txt",147664,1792102074,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/TEXT/Paper A Measurement - ChatGPT.txt",288261,1792102074,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/TEXT/Paper A Measurement - Claude.txt",141025,1792102074,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/TEXT/Paper A Measurement - Gemini.txt",112418,1792102074,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/TEXT/Paper B Sensor - Gemini.txt",107583,1792102074,.txt,G1_paper2_core,0
+"/mnt/space/adev/research/publications/final review of paper 2 (Measurement, Sensor)/TEXT/Paper B Sensor - ChatGPT.txt",238384,1792102074,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/04_code_software/paper2-rebuild-2026-10_snapshot/config/paths.yaml,861,1792042496,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/04_code_software/paper2-rebuild-2026-10_snapshot/config/requirements.lock.txt,315,1792042457,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/scripts/table_2025_ldv_primary.csv,1832,1791544267,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/71_FINAL_SYNTHESIS_MERGE_EXECUTION.csv,16601,1788930581,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/manuscript/final_candidates/synthesis/supplement_rebuilt/SUPPLEMENT_MANIFEST.csv,2799,1788917400,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/68_FINAL_SYNTHESIS_MERGE_PLAN.csv,17387,1788910253,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/63A_TERRA_INTERRUPTED_CANDIDATE_MANIFEST.csv,6043,1788878430,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_BUILD_VERIFICATION.json,3336,1788844061,.json,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_CLOSURE_VERIFICATION.json,1275,1788844031,.json,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_REQUIRED_TERM_REVIEW.csv,3046,1788844031,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_LEGACY_CLAIM_SCAN.csv,45241,1788843847,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_CLAIM_TRACEABILITY.csv,59451,1788843847,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_PASS4_BUILD_VERIFICATION.json,1247,1788839404,.json,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_PASS4_CLAIM_TRACEABILITY.csv,59451,1788839404,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_PASS4_LEGACY_CLAIM_SCAN.csv,45241,1788839404,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/42B_CLAIM_TO_SECTION_MATRIX_CORRECTED.csv,20709,1788762228,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/42_CLAIM_TO_SECTION_MATRIX.csv,10504,1788746152,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/37_FACILITY_FREQUENCY_LINEAGE.csv,8030,1788732957,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/34_STREAM_STABILITY_DIAGNOSTIC_MATRIX.csv,21389,1788732020,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/32_BACKGROUND_BAND_RECONCILIATION.csv,8692,1788731862,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/22_REFERENCE_BLIND_PEAKS_LONG.csv,69879,1788720653,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/_superseded_snapshots/11_TAG_ID_RECONCILIATION.csv.superseded_2026-09-07_pre-comma-quoting-fix.csv,12583,1788716111,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/13_CAMPAIGN_GEOMETRY_RECONCILIATION.csv,6720,1788715284,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/11_TAG_ID_RECONCILIATION.csv,12619,1788715250,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/09_64_SAMPLE_SYNTHETIC_CHECK.csv,242,1788657779,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/10_FREE_VIBRATION_CHECK.json,3316,1788657779,.json,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/additional_run.json,279,1788657779,.json,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/08_COMPENSATION_CHECK.csv,11030,1788657778,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/07_NATIVE_TIMESTAMP_CROSSCHECK.csv,1879,1788657778,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/06_CALIBRATION_REGISTRY.csv,2204,1788657754,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/04_FREQUENCY_FEASIBILITY.csv,47467,1788657753,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/02_BAG_TOPIC_MANIFEST.csv,82709,1788657752,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam3/sony_cam3_recalib.yaml,749,1788587341,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam2/sony_cam2_recalib.yaml,757,1788587340,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam2/ost.txt,476,1788587340,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam1_try1/sony_cam1_recalib.yaml,754,1788587340,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam1_try1/ost.yaml,705,1788587340,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam1_try1/ost.txt,477,1788587340,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam1/sony_cam1_recalib.yaml,755,1788587339,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam1/ost.yaml,707,1788587339,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam1/ost.txt,479,1788587339,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam1_old/ost.yaml,706,1788587339,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/calibration/calib_data/cam1_old/ost.txt,478,1788587339,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/metadata.yaml,884,1788406029,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds003_windtunnel_ldv_2024/metadata.yaml,865,1788406018,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/MASTER_RAW_DATA_MANIFEST.csv,61991,1788281902,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/legacy_reuse_manifest.csv,4815,1787717549,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/contradiction_register.csv,8639,1787659362,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/10_PROJECT_MANAGEMENT/RESEARCH_DEVIATION_LOG.csv,4072,1786554302,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/10_PROJECT_MANAGEMENT/RESEARCH_DECISION_REGISTER.csv,2443,1786189099,.csv,G1_paper2_core,0
+/home/ammar/.config/Code/User/globalStorage/github.vscode-pull-request-github/assignableUsers/ammarajmal/omrpr-paper2-manuscript.json,271,1785678959,.json,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/03_STUDIES/paper1_realtime_ros/DATASET_REGISTER.csv,3549,1785511516,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/03_STUDIES/paper1_realtime_ros/METHOD_REGISTER.csv,5129,1785511516,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/03_STUDIES/paper1_realtime_ros/LIMITATION_REGISTER.csv,4797,1785511516,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/03_STUDIES/paper1_realtime_ros/CLAIM_REGISTER.csv,9083,1785511516,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/03_STUDIES/paper1_realtime_ros/REVIEWER_OBJECTION_REGISTER.csv,3372,1785511516,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/03_STUDIES/paper1_realtime_ros/SOURCE_MANIFEST.csv,20609,1785510739,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/reviewer_objection_register.csv,3559,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/git_history_inventory.csv,74630,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/dataset_register.csv,2488,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/script_inventory.csv,84640,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/reusable_asset_register.csv,2819,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/document_inventory.csv,148635,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/remediation_register.csv,4519,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/repository_inventory.csv,1874,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/channel_register.csv,2876,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/claim_register.csv,3362,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/phase4_resolution_register.csv,2849,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/configuration_inventory.csv,56006,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/constant_register.csv,3582,1785500933,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/structural_vision_research/registers/observation_manifest.csv,50735,1785500933,.csv,G1_paper2_core,0
+/mnt/phd-legacy/fin_phd/omrpr_manuscript/scripts/option_b_verify_output.csv,1336,1784171485,.csv,G1_paper2_core,0
+/mnt/phd-legacy/fin_phd/omrpr_manuscript/scripts/option_b_verified_table.csv,1879,1784115334,.csv,G1_paper2_core,0
+/mnt/phd-legacy/fin_phd/omrpr_manuscript/scripts/option_b_verified_table_SUPERSEDED_wrong_mapping_20260715.csv,1316,1784115334,.csv,G1_paper2_core,0
+/mnt/phd-legacy/fin_phd/omrpr_manuscript/manuscript/references.bib,18009,1783421246,.bib,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/career_legacy_paper2_prework/literature-review-prompt.txt,3703,1783315603,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/career_legacy_paper2_prework/reading-list-prompt.txt,3582,1783315593,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/career_paper2_NEW_unmatched_worktree/PhD_previous_data/paper2_NEW/prev_work/Phd_data_dump/omrpr-paper2-manuscript/manuscript/references.bib,8204,1783002042,.bib,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/career_paper2_NEW_unmatched_worktree/PhD_previous_data/paper2_NEW/prev_work/Phd_data_dump/omrpr-paper2-manuscript/scripts/option_b_verified_table.csv,1319,1782863714,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/career_paper2_NEW_unmatched_worktree/PhD_previous_data/paper2_NEW/prev_work/Phd_data_dump/work/sync_from_old_sources_dryrun.sh,1391,1782828276,.sh,G1_paper2_core,0
+/mnt/phd-legacy/fin_phd/omrpr_manuscript/references/zotero_export.bib,0,1781652489,.bib,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/career_omrpr_ubuntu24_snapshot/docs/omrpr-paper2-manuscript/manuscript/references.bib,479,1781651788,.bib,G1_paper2_core,0
+/mnt/phd_data/phd_master/00_inbox/incoming_2026-10-14_from_mnt_data/DEV_shm-displacement-project/paper2/figures/figure_manifest.csv,4516,1778953816,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e9_110rpm_run1/sony_cam3/sony_cam3.csv,78147,1778454620,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e9_110rpm_run1/sony_cam3/sony_cam3_camera_info.yaml,243,1778454605,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e9_110rpm_run1/sony_cam2/sony_cam2.csv,78062,1778454605,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e9_110rpm_run1/sony_cam2/sony_cam2_camera_info.yaml,244,1778454578,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e9_110rpm_run1/sony_cam1/sony_cam1.csv,78063,1778454578,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e9_110rpm_run1/sony_cam1/sony_cam1_camera_info.yaml,238,1778454562,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e8_100rpm_run1/sony_cam1/sony_cam1.csv,78062,1778454515,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e7_90rpm_run1/sony_cam3/sony_cam3.csv,78104,1778454483,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e6_80rpm_run1/sony_cam2/sony_cam2.csv,78063,1778454389,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e5_70rpm_run1/sony_cam3/sony_cam3.csv,78062,1778454328,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e5_70rpm_run1/sony_cam2/sony_cam2.csv,78020,1778454313,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e3_50rpm_run1/sony_cam3/sony_cam3.csv,78149,1778454193,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e3_50rpm_run1/sony_cam2/sony_cam2.csv,78106,1778454178,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e3_50rpm_run1/sony_cam1/sony_cam1.csv,78105,1778454163,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e2_40rpm_run1/sony_cam3/sony_cam3.csv,78105,1778454127,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e20_320rpm_run1/sony_cam3/sony_cam3.csv,78148,1778454059,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e16_240rpm_run1/sony_cam2/sony_cam2.csv,77977,1778453698,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e15_220rpm_run1/sony_cam3/sony_cam3.csv,78061,1778453640,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e15_220rpm_run1/sony_cam2/sony_cam2.csv,77976,1778453625,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e15_220rpm_run1/sony_cam1/sony_cam1.csv,78019,1778453610,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e14_200rpm_run1/sony_cam2/sony_cam2.csv,78019,1778453537,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e12_160rpm_run1/sony_cam3/sony_cam3.csv,78233,1778453400,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e12_160rpm_run1/sony_cam2/sony_cam2.csv,78105,1778453384,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e11_140rpm_run1/sony_cam2/sony_cam2.csv,78148,1778453300,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e11_140rpm_run1/sony_cam1/sony_cam1.csv,78191,1778453283,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e0_0rpm_run1/sony_cam3/sony_cam3.csv,78234,1778453140,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e0_0rpm_run1/sony_cam2/sony_cam2.csv,78191,1778453124,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/e0_0rpm_run1/sony_cam1/sony_cam1.csv,78192,1778453101,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/paper2_work/shm-displacement-project-github/offline_processing/notebooks/demo_pipeline copy.ipynb,110314,1775232886,.ipynb,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/paper2_work/shm-displacement-project-github/scripts/dynamic_test/traj_points.csv,139238,1775232886,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/paper2_work/shm-displacement-project-github/scripts/dynamic_test/trajectories/e0_0rpm_marker2.csv,120831,1775232886,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/paper2_work/shm-displacement-project-github/scripts/dynamic_test/trajectories/e0_0rpm_marker1.csv,150598,1775232886,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/p2_new/Paper 2 - Ideas Folder/Google AI Studio/applet_access_history.json,559,1762935494,.json,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam3/sony_cam3_poses.csv,111589,1758558854,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam3/sony_cam3_camera_info.yaml,231,1758558853,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam3/sony_cam3.csv,28994,1758558853,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam2/sony_cam2_camera_info.yaml,233,1758558853,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam2/sony_cam2.csv,29003,1758558853,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam2/sony_cam2_poses.csv,111626,1758558853,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam1/sony_cam1_camera_info.yaml,235,1758558853,.yaml,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam1/sony_cam1_poses.csv,111383,1758558853,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/processed/export/rpm75_all_cams_10s/sony_cam1/sony_cam1.csv,28976,1758558853,.csv,G1_paper2_core,0
+/mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_prev_work/paper2_work/tes sys/text.txt,100,1758537542,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/p2_new/Paper 2 - Ideas Folder/secondlastpara.txt,978,1755578795,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/p2_new/Paper 2 - Ideas Folder/para - estimation .txt,775,1755458363,.txt,G1_paper2_core,0
+/mnt/phd_data/phd_master/02_research_projects/p02_ros_multicamera_shm/p2_sen/P2 Sen - Impl/previous_data/QR Sense - XCORP/46_230904153948.txt,480981,1746359677,.txt,G1_paper2_core,0
