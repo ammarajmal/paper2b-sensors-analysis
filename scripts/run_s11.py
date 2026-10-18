@@ -11,7 +11,8 @@ def lineamp(t, y, f): return pose.line_amplitude(np.asarray(t, float), np.asarra
 def fft(y, fs=laser.FS):
     y = y - y.mean(); w = np.hanning(len(y)); n = 8 * len(y); sp = np.abs(np.fft.rfft(y * w, n)) * 2 / w.sum(); f = np.fft.rfftfreq(n, 1 / fs); return f, sp
 rows = []
-for rpm in (60, 80, 110, 140):
+import os
+for rpm in [int(x) for x in os.environ.get("S11_RPMS", "60,80,110,140").split(",")]:
     cond = [c for c in fr.condition.unique() if c.endswith(f"_{rpm}rpm")][0]
     v = laser.load_volts(sess, laser.disk_name(sess, P.loc[rpm, "file"])); ch = laser.channels(v, b, sess); tl = np.arange(len(v)) / laser.FS
     fig, ax = plt.subplots(2, 2, figsize=(13, 8))
@@ -32,5 +33,5 @@ for rpm in (60, 80, 110, 140):
     fig.tight_layout(); fig.savefig(R / "figures" / f"s11_spectra_{rpm}.png", dpi=90); plt.close(fig)
 T = pd.DataFrame(rows); T["cam_mean_line"] = T[[f"cam{i}_line" for i in (1, 2, 3)]].mean(axis=1); T["line_ratio_cam_over_laser"] = T.cam_mean_line / T.laser_line
 T["laser_line_var_share"] = (T.laser_line / np.sqrt(2)) ** 2 / T.laser_rms ** 2; T["cam1_line_var_share"] = (T.cam1_line / np.sqrt(2)) ** 2 / T.cam1_rms ** 2
-T.to_csv(R / "s11_spectra.csv", index=False, float_format="%.6g")
+T.to_csv(R / ("s11_spectra.csv" if not os.environ.get("S11_RPMS") else "s11b_spectra.csv"), index=False, float_format="%.6g")
 pd.set_option("display.width", 250); print(T[["rpm", "quantity", "laser_peak_hz", "laser_peak_amp", "laser_line", "cam1_peak_hz", "cam1_peak_amp", "cam3_peak_hz", "cam3_peak_amp", "cam_mean_line", "line_ratio_cam_over_laser", "laser_line_var_share", "cam1_line_var_share"]].round(4).to_string(index=False))
