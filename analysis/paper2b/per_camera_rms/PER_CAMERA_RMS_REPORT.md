@@ -1,6 +1,6 @@
 # Per-camera RMS, Paper 2B (CONDITIONAL GO implementation)
 
-Script: `run_per_camera_rms.py` (repo HEAD 8d03ba3, runtime in `PER_CAMERA_RMS_RUNTIME.txt`). Run from the repo root with `.venv/bin/python`.
+Script: `run_per_camera_rms.py` (repository commit, versions and wall time recorded in `PER_CAMERA_RMS_RUNTIME.txt`). Run from the repo root with `.venv/bin/python`.
 Full results (section 2) are generated and reported before sensitivity results (section 4).
 
 ## 1. Provenance and stream accounting
@@ -60,9 +60,9 @@ Floors are the e0 total RMS above: H1_y 0.0057 / 0.0062 / 0.0032 mm (cam1/cam2/c
 ### Comparisons (full stage; admitted e1–e19, n = 19 conditions, one value per condition)
 Per-condition rows are in `PER_CAMERA_RMS_COMPARISON.csv`.
 
-**cam1/cam2 same-marker (ID-0-1).** H1_y RMS agrees: geometric-mean ratio cam1/cam2 = 0.992, Spearman 1.00. Lever-arm descriptive check: cam1/cam2 H1_y RMS divided by (125 mm × own roll RMS) is 0.97–1.13 at 90, 100 and 140–220 RPM, the strong-roll conditions. It is larger elsewhere (up to 4.6 at 240–280 RPM, and 61 at 70 RPM where heave dominates), so the vertical displacement there is not explained by the lever-arm term alone. At the strong-roll conditions the cam1/cam2 vertical displacement is essentially the lever-arm term. It is **not laser heave** and is not labelled as such. This is an RMS-magnitude comparison with no phase information.
+**cam1/cam2 same side/off-center marker (handwritten label ID-0-1).** H1_y RMS agrees: geometric-mean ratio cam1/cam2 = 0.992, Spearman 1.00. Lever-arm descriptive check: cam1/cam2 H1_y RMS divided by (125 mm × own roll RMS; 125 mm is a data-derived estimate, the marker separation was not surveyed) is 0.97–1.13 at 90, 100 and 140–220 RPM, the strong-roll conditions. It is larger elsewhere (up to 4.6 at 240–280 RPM, and 61 at 70 RPM where heave dominates), so the vertical displacement there is not explained by the lever-arm term alone. At the strong-roll conditions the cam1/cam2 vertical displacement is essentially the lever-arm term. It is vertical metric motion of the side/off-center marker, **not direct heave** (and not laser heave), and is not labelled as such. This is an RMS-magnitude comparison with no phase information.
 
-**cam3 observation path.** cam3 views a different physical marker (ID-0-2, near axis), with its own K/D and 60.00 Hz rate (cam1/cam2: 59.94 Hz). cam3/cam1 H1_y geometric-mean ratio 0.458 and cam3/cam2 0.455 (Spearman 0.65). The gap is concentrated at the roll-dominated conditions (90 and 140–220 RPM), where cam3 H1_y is 4–16× smaller than cam1/cam2 (about 2× at 100 and 120 RPM) while the H2 roll RMS is within about 2% on all three cameras. cam3 and cam1/cam2 agree within 8% at 40–80 and 240–300 RPM. The paths are kept separate and never averaged or combined.
+**cam3 observation path.** cam3 views a distinct centre marker (handwritten label ID-0-2; both markers decode as AprilTag ID 0, so the decoded ID does not distinguish them, and the physical separation between the markers was not surveyed), with its own K/D and 60.00 Hz rate (cam1/cam2: 59.94 Hz). cam3/cam1 H1_y geometric-mean ratio 0.458 and cam3/cam2 0.455 (Spearman 0.65). The gap is concentrated at the roll-dominated conditions (90 and 140–220 RPM), where cam3 H1_y is 4–16× smaller than cam1/cam2 (about 2× at 100 and 120 RPM) while the H2 roll RMS is within about 2% on all three cameras. cam3 and cam1/cam2 agree within 8% at 40–80 and 240–300 RPM. The paths are kept separate and never averaged or combined.
 
 **cam3 vs laser heave (primary, laser y2025 session).** Geometric-mean ratio cam3/laser = **0.515**, Spearman **0.726** (n = 19). The ±2.5% camera scale gives ratio bounds ×0.975 to ×1.025 per condition (`ratio_scale_lo/hi`). The laser's own scale uncertainty is not propagated.
 
@@ -76,7 +76,7 @@ Per-condition rows are in `PER_CAMERA_RMS_COMPARISON.csv`.
 | 240–300 | 0.69–1.21 | 0.78–1.13 | 0.81–1.17 |
 | 320 (diagnostic) | 2.183 | 2.175 | 1.00 |
 
-The laser y2024 session is reported separately: geometric-mean ratio 0.773, Spearman 0.675. cam1 and cam2 versus laser are also computed, each separately and flagged as offset-marker vertical, not heave. cam1 geometric-mean ratio vs laser y2025 is 1.12 and cam2 1.13.
+The laser y2024 session is reported separately: geometric-mean ratio 0.773, Spearman 0.675. cam1 and cam2 versus laser are also computed, each separately and flagged as vertical metric motion of the side/off-center marker, not direct heave. cam1 geometric-mean ratio vs laser y2025 is 1.12 and cam2 1.13.
 
 **Differences that must travel with any camera–laser statement.**
 - Bandwidth: camera Nyquist ≈ 30 Hz (59.94–60.01 Hz sampling); laser 360 Hz sampling, 180 Hz band.
@@ -90,7 +90,7 @@ No calibration, accuracy, synchronization or validation claim is made by these n
 
 ## 4. Sensitivity results (generated after section 2)
 
-Unit of analysis is the condition for all of these. Bootstrap resamples conditions (10,000 draws, seed 20261022, percentile 95% interval). Leave-one-condition-out (LOCO) gives the range over all single-condition deletions.
+Unit of analysis is the condition for all of these. Bootstrap resamples conditions (10,000 draws, seed 0, percentile 95% interval). Leave-one-condition-out (LOCO) gives the range over all single-condition deletions.
 
 **Linearly detrended RMS** (`*_rms_linear_detrended`, named separately). Ratio to total RMS is 0.976–1.000 over all 61 streams × 2 channels. cam3/laser y2025 is unchanged (geometric-mean ratio 0.515, Spearman 0.726).
 

@@ -101,8 +101,36 @@ path,reason
 /mnt/phd-legacy/fin_phd/omrpr_private_data/external/TESOLUTION_final response/Video Measurement/RAW_Data/3D_video_system/2D_WTT/D8.csv,file exceeds 400 KB limit (862765 bytes)
 /mnt/phd-legacy/fin_phd/omrpr_private_data/external/TESOLUTION_final response/Video Measurement/RAW_Data/3D_video_system/2D_WTT/D9.csv,file exceeds 400 KB limit (863118 bytes)
 /mnt/phd-legacy/fin_phd/omrpr_review_reports/claude_OMRPR_Paper2_Reviewer2_Report.md,exact duplicate of /mnt/phd-legacy/dump/OMRPR_Paper2_Reviewer2_Report (1).md
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/01_FILE_INVENTORY.csv,file exceeds 400 KB limit (16884447 bytes)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-07_pre-pass2,pre-authorization or pre-rewrite backup snapshot (18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-07_pre-pass2)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-07_pre-pass3,pre-authorization or pre-rewrite backup snapshot (18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-07_pre-pass3)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-08_pre-51-closure,pre-authorization or pre-rewrite backup snapshot (18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-08_pre-51-closure)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-08_pre-artifact51,pre-authorization or pre-rewrite backup snapshot (18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-08_pre-artifact51)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-08_pre-pass4,pre-authorization or pre-rewrite backup snapshot (18_AUDIT_ARTIFACT_REGISTRY.csv.bak_2026-09-08_pre-pass4)
 /mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_PASS4_CITATION_AUDIT.csv,exact duplicate of /mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_CITATION_AUDIT.csv
 /mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_PASS4_EVIDENCE_IDENTITIES.csv,exact duplicate of /mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_EVIDENCE_IDENTITIES.csv
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_PASS4_LATEX_BUILD.log,compiler / build log (50_PASS4_LATEX_BUILD.log)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/50_PASS4_MANUSCRIPT_DIFF.patch,git diff / patch file (50_PASS4_MANUSCRIPT_DIFF.patch)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_AUTHORIZED_70_ROW_BASELINE.csv.bak,pre-authorization or pre-rewrite backup snapshot (51_AUTHORIZED_70_ROW_BASELINE.csv.bak)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_Decision_Log.md.bak_2026-09-08_pre-authorization,pre-authorization or pre-rewrite backup snapshot (51_Decision_Log.md.bak_2026-09-08_pre-authorization)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_LATEX_BUILD.log,compiler / build log (51_PASS4_LATEX_BUILD.log)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_LATEX_COMPILER.log,compiler / build log (51_PASS4_LATEX_COMPILER.log)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/51_PASS4_LATEX_REBUILD.log,compiler / build log (51_PASS4_LATEX_REBUILD.log)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/__pycache__/20_full_frequency_sweep.cpython-314.pyc,__pycache__ compiled Python bytecode
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/__pycache__/51_register_completion_artifacts.cpython-314.pyc,__pycache__ compiled Python bytecode
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/__pycache__/audit_paper2.cpython-314.pyc,__pycache__ compiled Python bytecode
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/camera_contact_sheet.jpg,binary image file (.jpg)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/facility-setup.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_cam1_cam2_frequency_difference_vs_rpm.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_dominant_freq_vs_rpm_cam1.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_dominant_freq_vs_rpm_cam2.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_dominant_freq_vs_rpm_cam3.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_heatmap_freq_vs_rpm_cam1.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_heatmap_freq_vs_rpm_cam2.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_heatmap_freq_vs_rpm_cam3.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_spectra_e0_0rpm.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_spectra_e5_70rpm.png,binary image file (.png)
+/mnt/phd_data/phd_master/00_inbox/Paper2_Review_2026-09-06/figures_20_sweep/fig_spectra_e7_90rpm.png,binary image file (.png)
 /mnt/phd_data/phd_master/00_inbox/TESolution/TSYCH/1Hz Sine_Exp1_30s_2025-03-22_03-33-50.csv,file exceeds 400 KB limit (1085329 bytes)
 /mnt/phd_data/phd_master/00_inbox/TESolution/TSYCH/1Hz Sine_Exp1_30s_2025-03-22_03-34-46.csv,file exceeds 400 KB limit (1083660 bytes)
 /mnt/phd_data/phd_master/00_inbox/incoming_2026-10-14_from_mnt_data/DEV_shm-displacement-project/docs/archive/research_ideas/01_theory/dense_optical_flow_theory.tex,exact duplicate of /mnt/phd_data/phd_master/98_legacy_imports/source_old_phd_master_cur/p2/paper2_work/context_doc/Expanded Dense Optical Flow Theory.tex

@@ -14,5 +14,10 @@ List of completed batch files in `/mnt/space/adev/projects/active/bridgedeck-vis
 | `G2_other_paper2_related_part01.csv` | `G2_other_paper2_related` | 2026-10-19T04:03:00+09:00 | 150 | 75 | 75 | 0 |
 | `G2_other_paper2_related_part02.csv` | `G2_other_paper2_related` | 2026-10-19T04:03:00+09:00 | 150 | 105 | 45 | 0 |
 | `G2_other_paper2_related_part03.csv` | `G2_other_paper2_related` | 2026-10-19T03:39:00+09:00 | 1 | 0 | 1 | 0 |
+| `Paper2_Review_2026-09-06` (inbox) | `Paper2_Review_Ingestion` | 2026-10-19T22:35:00+09:00 | 155 | 23 new (125 total) | 28 new (30 total) | 0 |
 
-**Grand Totals across Group G1 & Group G2**: 1209 rows (729 processed records, 480 skipped rows, 0 unreadable).
+**Grand Totals**: 
+- **Audit Batches (G1 & G2)**: 1,209 rows (729 processed records, 480 skipped rows, 0 unreadable).
+- **Inbox Review Directory**: 155 files (125 audited across catalogs, 30 skipped, 0 unreadable).
+- **Combined Unique Processed Records**: 752 records across `records_*.jsonl`, 508 skipped entries in `SKIPPED.csv`, 0 unreadable.
+- **Ingestion Deliverable**: `audit/INBOX_PAPER2_REVIEW_INGESTION_REPORT.md` produced and verified.

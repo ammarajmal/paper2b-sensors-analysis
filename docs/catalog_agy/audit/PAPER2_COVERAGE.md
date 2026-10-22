@@ -22,13 +22,13 @@ This document maps fourteen core research questions to the primary files in the 
    Performs fine-resolution spectral reanalysis of the laser displacement sensor (LDS) record at 60/70/80 RPM, finding no feature at 0.937–0.938 Hz and recovering the dominant response at 1.406–1.494 Hz.  
    *Quote:* "instead found the dominant 0-3 Hz response at 1.406-1.494 Hz in every case"
 
-5. **`02_research_projects/p02_ros_multicamera_shm/structural_vision_research/evidence/OMRPR_STEP02B_INTRINSICS_DISCREPANCY_BENCHMARK_2026-08-18.md`**  
-   Evaluates per-camera bending trajectories projected onto individual camera PCA axes against laser bending, showing cam1 and cam2 both achieve a Spearman rho of 0.794 across the stable regime.  
-   *Quote:* "Spearman rho (bending RMS, stable regime): 0.794"
+5. **`00_inbox/Paper2_Review_2026-09-06/21_FULL_PER_CAMERA_FREQUENCY_SWEEP.csv`**  
+   Compiles the Supplement S1 master sweep recording dominant frequency peaks and validation gates for all 60 admitted camera streams across all 21 wind-tunnel conditions.  
+   *Quote:* "all predeclared numeric gates passed"
 
-6. **`02_research_projects/p02_ros_multicamera_shm/structural_vision_research/evidence/OMRPR_STEP04_STATIC_PRECISION_2026-08-18.md`**  
-   Reports fused camera series spectral peak at 1.4055 Hz at 60 RPM onset separating dynamically from static noise.  
-   *Quote:* "strong spectral peak at 1.4055 Hz in the bending PSD"
+6. **`00_inbox/Paper2_Review_2026-09-06/25A_REFERENCE_BLIND_PEAKS_FROZEN.csv`**  
+   Records the Supplement S2 table of 315 reference-blind frequency peaks extracted and frozen prior to external benchmark comparison to prevent confirmation bias.  
+   *Quote:* "condition,rpm,camera,peak_rank,peak_frequency_hz,peak_power,normalized_peak_power,prominence,rayleigh_resolution_hz"
 
 ---
 
@@ -352,9 +352,9 @@ This document maps fourteen core research questions to the primary files in the 
    Records in Section J the formal retraction of the 135.14 mm camera marker separation and 133.84–136.46 mm range as RETRACTED / INVALID_FOR_2025.  
    *Quote:* "135.14 mm (calculation 135.137294) ... RETRACTED / INVALID_FOR_2025"
 
-3. **`02_research_projects/p02_ros_multicamera_shm/structural_vision_research/evidence/MARKER_SEPARATION_PHOTOGRAMMETRY_2026-08-02.md`**  
-   Calculates the historical candidate marker separation of 135.14 mm from a photo assuming a 20 mm tag, which contradicted the supervisor's ~200 mm estimate.  
-   *Quote:* "supervisor reported a ~200 mm marker separation ... contradicted by the photograph"
+3. **`00_inbox/Paper2_Review_2026-09-06/12_TAG_ID_RECONCILIATION_REPORT.md`**  
+   Reconciles camera-to-marker mapping, establishing Marker A (center, cam1/cam2) and Marker B (side, cam3) both decode as AprilTag ID 0, and that camera stream identity is the sole physical marker discriminator.  
+   *Quote:* "Both physical markers decode as AprilTag ID 0."
 
 4. **`02_research_projects/p02_ros_multicamera_shm/structural_vision_research/manuscript/sections/02_methods.md`**  
    Defines the two-marker physical layout where Marker A is redundantly viewed by cam1 and cam2, and Marker B is viewed by cam3 alone.  
@@ -364,9 +364,9 @@ This document maps fourteen core research questions to the primary files in the 
    Audits the tag configuration confirming 20 mm nominal tag size (tag_size_m: 0.020) and two physically separate tags sharing the same AprilTag ID.  
    *Quote:* "Two physically separate printed tags share this same ID"
 
-6. **`98_legacy_imports/source_mnt_phd_fin_phd/omrpr_fin/config/pipeline_config.yaml`**  
-   Configures the AprilTag detection parameters including tag family tag36h11 and metric tag size of 0.020 m.  
-   *Quote:* "tag_size_m: 0.020"
+6. **`00_inbox/Paper2_Review_2026-09-06/14_CAMPAIGN_GEOMETRY_RECONCILIATION_REPORT.md`**  
+   Reconciles campaign geometries, confirming 2024 (symmetric 35 mm tags) and 2025 (center + off-center 20 mm tags) are different spatial measurement operators and invalidating the 135.14 mm separation.  
+   *Quote:* "marker_geometry_same_between_campaigns     = NO"
 
 ---
 
@@ -392,12 +392,12 @@ This document maps fourteen core research questions to the primary files in the 
    *Input file:* `RAW_Data/3D_video_system/2D_WTT/D10.csv`.  
    *Quote:* "Render Fig 4 (manuscript) from the S12.1 timing-correction checkpoint."
 
-5. **`02_research_projects/p02_ros_multicamera_shm/structural_vision_research/evidence/S06_3_modal_consensus_2026-08-13_figure.py`**  
-   *Plots:* Figure 5 FDD first singular value spectra and block-bootstrap stability distributions across conditions.  
-   *Input file:* `evidence/S06_3_modal_consensus_2026-08-13_results/modal_summary.csv`.  
-   *Quote:* "Render Fig 5 (manuscript) from the S06.03 modal-consensus results."
+5. **`02_research_projects/p02_ros_multicamera_shm/structural_vision_research/manuscript/final_candidates/synthesis_v2/supplement/data/build_table_s1.py`**  
+   *Plots/Builds:* Publication Table S1 by joining frozen reference-blind peaks (`S1A`), post-hoc comparison (`S1B`), and per-camera sweep (`Table S2`).  
+   *Input files:* `S1A_reference_blind_peaks_frozen.csv`, `S1B_posthoc_reference_comparison.csv`, `Table_S2_per_camera_frequency_sweep.csv`.  
+   *Quote:* "Build publication Table S1 by joining frozen tables; no spectra are computed."
 
-6. **`02_research_projects/p02_ros_multicamera_shm/structural_vision_research/evidence/S08_2_condition_comparison_2026-08-14_figure.py`**  
-   *Plots:* Figure 6 condition-level camera (px) and LDS (mm) bending and torsion-proxy RMS across 19 matched RPM labels in four separate panels.  
-   *Input file:* `evidence/S08_2_condition_comparison_2026-08-14_results/instrument_lanes.csv`.  
-   *Quote:* "Render Fig 6 (manuscript) from the S08.02 instrument-lane summary."
+6. **`00_inbox/Paper2_Review_2026-09-06/20_full_frequency_sweep.py`**  
+   *Plots/Builds:* Full multi-camera Welch PSD and dominant spectral peaks across all 21 wind-tunnel conditions, producing `21_FULL_PER_CAMERA_FREQUENCY_SWEEP.csv`.  
+   *Input files:* Multi-camera displacement time series across all 21 test conditions.  
+   *Quote:* "DESCRIPTIVE_MATCH_RAYLEIGH_BINS = 1.0"
