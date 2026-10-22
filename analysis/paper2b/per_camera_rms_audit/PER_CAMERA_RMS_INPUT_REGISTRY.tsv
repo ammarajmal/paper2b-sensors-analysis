@@ -1,0 +1,23 @@
+role	path	status	notes
+code	src/bridgedeck/pose.py	tracked, clean at 8d03ba3	H1/H2/P1..P6, line_amplitude
+code	src/bridgedeck/compare.py	tracked, clean	S6 amplitudes + legacy pooled series
+code	src/bridgedeck/laser.py	tracked, clean	laser channels and stats
+code	src/bridgedeck/detect.py	tracked, clean	AprilRobotics v3.4.5 tag36h11, id 0, maxhamming 0, decimate 1, refine_edges
+code	scripts/run_s4.py	tracked, clean	produces s4_pose_by_stream.csv
+code	scripts/run_s6.py	tracked, clean	produces s6_* tables
+config	config/paths.yaml	tracked	phd_root=/mnt/phd_data/phd_master; bags.wtt_main
+config	config/intrinsics_bag.json	tracked	K + 14-term rational D per camera from camera_info of e0_0rpm_run1.bag; fx cam1 20327.9, cam2 25749.5, cam3 25630.9; equals omrpr_fin/config/pipeline_config.yaml (sha256 2ce2d6b1ffeea7d1...)
+raw	/mnt/phd_data/phd_master/03_datasets/ds004_windtunnel_cameras_2025/raw/wtt-main/e{0..20}_*rpm/*.bag	read-only, 21 bags 18 GB	hashes in SOURCE_HASHES; topics /sony_cam{1,2,3}/image_raw/compressed
+detections	outputs/s2_detect/wtt_main/detections_ALL21.parquet	derived, 115276 rows, 63 streams	canonical detections for S4
+perframe	outputs/s4_pose_channels_by_frame.parquet	derived, 111618 rows, 61 streams	reproduces s4 RMS to 1e-16
+result	results/s4_pose_by_stream.csv	derived, 61 rows	per-stream rms/pk/Afh/Afa for H1/H2 and others
+result	results/s2c_stream_table_dev.csv	derived, 63 rows	completeness + ledger class
+result	results/s3_spectra_by_stream.csv	derived, 61 rows	spectra (not RMS)
+result	results/s6_camera_by_condition.csv	derived, 21 rows	per-camera LINE AMPLITUDES only; legacy pooled rms
+result	results/s6_matched_pairs.csv	derived, 80 rows (2 sessions x arms)	amplitudes + legacy pooled rms
+result	results/s11_spectra.csv	derived, 8 rows	4 conditions x heave/pitch lines
+frozen	.../structural_vision_research/evidence/fresh_quality_scores_corrected_2026-08-12/per_frame_detections.csv	read-only	sha256 e7be189e7e43c9f2... matches ledger
+exploratory	analysis/paper2b/exploratory/EXPLORATORY_CAMERA_LASER_RMS_COMPARISON.csv	untracked, 20 rows	POOLED legacy bend/torsion only; copied from table_2025_ldv_primary.csv
+exploratory	analysis/paper2b/exploratory/EXPLORATORY_WAVEFORM_SPECTRAL_SHAPE.csv	untracked, 60 rows	spectral shape, not RMS
+pooled	/mnt/phd_data/phd_master/05_publications/p02_sensors_windtunnel/scripts/table_2025_ldv_primary.csv	older lineage (2026-10-09)	not reproducible from current s4
+gates	docs/gates/{S2,S2c,S4,S4b,S6,S7b}.md, docs/DECISIONS.md, docs/OPEN_ISSUES_2026-10-17.md	tracked	rules and caveats

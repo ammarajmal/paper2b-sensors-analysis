@@ -1,0 +1,37 @@
+analysis,metric,camera_scope,subset,denominator,estimate,ci_low,ci_high,resamples,seed,unit
+frequency_correspondence,bend:median_abs_hz,cam1,non_320,19,0.004003666240242,0.0020874502223426,0.0284971790156873,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,cam1,non_320_excl_60_80,17,0.004003666240242,0.002064588011521,0.0284971790156873,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,cam2,non_320,19,0.002952072722131,0.0011631640041129,0.0281832269020776,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,cam2,non_320_excl_60_80,17,0.002952072722131,0.0005119106628921,0.0281832269020776,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,cam1_cam2_pooled,non_320,38,0.0034778694811865,0.0023801287706107996,0.0260700265398055,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,cam1_cam2_pooled,non_320_excl_60_80,34,0.0034778694811865,0.0023434956353955,0.023700220161965067,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,cam3,non_320,19,0.0049045575413138,0.0005264408801739,0.0281107394675974,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,cam3,non_320_excl_60_80,17,0.0049045575413138,0.0003503996940197,0.0281107394675974,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,all_cameras,non_320,57,0.004003666240242,0.0024167619058261,0.0189218014472649,10000,0,condition-camera-target
+frequency_correspondence,bend:median_abs_hz,all_cameras,non_320_excl_60_80,51,0.004003666240242,0.0023434956353955,0.0189218014472649,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,cam1,non_320,19,0.0246298297080618,0.0025458255926311,1.4385068433476318,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,cam1,non_320_excl_60_80,17,0.019987286105449,0.0023523719239118,1.4119521782291071,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,cam2,non_320,19,0.023282873756814,0.0024167619058261,1.441184900404057,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,cam2,non_320_excl_60_80,17,0.0180935018085031,0.0023271622597986,1.4120210650171423,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,cam1_cam2_pooled,non_320,38,0.0239563517324379,0.0028414753016039,1.4119521782291071,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,cam1_cam2_pooled,non_320_excl_60_80,34,0.01904039395697605,0.0025458255926311,0.7619220599383959,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,cam3,non_320,19,0.8222189526124177,0.0029190608511853,1.4788911383548915,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,cam3,non_320_excl_60_80,17,0.1949074458595951,0.0015350769040467,1.4412956250692204,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,all_cameras,non_320,57,0.0596603080982838,0.004003666240242,1.4119521782291071,10000,0,condition-camera-target
+frequency_correspondence,torsion:median_abs_hz,all_cameras,non_320_excl_60_80,51,0.023282873756814,0.0029190608511853,1.362655797373515,10000,0,condition-camera-target
+rms_response_scaling,bending:pearson_r,pooled_camera_source,full_20,20,0.9020313613196937,0.419145948035248,0.9949534886459981,10000,0,condition
+rms_response_scaling,bending:slope,pooled_camera_source,full_20,20,1.1012320080635059,0.4516720467172024,1.2753378906786703,10000,0,condition
+rms_response_scaling,bending:pearson_r,pooled_camera_source,non_320,19,0.8149096630940669,0.2573985010046056,0.9945252187564735,10000,0,condition
+rms_response_scaling,bending:slope,pooled_camera_source,non_320,19,0.898730652111046,0.24742789224612183,1.1746100785153073,10000,0,condition
+rms_response_scaling,bending:pearson_r,pooled_camera_source,non_320_excl_60_80,17,0.9901473099099272,0.9596283339681486,0.9975246900969351,10000,0,condition
+rms_response_scaling,bending:slope,pooled_camera_source,non_320_excl_60_80,17,1.107034405831566,1.0601583935844061,1.2105386043901716,10000,0,condition
+rms_response_scaling,torsion:pearson_r,pooled_camera_source,full_20,20,0.9921078682892276,0.8453000234568645,0.9993449642099824,10000,0,condition
+rms_response_scaling,torsion:slope,pooled_camera_source,full_20,20,0.6466154688624987,0.5871294231654287,0.7063997557687745,10000,0,condition
+rms_response_scaling,torsion:pearson_r,pooled_camera_source,non_320,19,0.9431287730261607,0.7798792336225138,0.9945137684478038,10000,0,condition
+rms_response_scaling,torsion:slope,pooled_camera_source,non_320,19,0.6548922888861402,0.5367655166153811,0.7311308379770723,10000,0,condition
+rms_response_scaling,torsion:pearson_r,pooled_camera_source,non_320_excl_60_80,17,0.9875199990429767,0.9663019895417354,0.9960252832435587,10000,0,condition
+rms_response_scaling,torsion:slope,pooled_camera_source,non_320_excl_60_80,17,0.675398491790757,0.6326361751869707,0.7500210299493506,10000,0,condition
+same_marker_repeatability,median_abs_frequency_difference_hz,cam1_vs_cam2,non_320,19,0.0007699814667248006,0.0,0.0008057945582009562,10000,0,paired condition
+same_marker_repeatability,median_abs_frequency_difference_hz,cam1_vs_cam2,non_320_excl_60_80,17,0.0007699814667248006,0.0,0.0015954252525349766,10000,0,paired condition
+observation_path_dependence,median_relative_rms,cam3_vs_cam1_cam2_mean,non_320,19,0.8908842763400092,0.24131906316764348,0.9821956306014333,10000,0,condition
+observation_path_dependence,median_relative_rms,cam3_vs_cam1_cam2_mean,non_320_excl_60_80,17,0.6281554151879927,0.13541179029541242,0.9799020398030335,10000,0,condition

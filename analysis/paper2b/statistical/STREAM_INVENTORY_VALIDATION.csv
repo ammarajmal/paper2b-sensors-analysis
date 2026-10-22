@@ -1,0 +1,7 @@
+quantity,observed,expected,passed,source
+total,63,63,True,results/s2c_stream_table_dev.csv
+admissible,60,60,True,results/s2c_stream_table_dev.csv
+rejected,2,2,True,results/s2c_stream_table_dev.csv
+diagnostic-only,1,1,True,results/s2c_stream_table_dev.csv
+camera_only_0rpm_streams,3,3,True,"e0_0rpm cam1/cam2/cam3: in inventory, no matched laser"
+camera_laser_matched_streams,60,60,True,63 minus 3 camera-only 0 RPM streams; still includes 320 RPM

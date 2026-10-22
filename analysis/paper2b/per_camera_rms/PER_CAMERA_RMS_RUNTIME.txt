@@ -1,0 +1,8 @@
+per-camera RMS run
+git HEAD: 2e4f9e1
+python: 3.12.13  numpy 2.5.4  pandas 3.0.6
+wall time s: 58.7
+source parquet sha256: 9378c6ea75ec1793ecd1cd183362b795cbe55c75ac57ebcac6a60f291ba3c612 (matches approved registry: True)
+streams in parquet: 61; conditions: 21
+max |diff| vs results/s4_pose_by_stream.csv total RMS (check only): 4.441e-16
+bootstrap: 10000 resamples of conditions, seed 0

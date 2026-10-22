@@ -1,0 +1,10 @@
+independent validation run
+git HEAD: 8d03ba3
+python: 3.12.13  numpy 2.5.4  pandas 3.0.6
+wall time s: 8.74
+validation checks total: 20
+validation checks passed: 20
+validation checks failed: 0
+canonical parquet sha256: 9378c6ea75ec1793ecd1cd183362b795cbe55c75ac57ebcac6a60f291ba3c612
+canonical parquet match: True
+bit_identical_rerun: True

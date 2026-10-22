@@ -1,0 +1,8 @@
+claim_id,claim,status,evidence_basis,artifact,restriction
+C01,same-marker repeatability,PERMITTED,cam1/cam2 paired condition-level frequency and pixel-RMS similarity,REPEATABILITY_RESULTS.csv,not accuracy
+C02,operational frequency correspondence,PERMITTED,camera and laser condition-level frequency differences,FREQUENCY_CORRESPONDENCE_RESULTS.csv,not modal-frequency accuracy or simultaneous validation
+C03,response-trend correspondence,PERMITTED,pooled camera/laser RMS correlations and ratios,RMS_SCALING_RESULTS.csv,"not calibration, equality, or causality"
+C04,cam3 observation-path dependence,PERMITTED,cam3 relative response versus same-marker mean,STATISTICAL_COMPARISONS.csv,not unique mode or marker-location effect
+C05,mathematical forced-alignment stress test,PERMITTED,held-out diagnostics after 60% lag fitting,STATISTICAL_COMPARISONS.csv,not physical shared-clock recovery or waveform validation
+C06,camera accuracy,PROHIBITED,no simultaneous calibrated common-observable reference,STATISTICAL_RESULTS_REPORT.md,unresolved
+C07,structural modal identification,PROHIBITED,dominant frequency and observation paths are insufficient,STATISTICAL_RESULTS_REPORT.md,unresolved
